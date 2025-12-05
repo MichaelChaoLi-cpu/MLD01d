@@ -12,17 +12,6 @@ Team members can extend it as needed.
 export myproj=YOUR_PROJECT_NAME
 ```
 
-### store your myproj in the .env
-```bash
-echo -n > .env
-echo "myproj=ESG08b3a" >> .env
-set -a
-source .env
-set +a
-
-echo $myproj # confirm
-```
-
 ### pull the repo
 ```
 git clone https://github.com/MichaelChaoLi-cpu/MiliFrame-Template.git
@@ -40,6 +29,18 @@ then set remote
 ```
 git remote add origin $REPO_ADD_in_GITHUB
 git push -u origin main
+```
+
+
+### store your myproj in the .env
+```bash
+echo -n > .env
+echo "myproj=ESG08b3a" >> .env
+set -a
+source .env
+set +a
+
+echo $myproj # confirm
 ```
 
 ---
