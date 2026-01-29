@@ -1,3 +1,4 @@
+import geopandas as gpd
 import os
 import pandas as pd
 
@@ -142,3 +143,37 @@ def return_beautiful_dict():
         'DisasterMoneyLoss': 'Natural Disaster-related Loss',
     }
     return variname_readable
+
+def load_spatial_data() -> gpd.GeoDataFrame:
+    """
+    Load and combine Nepal EcoBelt and Province spatial data.
+
+    This function:
+    1. Loads the EcoBelt shapefile (3-class version: Mountain, Hill, Terai).
+    2. Loads the Province shapefile.
+    3. Converts both to the same CRS (EPSG:4326, WGS84).
+    4. Computes the spatial intersection between EcoBelts and Provinces.
+
+    Returns:
+        gpd.GeoDataFrame: A GeoDataFrame containing intersected polygons 
+                          with both EcoBelt and Province attributes.
+    """
+    # --- Load EcoBelt shapefile ---
+    gdf_eco = gpd.read_file('data/raw/SpatialMaps/nepal_ecobelt_data/3_class_shape/Ecobelts_3Class.shp')
+    gdf_eco = gdf_eco.to_crs(epsg=4326)
+    
+    # --- Load Province shapefile ---
+    gdf_nepal = gpd.read_file('data/raw/SpatialMaps/02_PROVINCE/PROVINCE.shp')
+    gdf_nepal = gdf_nepal[['geometry', 'Province']].to_crs(epsg=4326)
+    
+    # --- Intersection ---
+    try:
+        gdf_intersect = gpd.overlay(gdf_eco, gdf_nepal, how='intersection')
+    except Exception as e:
+        raise RuntimeError(f"❌ Failed to overlay EcoBelt and Province shapefiles: {e}")
+
+    # --- Optional cleanup ---
+    gdf_intersect = gdf_intersect.rename(columns={'EcoBelt': 'Eco_Belt'}) if 'EcoBelt' in gdf_intersect.columns else gdf_intersect
+    
+    print(f"✅ Loaded spatial data with {len(gdf_intersect)} intersected polygons.")
+    return gdf_intersect    
