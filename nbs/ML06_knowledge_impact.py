@@ -209,9 +209,6 @@ aim_variables = SettingForFeatures.return_output_variables()
 n_splits = 10
 
 # %%
-X.shape
-
-# %%
 map_df = SettingForFeatures.load_spatial_data()
 map_df.columns = ['EcoBelt', "Province", 'geometry']
 
@@ -222,6 +219,9 @@ map_df = map_df.set_index(['Province', 'EcoBelt'])
 
 loc_df = all_data[['Prov', 'EcoBelt']]
 loc_df.columns = ['Province', 'EcoBelt']
+
+# %%
+loc_df = loc_df.replace('Sudurpaschim', 'Sudurpashchim')
 
 # %%
 

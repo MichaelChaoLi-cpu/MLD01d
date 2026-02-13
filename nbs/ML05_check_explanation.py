@@ -116,6 +116,10 @@ aim_variables = SettingForFeatures.return_output_variables()
 n_splits = 10
 
 # %%
+os.makedirs(FIGURES := 'figures', exist_ok=True)
+
+# %%
+always_inputs
 
 # %% [markdown]
 # ### Test
@@ -312,53 +316,14 @@ model_list = Modelling.get_clsmodel_list(
 X.columns
 
 # %%
+
+# %% [markdown]
+# #### Naive PDP DisasterExpInd
+
+# %%
 X['DisasterExpInd'].describe()
 
 # %%
-potenital_values, pdp_array = compute_single_pdp_self_defined(
-    var = 'DisasterExpInd',
-    X = X,
-    model_list = model_list,
-    range_boundary = (0.0, 11.0),
-    stripe = 1.0
-)
-
-# %%
-pdp_mean = np.mean(pdp_array, axis = 0)
-pdp_std = np.std(pdp_array, axis = 0)
-
-# 1. Plot the mean PDP line (same as before)
-plt.plot(potenital_values, pdp_mean, linewidth=2, label="Mean Prediction")
-
-# 2. Add the Error/Confidence Band using fill_between
-# The band represents [mean - std] to [mean + std]
-plt.fill_between(
-    potenital_values, 
-    pdp_mean - pdp_std * 1.96,  # Lower bound
-    pdp_mean + pdp_std * 1.96,  # Upper bound
-    color='gray',        # Color of the shaded area
-    alpha=0.3,           # Transparency
-    label="$\pm 1.96 \sigma$" # Label for the legend
-)
-
-# Optional: Add labels and grid
-plt.xlabel("Natural Disaster Count")
-plt.ylabel("Predicted Disease Increase Probability")
-plt.grid(True)
-plt.legend()
-
-#plt.savefig(os.path.join(FIGURES, f'fig06_{aim_variable}_PDP_{varname.upper()}_STD.jpg'), dpi=300, bbox_inches='tight')
-plt.show()
-
-# %%
-
-# %% [markdown]
-# #### Knowledge
-
-# %% [markdown]
-# #### Naive PDP
-
-# %%
 # Determine the grid boundaries based on the specified quantiles
 low_b = 0.0
 up_b = 11.0
@@ -377,6 +342,7 @@ for model in model_list:
     
     # Iterate through each grid point (potential value)
     for idx, potenital_value in enumerate(potenital_values):
+        
         # 1. Substitute the feature column with the current fixed value
         X_adjust[var] = potenital_value.astype(float)
         
@@ -389,6 +355,9 @@ for model in model_list:
     pdp_list.append(pdp)
 
 pdp_array = np.array(pdp_list)
+
+# %%
+np.save(os.path.join('results', 'pdp_array_DisasterExpInd.npy'), pdp_array)
 
 # %%
 pdp_mean = np.mean(pdp_array, axis = 0)
@@ -414,36 +383,40 @@ plt.ylabel("Predicted Disease Increase Probability")
 plt.grid(True)
 plt.legend()
 
-plt.savefig(os.path.join(FIGURES, f'fig05_naive_PDP.jpg'), dpi=300, bbox_inches='tight')
+#plt.savefig(os.path.join(FIGURES, f'fig05_naive_PDP.jpg'), dpi=300, bbox_inches='tight')
 plt.show()
 
 # %%
 
 # %% [markdown]
-# #### without know
+# #### Naive PDP TotalIncome
+
+# %% [markdown]
+# POS
+
+# %%
+
+# %% [markdown]
+# #### Plot HeardClimate_Dummy
 
 # %%
 # Determine the grid boundaries based on the specified quantiles
-low_b = 0.0
-up_b = 11.0
-stripe = 1.0
-var = 'DisasterExpInd'
+var = 'HeardClimate_Dummy'
 
 # Generate the discrete grid of feature values
-potenital_values = np.arange(low_b, up_b, stripe)
 X_adjust = X.copy()
 
 pdp_list = []
 
 # Iterate through each model in the ensemble/list
 for model in model_list:
-    pdp = np.full_like(potenital_values, fill_value=np.nan)
+    pdp = np.full_like([0.0, 1.0], fill_value=np.nan)
     
     # Iterate through each grid point (potential value)
-    for idx, potenital_value in enumerate(potenital_values):
+    for idx, potenital_value in enumerate([0, 1]):
+        
         # 1. Substitute the feature column with the current fixed value
-        X_adjust[var] = potenital_value.astype(float)
-        X_adjust['HeardClimate_Dummy'] = 0.0
+        X_adjust[var] = float(potenital_value)
         
         # 2. Predict the outcome for the entire adjusted dataset
         y_pred = model.predict_proba(X_adjust)[:,1]
@@ -456,108 +429,85 @@ for model in model_list:
 pdp_array = np.array(pdp_list)
 
 # %%
-pdp_array_without_knowledge = pdp_array.copy()
+pdp_array
 
 # %%
-pdp_mean = np.mean(pdp_array, axis = 0)
-pdp_std = np.std(pdp_array, axis = 0)
-
-# 1. Plot the mean PDP line (same as before)
-plt.plot(potenital_values, pdp_mean, linewidth=2, label="Mean Prediction")
-
-# 2. Add the Error/Confidence Band using fill_between
-# The band represents [mean - std] to [mean + std]
-plt.fill_between(
-    potenital_values, 
-    pdp_mean - pdp_std * 1.96,  # Lower bound
-    pdp_mean + pdp_std * 1.96,  # Upper bound
-    color='gray',        # Color of the shaded area
-    alpha=0.3,           # Transparency
-    label="$\pm 1.96 \sigma$" # Label for the legend
-)
-
-# Optional: Add labels and grid
-plt.xlabel("Natural Disaster Count")
-plt.ylabel("Predicted Disease Increase Probability")
-plt.grid(True)
-plt.legend()
-
-#plt.savefig(os.path.join(FIGURES, f'fig06_{aim_variable}_PDP_{varname.upper()}_STD.jpg'), dpi=300, bbox_inches='tight')
-plt.show()
+np.save(os.path.join('results', 'pdp_array_HeardClimate_Dummy.npy'), pdp_array)
 
 # %%
 
-# %% [markdown]
-# #### knowing
-
 # %%
-# Determine the grid boundaries based on the specified quantiles
-low_b = 0.0
-up_b = 11.0
-stripe = 1.0
-var = 'DisasterExpInd'
-
-# Generate the discrete grid of feature values
-potenital_values = np.arange(low_b, up_b, stripe)
-X_adjust = X.copy()
-
-pdp_list = []
-
-# Iterate through each model in the ensemble/list
-for model in model_list:
-    pdp = np.full_like(potenital_values, fill_value=np.nan)
-    
-    # Iterate through each grid point (potential value)
-    for idx, potenital_value in enumerate(potenital_values):
-        # 1. Substitute the feature column with the current fixed value
-        X_adjust[var] = potenital_value.astype(float)
-        X_adjust['HeardClimate_Dummy'] = 1.0
-        
-        # 2. Predict the outcome for the entire adjusted dataset
-        y_pred = model.predict_proba(X_adjust)[:,1]
-        
-        # 3. Calculate the partial dependence (average prediction)
-        pdp[idx] = np.mean(y_pred)
-    
-    pdp_list.append(pdp)
-
-pdp_array = np.array(pdp_list)
-
-# %%
-pdp_array_with_knowledge = pdp_array.copy()
-
-# %%
-pdp_mean = np.mean(pdp_array, axis = 0)
-pdp_std = np.std(pdp_array, axis = 0)
-
-# 1. Plot the mean PDP line (same as before)
-plt.plot(potenital_values, pdp_mean, linewidth=2, label="Mean Prediction")
-
-# 2. Add the Error/Confidence Band using fill_between
-# The band represents [mean - std] to [mean + std]
-plt.fill_between(
-    potenital_values, 
-    pdp_mean - pdp_std * 1.96,  # Lower bound
-    pdp_mean + pdp_std * 1.96,  # Upper bound
-    color='gray',        # Color of the shaded area
-    alpha=0.3,           # Transparency
-    label="$\pm 1.96 \sigma$" # Label for the legend
-)
-
-# Optional: Add labels and grid
-plt.xlabel("Natural Disaster Count")
-plt.ylabel("Predicted Disease Increase Probability")
-plt.grid(True)
-plt.legend()
-
-#plt.savefig(os.path.join(FIGURES, f'fig06_{aim_variable}_PDP_{varname.upper()}_STD.jpg'), dpi=300, bbox_inches='tight')
-plt.show()
 
 # %% [markdown]
 # #### Plot togather
 
 # %%
-os.makedirs(FIGURES := 'figures', exist_ok = True)
+# Determine the grid boundaries based on the specified quantiles
+low_b = 0.0
+up_b = 11.0
+stripe = 1.0
+var = 'DisasterExpInd'
+
+# Generate the discrete grid of feature values
+potenital_values = np.arange(low_b, up_b, stripe)
+X_adjust = X.copy()
+
+pdp_list = []
+
+# Iterate through each model in the ensemble/list
+for model in model_list:
+    pdp = np.full_like(potenital_values, fill_value=np.nan)
+    
+    # Iterate through each grid point (potential value)
+    for idx, potenital_value in enumerate(potenital_values):
+        
+        # 1. Substitute the feature column with the current fixed value
+        X_adjust['HeardClimate_Dummy'] = 0
+        X_adjust[var] = potenital_value.astype(float)
+        
+        # 2. Predict the outcome for the entire adjusted dataset
+        y_pred = model.predict_proba(X_adjust)[:,1]
+        
+        # 3. Calculate the partial dependence (average prediction)
+        pdp[idx] = np.mean(y_pred)
+    
+    pdp_list.append(pdp)
+
+pdp_array_without_knowledge = np.array(pdp_list)
+
+# %%
+# Determine the grid boundaries based on the specified quantiles
+low_b = 0.0
+up_b = 11.0
+stripe = 1.0
+var = 'DisasterExpInd'
+
+# Generate the discrete grid of feature values
+potenital_values = np.arange(low_b, up_b, stripe)
+X_adjust = X.copy()
+
+pdp_list = []
+
+# Iterate through each model in the ensemble/list
+for model in model_list:
+    pdp = np.full_like(potenital_values, fill_value=np.nan)
+    
+    # Iterate through each grid point (potential value)
+    for idx, potenital_value in enumerate(potenital_values):
+        
+        # 1. Substitute the feature column with the current fixed value
+        X_adjust['HeardClimate_Dummy'] = 1
+        X_adjust[var] = potenital_value.astype(float)
+        
+        # 2. Predict the outcome for the entire adjusted dataset
+        y_pred = model.predict_proba(X_adjust)[:,1]
+        
+        # 3. Calculate the partial dependence (average prediction)
+        pdp[idx] = np.mean(y_pred)
+    
+    pdp_list.append(pdp)
+
+pdp_array_with_knowledge = np.array(pdp_list)
 
 # %%
 pdp_mean_without_knowledge = np.mean(pdp_array_without_knowledge, axis = 0)
@@ -595,11 +545,11 @@ plt.ylabel("Predicted Disease Increase Probability")
 plt.grid(True)
 plt.legend()
 
-plt.savefig(os.path.join(FIGURES, f'fig06_PDP.jpg'), dpi=300, bbox_inches='tight')
+#plt.savefig(os.path.join(FIGURES, f'fig06_PDP.jpg'), dpi=300, bbox_inches='tight')
 plt.show()
 
 # %%
-np.save(os.path.join('results', 'pdp_array_without_knowledge.npy'), pdp_mean_without_knowledge)
+np.save(os.path.join('results', 'pdp_array_without_knowledge.npy'), pdp_array_without_knowledge)
 np.save(os.path.join('results', 'pdp_array_with_knowledge.npy'), pdp_array_with_knowledge)
 
 # %%

@@ -135,6 +135,9 @@ custom_cmap_white = LinearSegmentedColormap.from_list('custom_cmap', colors, N=2
 os.makedirs(FIGURES := 'figures', exist_ok=True)
 
 # %%
+VARIABLE_MAP_RENAMED = SettingForFeatures.return_beautiful_dict()
+
+# %%
 
 # %%
 
@@ -541,28 +544,375 @@ plt.show()
 
 # %%
 
+# %% [markdown]
+# ### Plot Importance Variable
+
 # %%
+aim_variable
+
+# %%
+feature_importance_full = pd.read_csv(os.path.join('results', f'{aim_variable}_importance.csv'), index_col = 0).iloc[:,:10]
+
+# %%
+feature_importance_full_sum = feature_importance_full.sum(axis = 0)
+feature_importance_full = feature_importance_full / feature_importance_full_sum * 100
+
+feature_importance_full['mean'] = feature_importance_full.mean(axis = 1)
+feature_importance_full['std'] = feature_importance_full.std(axis = 1)
+
+# %%
+feature_importance_full.index = feature_importance_full.index.map(VARIABLE_MAP_RENAMED)
+
+# %%
+feature_importance_full = feature_importance_full.sort_values('mean', ascending = False)
+
+# %%
+df_plot = feature_importance_full.copy()
+
+# %%
+fig, ax = plt.subplots(figsize=(10, 15))
+
+ax.barh(
+    df_plot.index,
+    df_plot["mean"].astype(float),
+    xerr=(df_plot["std"].astype(float) * 1.96),
+    color="lightskyblue",
+    alpha=0.9,
+    capsize=4
+)
+
+ax.invert_yaxis()
+ax.set_xlabel("Gain Importance (%)")
+
+# Bold y-tick labels containing "LAI"
+for label in ax.get_yticklabels():
+    if "Climate Change Knowledge" in label.get_text():
+        label.set_fontweight("bold")
+
+ax.grid(linestyle="--", alpha=0.6)
+
+fig.savefig(os.path.join(FIGURES, "fig05_importance.jpg"), dpi=300, bbox_inches="tight")
+plt.show()
+
+# %%
+
+# %% [markdown]
+# ### Plot Geodifference
+
+# %%
+map_df = SettingForFeatures.load_spatial_data()
+map_df.columns = ['EcoBelt', "Province", 'geometry']
+
+# Fix inconsistent province name
+map_df.loc[map_df['Province'] == 'Sudur Pashchim', 'Province'] = 'Sudurpashchim'
+# Set multi-index with Province and EcoBelt
+map_df = map_df.set_index(['Province', 'EcoBelt'])
+
+loc_df = all_data[['Prov', 'EcoBelt']]
+loc_df.columns = ['Province', 'EcoBelt']
+
+# %%
+loc_df = loc_df.replace('Sudurpaschim', 'Sudurpashchim')
+
+# %%
+X, y = Modelling.prepare_data(
+    all_data = all_data,
+    always_inputs = always_inputs,
+    aim_variable = aim_variable,
+)
+
+# %%
+var = 'HeardClimate_Dummy'
+
+# %%
+y_df = np.load(os.path.join("results", f"health_prediction_of_{var}.npy"))
+
+# %%
+np.mean(np.mean(y_df, axis = 1)[:,1] - np.mean(y_df, axis = 1)[:,0] )
+
+# %%
+X[['negative_health_proba', 'positive_health_proba']] = np.mean(y_df, axis = 1)
+
+# %%
+X_output = X[['negative_health_proba', 'positive_health_proba']].copy()
+
+# %%
+X_output = X_output.merge(loc_df, left_index=True, right_index=True)
+
+# %%
+X_output['difference'] = X_output['positive_health_proba'] - X_output['negative_health_proba']
+
+# %%
+X_output_region = X_output.groupby(['Province', 'EcoBelt']).mean().reset_index()
+
+# %%
+map_df_use = map_df.merge(X_output_region, on = ['Province', 'EcoBelt'], how = 'left')
+
+# %%
+map_df_use = map_df_use.set_index(['Province', 'EcoBelt'])
+
+# %%
+fig, ax = plt.subplots(
+    figsize=(15, 10)
+)
+
+vmin = -0.07
+vmax = -0.01
+
+im = map_df_use.plot(
+    column='difference',
+    cmap=custom_cmap,
+    edgecolor="black",
+    linewidth=0.4,
+    vmin=vmin,
+    vmax=vmax,
+    alpha=0.8,
+    legend=False,
+    ax=ax,
+    missing_kwds={
+        "color": "grey",
+        "edgecolor": "black"
+    }
+)
+
+# Optional annotation
+for i, row in map_df_use.iterrows():
+    geom = row.geometry
+    if geom is not None and not geom.is_empty:
+        cx, cy = geom.centroid.x, geom.centroid.y
+        ax.text(
+            cx, cy,
+            f"{i[0]}\n{i[1]}",
+            fontsize=7,
+            ha="center",
+            va="center"
+        ).set_path_effects([
+            path_effects.Stroke(linewidth=2.5, foreground="white"),
+            path_effects.Normal()
+        ])
+ax.set_xlabel("Longitude")
+ax.set_ylabel("Latitude")
+ax.grid(True, linestyle="--", alpha=0.4)
+ax.axis("on")
+
+# Colorbar
+sm = mpl.cm.ScalarMappable(
+    norm=mpl.colors.Normalize(vmin=vmin, vmax=vmax),
+    cmap=custom_cmap
+)
+sm._A = []
+cbar = fig.colorbar(sm, ax=ax, fraction=0.035, pad=0.02, shrink=0.6)
+cbar.ax.tick_params(labelsize=9)
+cbar.set_label('Effects', fontsize=12)
+
+plt.tight_layout(rect=[0, 0.05, 1, 1])
+plt.savefig(save_address:=os.path.join(FIGURES, 'fig06_spatial_effect.jpg'), dpi=300, bbox_inches="tight")
+plt.show()
 
 # %%
 
 # %%
 
+# %% [markdown]
+# ### Plot Knowledge imapct
+
 # %%
+X, y = Modelling.prepare_data(
+    all_data = all_data,
+    always_inputs = always_inputs,
+    aim_variable = aim_variable,
+)
+
+# %%
+var = 'HeardClimate_Dummy'
+
+# %%
+y_df = np.load(os.path.join("results", f"health_prediction_of_{var}.npy"))
+
+# %%
+np.mean(np.mean(y_df, axis = 1)[:,1] - np.mean(y_df, axis = 1)[:,0] )
+
+# %%
+X[['negative_health_proba', 'positive_health_proba']] = np.mean(y_df, axis = 1)
+
+# %%
+X['difference'] = X['positive_health_proba'] - X['negative_health_proba']
+
+# %%
+bins = [0.0, 0.1, 0.2,
+       0.3, 0.4, 0.5,
+       0.6, 1.0]
+
+# %%
+xtick_labels = ['0-10%', '10%-20%', '20%-30%', 
+                '30%-40%', '40%-50%', '50%-60%', 
+                '60%-100%']
+
+# %%
+variables = [
+    'Literal_Ratio', 'Edu12_Ratio', 
+    'Female_Ratio', 'A65_Ratio',
+    'TotalIncome', 'DisasterExpInd'
+]
+
+# %%
+len(bins)
+
+# %%
+n_panels = 6
+vars_to_plot = variables[:n_panels]
+
+fig, axes = plt.subplots(3, 2, figsize=(14, 15), sharey=True)
+axes = axes.flatten()
+
+figure_index = 'abcdefg'
+
+for i, variable in enumerate(vars_to_plot):
+    ax = axes[i]
+
+    x = X[variable].values
+    y = X['difference'].values
+
+    if variable == 'Female_Ratio':
+        xtick_labels = ['10%-20%', '20%-30%', '30%-40%', '40%-50%', '50%-60%', '60%-100%']
+        bins = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 1.0]
+    elif variable == 'TotalIncome':
+        bins = list(range(0, 500_000 + 1, 50_000)) + [9.920000e+07 + 50_000]
+        xtick_labels = ['0~50k', '~100k', '~150k', '~200k', '~250k', '~300k', '~350k', '~400k', '~450k', '~500k', '500k +',]
+    elif variable == 'DisasterExpInd':
+        bins = list(range(1, 11, 1)) + [15]
+        xtick_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", ">= 10"]
+    else:
+        xtick_labels = ['0-10%', '10%-20%', '20%-30%', '30%-40%', '40%-50%', '50%-60%', '60%-100%']
+        bins = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 1.0]
+
+    df_temp = pd.DataFrame({'x': x, 'y': y})
+    df_temp['x_bin'] = pd.cut(df_temp['x'], bins=bins)
+
+    grouped = df_temp.groupby('x_bin')['y'].agg(['mean', 'std', 'count']).reset_index()
+    grouped = grouped.dropna()
+
+    grouped['se'] = grouped['std'] / np.sqrt(grouped['count'])
+    grouped['x_idx'] = list(range(len(grouped)))
+    
+    ax.errorbar(
+        grouped['x_idx'],
+        grouped['mean'],
+        yerr=grouped['se'] * 1.96,
+        fmt='o',
+        capsize=3
+    )
+
+    ax.axhline(0, linestyle='--', color='red', linewidth=1)
+
+    ax.set_xticks(grouped['x_idx'])
+    ax.set_xticklabels(xtick_labels, rotation=45, ha = 'center')
+
+    ax.set_xlabel(VARIABLE_MAP_RENAMED.get(variable, variable))
+    ax.set_ylabel('Mean of Effect')
+
+    ax.grid(True)
+
+    ax.text(
+        0.02, 0.95,         
+        figure_index[i],
+        transform=ax.transAxes,
+        fontsize=16,
+        fontweight='bold',
+        va='top'
+    )
+
+for j in range(len(vars_to_plot), 4):
+    fig.delaxes(axes[j])
+
+fig.tight_layout()
+plt.savefig(save_address:=os.path.join(FIGURES, 'fig07_effect_with_ohters.jpg'), dpi=300, bbox_inches="tight")
+plt.show()
 
 # %%
 
+# %% [markdown]
+# ### PDP 
+
 # %%
+pdp_array = np.load(os.path.join('results', 'pdp_array_DisasterExpInd.npy'))
+
+# %%
+potenital_values = list(range(11))
+
+# %%
+pdp_mean = np.mean(pdp_array, axis = 0)
+pdp_std = np.std(pdp_array, axis = 0)
+
+# 1. Plot the mean PDP line (same as before)
+plt.plot(potenital_values, pdp_mean, linewidth=2, label="Mean Prediction")
+
+# 2. Add the Error/Confidence Band using fill_between
+# The band represents [mean - std] to [mean + std]
+plt.fill_between(
+    potenital_values, 
+    pdp_mean - pdp_std * 1.96,  # Lower bound
+    pdp_mean + pdp_std * 1.96,  # Upper bound
+    color='gray',        # Color of the shaded area
+    alpha=0.3,           # Transparency
+    label="$\pm 1.96 \sigma$" # Label for the legend
+)
+
+# Optional: Add labels and grid
+plt.xlabel("Natural Disaster Count")
+plt.ylabel("Predicted Disease Increase Probability")
+plt.grid(True)
+plt.legend()
+
+plt.savefig(os.path.join(FIGURES, f'fig08_naive_PDP.jpg'), dpi=300, bbox_inches='tight')
+plt.show()
 
 # %%
 
-# %%
+# %% [markdown]
+# ### PDP condisering knowledge
 
 # %%
+pdp_array_without_knowledge = np.load(os.path.join('results', 'pdp_array_without_knowledge.npy'))
+pdp_array_with_knowledge = np.load(os.path.join('results', 'pdp_array_with_knowledge.npy') )
 
 # %%
+pdp_mean_without_knowledge = np.mean(pdp_array_without_knowledge, axis = 0)
+pdp_std_without_knowledge = np.std(pdp_array_without_knowledge, axis = 0)
+pdp_mean_with_knowledge = np.mean(pdp_array_with_knowledge, axis = 0)
+pdp_std_with_knowledge = np.std(pdp_array_with_knowledge, axis = 0)
 
-# %%
+# 1. Plot the mean PDP line (same as before)
+plt.plot(potenital_values, pdp_mean_without_knowledge, linewidth=2, label="Mean Prediction Without Knowledge")
+plt.plot(potenital_values, pdp_mean_with_knowledge, linewidth=2, label="Mean Prediction With Knowledge", color = 'red')
 
-# %%
+
+# 2. Add the Error/Confidence Band using fill_between
+# The band represents [mean - std] to [mean + std]
+plt.fill_between(
+    potenital_values, 
+    pdp_mean_without_knowledge - pdp_std_without_knowledge * 1.96,  # Lower bound
+    pdp_mean_without_knowledge + pdp_std_without_knowledge * 1.96,  # Upper bound
+    color='gray',        # Color of the shaded area
+    alpha=0.3,           # Transparency
+    label="$\pm 1.96 \sigma$" # Label for the legend
+)
+plt.fill_between(
+    potenital_values, 
+    pdp_mean_with_knowledge - pdp_std_with_knowledge * 1.96,  # Lower bound
+    pdp_mean_with_knowledge + pdp_std_with_knowledge * 1.96,  # Upper bound
+    color='gray',        # Color of the shaded area
+    alpha=0.3,           # Transparency
+)
+
+
+# Optional: Add labels and grid
+plt.xlabel("Natural Disaster Count")
+plt.ylabel("Predicted Disease Increase Probability")
+plt.grid(True)
+plt.legend()
+
+plt.savefig(os.path.join(FIGURES, f'fig09_PDP_with_knowledge.jpg'), dpi=300, bbox_inches='tight')
+plt.show()
 
 # %%

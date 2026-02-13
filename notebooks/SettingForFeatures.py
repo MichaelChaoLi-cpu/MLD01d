@@ -66,6 +66,7 @@ def data_load_combine_dataset():
     df_all['ResidInfraKachchi_dummy'] = (df_all['Resid_Type'] == 3).astype(int)
     df_all['ResidInfraOthers_dummy'] = (df_all['Resid_Type'] == 4).astype(int)
 
+    df_all['Ind_income'] = df_all['TotalIncome'] / df_all['Household_memberNum']
     return df_all
 
 def return_input_variables():
@@ -88,15 +89,15 @@ def return_input_variables():
         'IncomeResAgri_dummy', 'IncomeResWage_dummy', 'IncomeResNonAgriBusi_dummy', 'IncomeResRemit_dummy',
         'IncomeResOthers_dummy', 'TotalIncome',
         'Year',
-        'DisasterExpInd', 'DisasterFoodShortageInd', 'DisasterDieInd', 'DisasterMoneyLoss'
+        'DisasterExpInd', 'DisasterFoodShortageInd', 'DisasterDieInd', 'DisasterMoneyLoss',
     ]
 
 
 def return_output_variables():
     return [
         "HumanDiseaseIncreasePast25_Dummy",     # main
-        "HumanWaterDisIncreasePast25_Dummy",    # robustness
-        "HumanVetorDisIncreasePast25_Dummy"     # robustness
+        #"HumanWaterDisIncreasePast25_Dummy",    # robustness
+        #"HumanVetorDisIncreasePast25_Dummy"     # robustness
     ]
 
 def return_beautiful_dict():
@@ -105,8 +106,8 @@ def return_beautiful_dict():
         'HumanWaterDisIncreasePast25_Dummy':'Increase in Water-related Diseases Dummy',
         'HumanVetorDisIncreasePast25_Dummy':'Increase in Vector-borne Diseases Dummy',
         'ClimateChanged_Dummy':'Climate Change Awareness',
-        'HeardClimate_Dummy':'Heard about Climate Change', 'Respon_Female':'Female Dummy', 
-        'Respon_Age':'Age', 'LivingYear':'Years Living in Community', 'Edu_UnderSLC':'Education under Secondary Certificate Dummy', 
+        'HeardClimate_Dummy':'Climate Change Knowledge', 'Respon_Female':'Respondent Female Dummy', 
+        'Respon_Age':'Repsondent Age', 'LivingYear':'Years Living in Community', 'Edu_UnderSLC':'Education under Secondary Certificate Dummy', 
         'Edu_Certificate':'Education with Secondary Certificate Dummy', 'Edu_Bachelor':'Education with Bachelor Dummy', 
         'Edu_Master':'Education with Master Dummy',  'Edu_PhD':'Education with PhD Dummy', 
         'Edu_Literal':'Literate Education Dummy',  'Edu_Illiterate':'Illiterate Dummy', 'Edu_year':'Education Year',
@@ -141,6 +142,7 @@ def return_beautiful_dict():
         'DisasterFoodShortageInd': 'Natural Disaster-related Food Shortage Indicator',
         'DisasterDieInd': 'Natural Disaster-related Death Indicator',
         'DisasterMoneyLoss': 'Natural Disaster-related Loss',
+        'Household_memberNum': 'Household Member',
     }
     return variname_readable
 
