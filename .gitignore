@@ -66,3 +66,7 @@ slurm-*.out
 # Secrets
 # ========================
 .env
+records/*
+records/**
+results/*
+results/**

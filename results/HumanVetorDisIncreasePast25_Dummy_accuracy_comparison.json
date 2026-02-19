@@ -1,0 +1,18 @@
+{
+    "n_estimators": 1500,
+    "learning_rate": 0.02,
+    "max_depth": 8,
+    "subsample": 0.9,
+    "colsample_bytree": 0.7,
+    "tree_method": "hist",
+    "device": "cuda",
+    "random_state": 42,
+    "XGBoost Mean Accuracy": 0.8846822261366798,
+    "XGBoost SD Accuracy": 0.005108516989947333,
+    "XGBoost Min Accuracy": 0.8764044943820225,
+    "XGBoost Max Accuracy": 0.891961970613656,
+    "Logistic Mean Accuracy": 0.8562411588256229,
+    "Logistic SD Accuracy": 0.003987532284266419,
+    "Logistic Min Accuracy": 0.8504753673293,
+    "Logistic Max Accuracy": 0.8625756266205704
+}
