@@ -306,3 +306,61 @@ Although the model includes distance to the nearest health center, residence cha
   1. `insert`
      - Before: ""
      - After: "Although the model includes distance to the nearest health center, residence characteristics, province, and ecological belt as proxies for access and structural or geographic context, it does not include direct measures of baseline health status, health-service affordability, quality or use, household water and sanitation conditions, or local disease epidemiology. Residual confounding by these factors may affect the magnitude or direction of the observed associations, which should therefore be interpreted as descriptive and predictive patterns rather than causally identified effects. "
+
+## reviewer-2/comment-9
+
+### part-01
+
+- Location: Methods > Variables, paragraph beginning 'Climate Change Knowledge is measured'
+- Reason: Use the exact two-wave F01 construct and coding, and avoid treating a single heard-about-climate-change item as a direct measure of adaptive capacity.
+- Kila decisions: KILA-D-20260827-004
+- Mode: `replace`
+- Timestamp: 2026-08-27T02:49:41Z
+- Author: anonymous
+- Markup SHA-256 before: `ea7eb3a592923f68293d14eccb0ae591ae733ddab5f55e57ccd3f2426ee943bf`
+- Markup SHA-256 after: `2a74fdd45c77cab0a9a536e5fb56f0bea6452bdc998c7a747cbba568413a9466`
+- Revision IDs: `38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260827T114941555106.reviewer-2-comment-9.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Climate Change Knowledge is measured using a binary indicator to evaluate the role of cognitive factors in health resilience, as in previous studies (Hossain, 2025; Iyer & Alphonsa Jose, 2025; Ramadani et al., 2025). This indicator represents whether the respondent has heard of climate change and its impacts.
+~~~~
+
+- After:
+
+~~~~text
+Climate Change Knowledge is measured using a binary awareness indicator, as in previous studies (Hossain, 2025; Iyer & Alphonsa Jose, 2025; Ramadani et al., 2025). In both survey waves, NCCIS item F01 asks whether the respondent has heard about climate change; yes is coded as 1 and no as 0.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "awareness "
+  2. `delete`
+     - Before: " to evaluate the role of cognitive factors in health resilience"
+     - After: ""
+  3. `replace`
+     - Before: "This"
+     - After: "In"
+  4. `replace`
+     - Before: "indicator"
+     - After: "both"
+  5. `replace`
+     - Before: "represents"
+     - After: "survey waves, NCCIS item F01 asks"
+  6. `replace`
+     - Before: "of"
+     - After: "about"
+  7. `insert`
+     - Before: ""
+     - After: "; yes is coded as 1"
+  8. `replace`
+     - Before: "its"
+     - After: "no"
+  9. `replace`
+     - Before: "impacts"
+     - After: "as 0"

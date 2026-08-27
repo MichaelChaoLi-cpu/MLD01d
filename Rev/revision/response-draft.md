@@ -371,11 +371,17 @@ The revised text reads:
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for highlighting this important measurement limitation. The revised Variables section identifies the construct as a binary awareness indicator and reports its question content and coding without using an internal questionnaire item label. The revised Discussion distinguishes basic awareness from depth or accuracy of understanding, risk perception, preparedness, adaptive actions, resources for action, behavioural change, and adaptive capacity. It also clarifies that the observed moderation pattern is an association with reported awareness status, not evidence that awareness translated into behavioural adaptation or improved preparedness.
 
-"[Exact revised text will be inserted after verification.]"
+The revised text reads:
 
-(Lines/Pages: human verification required)
+"Climate Change Knowledge is measured using a binary awareness indicator, as in previous studies (Hossain, 2025; Iyer & Alphonsa Jose, 2025; Ramadani et al., 2025). In both survey waves, NCCIS asks whether the respondent has heard about climate change; yes is coded as 1 and no as 0."
+
+(Page 11, lines 211–214.)
+
+"Third, the binary climate knowledge measure captures basic awareness and may reflect access to climate-related information, but it does not measure the depth or accuracy of understanding, risk perception, preparedness, adaptive actions, or the resources needed to implement them. It should therefore be interpreted as an awareness indicator rather than as a direct measure of behavioural change, preparedness, or adaptive capacity. Accordingly, the observed moderation pattern should be interpreted as an association with reported awareness status, rather than as evidence that awareness translated into behavioural adaptation or improved preparedness."
+
+(Page 19, lines 400–407.)
 
 ## Comment 10
 
