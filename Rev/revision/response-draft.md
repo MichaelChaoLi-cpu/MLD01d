@@ -140,7 +140,7 @@ This paper is highly relevant and well‑timed, and I appreciated reading it. Co
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -152,7 +152,7 @@ In line 95-97, it is mentioned that "Future longitudinal and quasi-experimental 
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -164,7 +164,7 @@ It is important to know whether ethical approval was taken to conduct 2016 and 2
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -178,9 +178,9 @@ Thank you for this comment. The revised Methods section now explicitly defines m
 
 The revised text reads:
 
-> Specifically, the count is the number of distinct disaster types reported by a household (observed range, 0-15 across 19 survey categories), rather than a measure of disaster frequency, intensity, timing, or co-occurrence.
+"Specifically, the count is the number of distinct disaster types reported by a household (observed range, 0-15 across 19 survey categories), rather than a measure of disaster frequency, intensity, timing, or co-occurrence."
 
-(Page 10, lines 198-200; please verify again against the final paginated manuscript.)
+(Page 10, lines 200–202.)
 
 ## Comment 4
 
@@ -190,7 +190,7 @@ All figures should be updated using the Government of Nepal approached shape fil
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -202,7 +202,7 @@ The discussion section should be strengthened linking with climate change and he
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -214,7 +214,7 @@ There is perception of people on increase risk of disease due to climate change.
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -226,7 +226,7 @@ Nepal specific more literature need to be reviewed and including in discussion s
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -246,7 +246,7 @@ This is a timely and potentially impactful manuscript addressing an important pu
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -258,7 +258,7 @@ This is a timely and potentially impactful manuscript addressing an important pu
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -270,7 +270,7 @@ This is a timely and potentially impactful manuscript addressing an important pu
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -280,11 +280,17 @@ This is a timely and potentially impactful manuscript addressing an important pu
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for highlighting this important validity concern. The revised Variables section now defines the outcome as respondent-reported, gives the H07 wording and binary coding for both survey waves, and the revised limitations paragraph explicitly explains recall error, proxy reporting, reporting heterogeneity, common-method bias, and the boundary between perceived change and clinically verified incidence.
 
-> [Exact revised text will be inserted after verification.]
+The revised text reads:
 
-(Lines/Pages: human verification required)
+"The primary dependent variable is a respondent-reported binary indicator derived from the NCCIS H07 item. In 2016, H07 asks whether the incidence of illness due to any disease increased in the respondent's family over the previous 25 years; the 2022 item asks whether the respondent or household members experienced a higher incidence of disease than 25 years earlier. We code yes as 1 and no as 0."
+
+(Page 10, lines 189–193.)
+
+"Second, the outcome asks one respondent to compare family illness with conditions 25 years earlier, while the exposure and climate-knowledge measures are also self-reported. The outcome therefore captures perceived change rather than clinically verified incidence and may vary with memory, respondent age or education, proxy reporting for other household members, and interpretation of the reference period. Correlated reporting tendencies may also create common-method bias and influence the magnitude or direction of observed associations; consequently, the findings should not be interpreted as estimates of objective disease incidence."
+
+(Pages 18–19, lines 387–394.)
 
 ## Comment 4
 
@@ -300,7 +306,7 @@ Reporting only an overall accuracy of 71.4% provides an incomplete evaluation of
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -313,7 +319,7 @@ The manuscript compares XGBoost with logistic regression but provides limited in
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -325,7 +331,7 @@ The manuscript compares XGBoost with logistic regression but provides limited in
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -335,11 +341,17 @@ The manuscript compares XGBoost with logistic regression but provides limited in
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for highlighting this important concern. The revised Variables section now identifies the health-care-access, housing, and geographic proxies already included in the current model. The revised limitations paragraph distinguishes these proxies from unmeasured baseline health status, non-geographic dimensions of health-care access, household water and sanitation conditions, and local disease epidemiology. It also explains that residual confounding may affect the magnitude or direction of the observed associations and limits causal interpretation while preserving their descriptive and predictive value.
 
-> [Exact revised text will be inserted after verification.]
+The revised text reads:
 
-(Lines/Pages: human verification required)
+"Indicators of economic status cover residence ownership and type, asset ownership, agricultural land, access to communication and transportation assets, and distances to services, including the nearest health center."
+
+(Page 11, lines 227–229.)
+
+"Although the model includes distance to the nearest health center, residence characteristics, province, and ecological belt as proxies for access and structural or geographic context, it does not include direct measures of baseline health status, health-service affordability, quality or use, household water and sanitation conditions, or local disease epidemiology. Residual confounding by these factors may affect the magnitude or direction of the observed associations, which should therefore be interpreted as descriptive and predictive patterns rather than causally identified effects."
+
+(Page 19, lines 400–406.)
 
 ## Comment 8
 
@@ -349,7 +361,7 @@ The manuscript compares XGBoost with logistic regression but provides limited in
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -361,7 +373,7 @@ The manuscript compares XGBoost with logistic regression but provides limited in
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -373,7 +385,7 @@ The manuscript compares XGBoost with logistic regression but provides limited in
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -387,7 +399,7 @@ Reviewer #3: This study uses a pooled cross-sectional sample of 11,568 household
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -399,7 +411,7 @@ Reviewer #3: This study uses a pooled cross-sectional sample of 11,568 household
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -411,7 +423,7 @@ Reviewer #3: This study uses a pooled cross-sectional sample of 11,568 household
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -423,7 +435,7 @@ Reviewer #3: This study uses a pooled cross-sectional sample of 11,568 household
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -435,7 +447,7 @@ Reviewer #3: This study uses a pooled cross-sectional sample of 11,568 household
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -447,7 +459,7 @@ Reviewer #3: This study uses a pooled cross-sectional sample of 11,568 household
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
 
@@ -459,6 +471,6 @@ Reviewer #3: This study uses a pooled cross-sectional sample of 11,568 household
 
 [Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
 
-> [Exact revised text will be inserted after verification.]
+"[Exact revised text will be inserted after verification.]"
 
 (Lines/Pages: human verification required)
