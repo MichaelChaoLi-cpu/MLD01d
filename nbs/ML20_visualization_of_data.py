@@ -739,57 +739,51 @@ X[['negative_health_proba', 'positive_health_proba']] = np.mean(y_df, axis = 1)
 X['difference'] = X['positive_health_proba'] - X['negative_health_proba']
 
 # %%
-bins = [0.0, 0.1, 0.2,
-       0.3, 0.4, 0.5,
-       0.6, 1.0]
+ratio_bins = [0.0, 0.1, 0.2,
+              0.3, 0.4, 0.5,
+              0.6, 1.0]
 
 # %%
-xtick_labels = ['0-10%', '10%-20%', '20%-30%', 
-                '30%-40%', '40%-50%', '50%-60%', 
+ratio_labels = ['0-10%', '10%-20%', '20%-30%',
+                '30%-40%', '40%-50%', '50%-60%',
                 '60%-100%']
 
 # %%
-variables = [
-    'Literal_Ratio', 'Edu12_Ratio', 
-    'Female_Ratio', 'A65_Ratio',
-    'TotalIncome', 'DisasterExpInd'
+plot_specs = [
+    ('Literal_Ratio', ratio_bins, ratio_labels),
+    ('Edu12_Ratio', ratio_bins, ratio_labels),
+    ('Female_Ratio', ratio_bins, ratio_labels),
+    ('A65_Ratio', ratio_bins, ratio_labels),
+    ('DisasterExpInd', None, ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '>= 10']),
 ]
 
 # %%
-len(bins)
-
-# %%
-n_panels = 6
-vars_to_plot = variables[:n_panels]
+n_panels = len(plot_specs)
 
 fig, axes = plt.subplots(3, 2, figsize=(14, 15), sharey=True)
 axes = axes.flatten()
 
 figure_index = 'abcdefg'
 
-for i, variable in enumerate(vars_to_plot):
+for i, (variable, bins, xtick_labels) in enumerate(plot_specs):
     ax = axes[i]
 
     x = X[variable].values
     y = X['difference'].values
 
-    if variable == 'Female_Ratio':
-        xtick_labels = ['10%-20%', '20%-30%', '30%-40%', '40%-50%', '50%-60%', '60%-100%']
-        bins = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 1.0]
-    elif variable == 'TotalIncome':
-        bins = list(range(0, 500_000 + 1, 50_000)) + [9.920000e+07 + 50_000]
-        xtick_labels = ['0~50k', '~100k', '~150k', '~200k', '~250k', '~300k', '~350k', '~400k', '~450k', '~500k', '500k +',]
-    elif variable == 'DisasterExpInd':
-        bins = list(range(1, 11, 1)) + [15]
-        xtick_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", ">= 10"]
-    else:
-        xtick_labels = ['0-10%', '10%-20%', '20%-30%', '30%-40%', '40%-50%', '50%-60%', '60%-100%']
-        bins = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 1.0]
-
     df_temp = pd.DataFrame({'x': x, 'y': y})
-    df_temp['x_bin'] = pd.cut(df_temp['x'], bins=bins)
 
-    grouped = df_temp.groupby('x_bin')['y'].agg(['mean', 'std', 'count']).reset_index()
+    if variable == 'DisasterExpInd':
+        df_temp['x_bin'] = df_temp['x'].clip(upper=10).astype(int)
+    else:
+        df_temp['x_bin'] = pd.cut(
+            df_temp['x'],
+            bins=bins,
+            labels=xtick_labels,
+            include_lowest=True,
+        )
+
+    grouped = df_temp.groupby('x_bin', observed=False)['y'].agg(['mean', 'std', 'count']).reset_index()
     grouped = grouped.dropna()
 
     grouped['se'] = grouped['std'] / np.sqrt(grouped['count'])
@@ -809,7 +803,7 @@ for i, variable in enumerate(vars_to_plot):
     ax.set_xticklabels(xtick_labels, rotation=45, ha = 'center')
 
     ax.set_xlabel(VARIABLE_MAP_RENAMED.get(variable, variable))
-    ax.set_ylabel('Mean of Effect')
+    ax.set_ylabel('Mean Prediction Difference')
 
     ax.grid(True)
 
@@ -822,7 +816,7 @@ for i, variable in enumerate(vars_to_plot):
         va='top'
     )
 
-for j in range(len(vars_to_plot), 4):
+for j in range(n_panels, len(axes)):
     fig.delaxes(axes[j])
 
 fig.tight_layout()

@@ -463,11 +463,21 @@ Reviewer #3: This study uses a pooled cross-sectional sample of 11,568 household
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for raising this important distinction. The model includes respondent-level literacy and education together with household-level shares of literate members and members with 12 or more years of education. When the climate change knowledge prediction contrast is calculated, these measured human-capital characteristics remain at their observed values. Figure 8 presents this contrast within household literacy and education subgroups and therefore provides a limited predictive separation from the measured human-capital characteristics, although it cannot fully distinguish climate-specific knowledge from unmeasured dimensions of general human capital. The revised Results section now explains the calculation and uncertainty of the contrast and clarifies that the literacy and education panels show heterogeneity in the knowledge-related prediction difference rather than parallel effects of the three variables. We have retained a concise Figure 8 title consistent with the other figure captions and have also revised the policy recommendation to present targeted climate-health education as a complement to general education and literacy, particularly where broader human-capital resources are limited, rather than as a substitute for them.
 
-"[Exact revised text will be inserted after verification.]"
+The revised text reads:
 
-(Lines/Pages: human verification required)
+"Socio-demographic subgroup analysis further shows that the estimated climate change knowledge contrast varies with household human capital, as illustrated in Figure 8. Error bars represent 95% confidence intervals. For each household, this contrast is calculated as the difference between the predicted probability of increased household disease incidence when climate change knowledge is set to yes and the corresponding prediction when it is set to no; negative values therefore indicate a lower predicted probability under the knowledge condition. The contrast is most negative among households with lower literate-member ratios and lower shares of members with 12 or more years of education, and it attenuates toward zero and crosses it in the highest groups as these ratios increase. Figure 8 therefore shows that the additional predictive difference associated with climate change knowledge is larger where general human capital is more limited, rather than showing parallel effects of climate knowledge, literacy, and education. Household age and sex composition show comparatively little variation in the knowledge contrast."
+
+(Page 16, lines 327–340.)
+
+"Figure 8: Heterogeneity of The Effects of Climate Change Knowledge among Different Groups"
+
+(Page 33, lines 494–495.)
+
+"Simultaneously, targeted climate-health education delivered through community health programmes may complement general education and literacy, particularly where broader human-capital resources are limited and the knowledge-related prediction contrast in Figure 8 is larger; this targeted approach reinforces rather than replaces general education and structural health protection."
+
+(Page 18, lines 381–385.)
 
 ## Comment 6
 
