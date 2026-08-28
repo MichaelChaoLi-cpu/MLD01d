@@ -1,0 +1,21 @@
+{
+  "schema": "kilaframe-install/1",
+  "package": "kilaframe-template",
+  "version": "0.1.1",
+  "releaseName": "炊烟",
+  "releaseMessage": "山野间的田园牧歌",
+  "releaseBranch": "version/0.1.1",
+  "latestBranch": "version/latest",
+  "skills": [
+    "build-procedure",
+    "build-response-draft",
+    "build-revision-plan",
+    "convert-origin-docx",
+    "convert-response-docx",
+    "edit-markup-docx",
+    "execute-procedure",
+    "init-revision-workspace",
+    "kila-record-human-decision",
+    "make-clean-docx"
+  ]
+}
