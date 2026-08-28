@@ -801,3 +801,742 @@ Figure 8. Error bars represent 95% confidence intervals.
      - Before: ""
      - After: " Error bars represent 95% confidence intervals."
 
+## reviewer-2/comment-1
+
+### part-01
+
+- Location: Methods > Survey Data and Sample, paragraph beginning 'This study uses the NCCIS'
+- Reason: Explain why the 2016 and 2022 waves were used and state the temporal coverage limitation in Methods.
+- Kila decisions: KILA-D-20260828-014
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:05:51Z
+- Author: anonymous
+- Markup SHA-256 before: `daec383bfeb821c3f82ccdaefc6307f9710b9bbbe36478c82cd5f3bb72a0faa0`
+- Markup SHA-256 after: `7949f8756f641630c31b735f8c3d9ff265eb830c609a0f36ae3a74a3a564d5a2`
+- Revision IDs: `158, 159, 160, 161`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T180551149296.reviewer-2-comment-1.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Pooling the 2016 and 2022 survey waves yields a final analytic sample of 11,568 respondent-level observations, including 5,060 from 2016 and 6,508 from 2022.
+~~~~
+
+- After:
+
+~~~~text
+At the time of analysis, the 2016 and 2022 waves were the available nationally representative rounds of this government survey, with 2022 being the latest. Consequently, changes in hazard exposure, health conditions, or adaptation after the 2022 survey are not captured in the data and should be considered when interpreting the findings in relation to current conditions. Pooling these waves yields a final analytic sample of 11,568 respondent-level observations, including 5,060 from 2016 and 6,508 from 2022.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Pooling"
+     - After: "At the time of analysis,"
+  2. `insert`
+     - Before: ""
+     - After: "waves were the available nationally representative rounds of this government "
+  3. `insert`
+     - Before: ""
+     - After: ", with 2022 being the latest. Consequently, changes in hazard exposure, health conditions, or adaptation after the 2022 survey are not captured in the data and should be considered when interpreting the findings in relation to current conditions. Pooling these"
+
+### part-02
+
+- Location: Discussion > limitations, paragraph beginning 'Several limitations should be acknowledged'
+- Reason: Explain how the time gap affects current interpretation and state the study's specific contribution and monitoring relevance.
+- Kila decisions: KILA-D-20260828-014
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:06:34Z
+- Author: anonymous
+- Markup SHA-256 before: `7949f8756f641630c31b735f8c3d9ff265eb830c609a0f36ae3a74a3a564d5a2`
+- Markup SHA-256 after: `2570162f19448c859998072c3469e66504fd36ba203d3a28f0de31621c2b9346`
+- Revision IDs: `162`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T180634126342.reviewer-2-comment-1.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Several limitations should be acknowledged.
+~~~~
+
+- After:
+
+~~~~text
+Several limitations should be acknowledged. The data capture conditions reported in the 2016 and 2022 survey waves. Given the time gap between the survey periods and the analysis, subsequent changes in hazard patterns, health-service access, climate information, adaptation practices, and disease conditions may have altered the magnitude and geographic distribution of the observed relationships. The findings should therefore be interpreted in relation to the survey periods. Within this temporal scope, the analysis identifies the nonlinear relationship between cumulative multi-hazard exposure and reported household disease change and shows how this relationship varies with climate change knowledge and across geographic and socioeconomic groups. These results provide specific priorities for current monitoring, including whether risk remains concentrated after multiple hazards, where knowledge-related differences persist, and which population groups continue to experience greater vulnerability.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " The data capture conditions reported in the 2016 and 2022 survey waves. Given the time gap between the survey periods and the analysis, subsequent changes in hazard patterns, health-service access, climate information, adaptation practices, and disease conditions may have altered the magnitude and geographic distribution of the observed relationships. The findings should therefore be interpreted in relation to the survey periods. Within this temporal scope, the analysis identifies the nonlinear relationship between cumulative multi-hazard exposure and reported household disease change and shows how this relationship varies with climate change knowledge and across geographic and socioeconomic groups. These results provide specific priorities for current monitoring, including whether risk remains concentrated after multiple hazards, where knowledge-related differences persist, and which population groups continue to experience greater vulnerability."
+
+## reviewer-2/comment-2
+
+### part-01
+
+- Location: Title
+- Reason: Replace the causal title verb with the human-approved directional association phrase.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:21Z
+- Author: anonymous
+- Markup SHA-256 before: `2570162f19448c859998072c3469e66504fd36ba203d3a28f0de31621c2b9346`
+- Markup SHA-256 after: `2beee7f695e131708abc390472fca1c5e8cb573f04bba066b9a7ba9f61f17da8`
+- Revision IDs: `163, 164`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184521627965.reviewer-2-comment-2.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `f0eb213d81be50b2c016f965ca140d56e8046aaf230b3de50339fd849b66046c`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Climate Knowledge Mitigates Health Risks from Multi-Hazard Exposure: Evidence from Nepal
+~~~~
+
+- After:
+
+~~~~text
+Climate Knowledge Is Associated with Lower Health Risks from Multi-Hazard Exposure: Evidence from Nepal
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Mitigates"
+     - After: "Is Associated with Lower"
+
+### part-02
+
+- Location: Summary > Methods
+- Reason: Describe subgroup results as heterogeneity in predicted associations rather than effects.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:22Z
+- Author: anonymous
+- Markup SHA-256 before: `2beee7f695e131708abc390472fca1c5e8cb573f04bba066b9a7ba9f61f17da8`
+- Markup SHA-256 after: `c3b79d69784162ed85624c506614a2c58ae0a981ee72f3e817d587cf1a40421c`
+- Revision IDs: `165, 166, 167, 168`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184522140248.reviewer-2-comment-2.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Partial dependence and subgroup analyses examined effect heterogeneity across geographic and socioeconomic strata.
+~~~~
+
+- After:
+
+~~~~text
+Partial dependence and subgroup analyses examined heterogeneity in predicted associations across geographic and socioeconomic strata.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "effect"
+     - After: "heterogeneity"
+  2. `replace`
+     - Before: "heterogeneity"
+     - After: "in predicted associations"
+
+### part-04
+
+- Location: Summary > Interpretation
+- Reason: State the knowledge result as a predicted association and temper the education recommendation.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:22Z
+- Author: anonymous
+- Markup SHA-256 before: `c3b79d69784162ed85624c506614a2c58ae0a981ee72f3e817d587cf1a40421c`
+- Markup SHA-256 after: `2e8445eee66021bca3bc70273df41ce064fb62cdfb59eb2f33aec459af1c7e61`
+- Revision IDs: `169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184522671619.reviewer-2-comment-2.part-04.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Cumulative multi-hazard exposure is associated with increased household disease risk in a nonlinear pattern, and climate change knowledge is associated with attenuation of this risk. Integrating climate education into community health programmers may offer a cost-effective strategy for building health resilience in hazard-prone populations across South and Southeast Asia.
+~~~~
+
+- After:
+
+~~~~text
+Cumulative multi-hazard exposure is associated with increased household disease risk in a nonlinear pattern, and climate change knowledge is associated with a lower predicted probability of disease increase. Targeted climate-health education delivered through community health programmes may complement general education and structural health protection in hazard-prone populations across South and Southeast Asia.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "attenuation"
+     - After: "a lower predicted probability"
+  2. `replace`
+     - Before: "this"
+     - After: "disease"
+  3. `replace`
+     - Before: "risk"
+     - After: "increase"
+  4. `replace`
+     - Before: "Integrating"
+     - After: "Targeted"
+  5. `replace`
+     - Before: "climate"
+     - After: "climate-health"
+  6. `replace`
+     - Before: "into"
+     - After: "delivered through"
+  7. `replace`
+     - Before: "programmers"
+     - After: "programmes"
+  8. `replace`
+     - Before: "offer"
+     - After: "complement"
+  9. `replace`
+     - Before: "a"
+     - After: "general"
+  10. `replace`
+     - Before: "cost-effective"
+     - After: "education"
+  11. `replace`
+     - Before: "strategy"
+     - After: "and"
+  12. `replace`
+     - Before: "for building"
+     - After: "structural"
+  13. `replace`
+     - Before: "resilience"
+     - After: "protection"
+
+### part-05
+
+- Location: Introduction, study objective paragraph beginning 'This study addresses these gaps'
+- Reason: Replace moderating influence with variation by knowledge status.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:23Z
+- Author: anonymous
+- Markup SHA-256 before: `2e8445eee66021bca3bc70273df41ce064fb62cdfb59eb2f33aec459af1c7e61`
+- Markup SHA-256 after: `e354b578a22e3b7b3502281b327ba40493035739e96d9dff7e0434f3eb8d3e28`
+- Revision IDs: `195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184523208323.reviewer-2-comment-2.part-05.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+It quantifies the disaster-disease relationship and the moderating influence of climate knowledge.
+~~~~
+
+- After:
+
+~~~~text
+It characterizes the disaster-disease association and its variation by climate knowledge status.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "quantifies"
+     - After: "characterizes"
+  2. `replace`
+     - Before: "relationship"
+     - After: "association"
+  3. `replace`
+     - Before: "the"
+     - After: "its"
+  4. `replace`
+     - Before: "moderating"
+     - After: "variation"
+  5. `replace`
+     - Before: "influence of"
+     - After: "by"
+  6. `insert`
+     - Before: ""
+     - After: " status"
+
+### part-06
+
+- Location: Methods > Variables, climate change knowledge paragraph
+- Reason: Frame the moderator rationale as variation in health patterns rather than mitigation.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:23Z
+- Author: anonymous
+- Markup SHA-256 before: `e354b578a22e3b7b3502281b327ba40493035739e96d9dff7e0434f3eb8d3e28`
+- Markup SHA-256 after: `d790aad7b58dad65c429b681a96921b8cb1763fe1790b15ec9f7cfae33ca4438`
+- Revision IDs: `206, 207, 208, 209, 210, 211, 212, 213, 214`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184523716462.reviewer-2-comment-2.part-06.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+In the analytical framework, this indicator is treated as a potential moderator. It may mitigate the adverse health effects of disaster exposure, as indicated by the literature (Adom et al., 2025; Hossain, 2025; Liu et al., 2026).
+~~~~
+
+- After:
+
+~~~~text
+In the analytical framework, this indicator is treated as a potential moderator based on literature suggesting that disaster-related health patterns may vary by climate change knowledge status (Adom et al., 2025; Hossain, 2025; Liu et al., 2026).
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "."
+     - After: ""
+  2. `replace`
+     - Before: "It"
+     - After: "based on literature suggesting that disaster-related health patterns"
+  3. `replace`
+     - Before: "mitigate the adverse health effects of disaster exposure, as indicated"
+     - After: "vary"
+  4. `replace`
+     - Before: "the"
+     - After: "climate"
+  5. `replace`
+     - Before: "literature"
+     - After: "change knowledge status"
+
+### part-07
+
+- Location: Methods > Analytical Framework
+- Reason: Describe subgroup PDPs as predicted-probability comparisons rather than a moderating role.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:24Z
+- Author: anonymous
+- Markup SHA-256 before: `d790aad7b58dad65c429b681a96921b8cb1763fe1790b15ec9f7cfae33ca4438`
+- Markup SHA-256 after: `b08f89c6aec8e5334e3e6894bfe33a0550b6c093d38722fe9d4a11f06bea83ed`
+- Revision IDs: `215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184524237433.reviewer-2-comment-2.part-07.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Subgroup PDPs stratified by climate knowledge status quantify the moderating role of climate change knowledge.
+~~~~
+
+- After:
+
+~~~~text
+Subgroup PDPs stratified by climate knowledge status characterize differences in predicted probabilities across knowledge groups.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "quantify"
+     - After: "characterize"
+  2. `replace`
+     - Before: "the"
+     - After: "differences"
+  3. `replace`
+     - Before: "moderating"
+     - After: "in"
+  4. `replace`
+     - Before: "role"
+     - After: "predicted"
+  5. `replace`
+     - Before: "of"
+     - After: "probabilities"
+  6. `replace`
+     - Before: "climate change"
+     - After: "across"
+  7. `insert`
+     - Before: ""
+     - After: " groups"
+
+### part-08
+
+- Location: Results, Figure 6 paragraph beginning 'Climate change knowledge significantly reduces'
+- Reason: Replace causal and protective interpretations with predicted-probability differences.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:24Z
+- Author: anonymous
+- Markup SHA-256 before: `b08f89c6aec8e5334e3e6894bfe33a0550b6c093d38722fe9d4a11f06bea83ed`
+- Markup SHA-256 after: `4b76f40d48093e6fd17cfb6c1c00a2988803fff457ef11d977b464beaf5e2b0c`
+- Revision IDs: `228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184524756110.reviewer-2-comment-2.part-08.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Climate change knowledge significantly reduces the negative effect of cumulative disaster exposure on household health. The y-axis of the PDPs is the mean predicted probability of new disease occurrence. As shown in Figure 6, across the full exposure gradient, households with climate change knowledge exhibit a consistently lower predicted probability of disease increase compared to those without. The protective gap widens as disaster counts increase, indicating that the benefits of climate awareness are most pronounced under high multi-hazard conditions. At lower exposure levels the gap is modest, but it expands substantially as households accumulate four or more distinct hazard types.
+~~~~
+
+- After:
+
+~~~~text
+Climate change knowledge is associated with differences in the predicted probability of increased household disease incidence across the cumulative disaster-exposure gradient. The y-axis of the PDPs is the mean predicted probability of new disease occurrence. As shown in Figure 6, across the full exposure gradient, households with climate change knowledge exhibit a consistently lower predicted probability of disease increase compared with those without. The prediction difference widens as disaster counts increase and is largest under high multi-hazard exposure. At lower exposure levels the difference is modest, but it expands substantially as households accumulate four or more distinct hazard types.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "significantly"
+     - After: "is"
+  2. `replace`
+     - Before: "reduces"
+     - After: "associated with differences in"
+  3. `replace`
+     - Before: "negative"
+     - After: "predicted"
+  4. `replace`
+     - Before: "effect"
+     - After: "probability"
+  5. `replace`
+     - Before: "cumulative disaster exposure on"
+     - After: "increased"
+  6. `replace`
+     - Before: "health"
+     - After: "disease incidence across the cumulative disaster-exposure gradient"
+  7. `replace`
+     - Before: "to"
+     - After: "with"
+  8. `replace`
+     - Before: "protective"
+     - After: "prediction"
+  9. `replace`
+     - Before: "gap"
+     - After: "difference"
+  10. `delete`
+     - Before: ","
+     - After: ""
+  11. `replace`
+     - Before: "indicating"
+     - After: "and"
+  12. `replace`
+     - Before: "that"
+     - After: "is"
+  13. `replace`
+     - Before: "the benefits of climate awareness are most pronounced"
+     - After: "largest"
+  14. `replace`
+     - Before: "conditions"
+     - After: "exposure"
+  15. `replace`
+     - Before: "gap"
+     - After: "difference"
+
+### part-09b
+
+- Location: Results, Figure 7 paragraph beginning 'Spatial analysis reveals'
+- Reason: Replace attenuation and buffering wording with negative prediction differences.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:25Z
+- Author: anonymous
+- Markup SHA-256 before: `4b76f40d48093e6fd17cfb6c1c00a2988803fff457ef11d977b464beaf5e2b0c`
+- Markup SHA-256 after: `8d04f6836efe08860acbfd4e98042431b94662209d709e94899c67045e6ee65c`
+- Revision IDs: `257, 258, 259, 260, 261, 262, 263, 264, 265, 266`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184525262267.reviewer-2-comment-2.part-09b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Stronger attenuation effects are concentrated in several western and eastern units, while parts of central Nepal show comparatively weaker buffering.
+~~~~
+
+- After:
+
+~~~~text
+Larger negative prediction differences are concentrated in several western and eastern units, while parts of central Nepal show comparatively smaller differences.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Stronger"
+     - After: "Larger"
+  2. `replace`
+     - Before: "attenuation"
+     - After: "negative"
+  3. `replace`
+     - Before: "effects"
+     - After: "prediction differences"
+  4. `replace`
+     - Before: "weaker"
+     - After: "smaller"
+  5. `replace`
+     - Before: "buffering"
+     - After: "differences"
+
+### part-10a
+
+- Location: Discussion, opening paragraph beginning 'This study provides evidence'
+- Reason: Use knowledge-status variation and prediction-difference language in the main findings synthesis.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:25Z
+- Author: anonymous
+- Markup SHA-256 before: `8d04f6836efe08860acbfd4e98042431b94662209d709e94899c67045e6ee65c`
+- Markup SHA-256 after: `d254cb7a7861725769c571aad114cfb20143764d63ac40bf740f9b10fce047d7`
+- Revision IDs: `267, 268, 269`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184525777002.reviewer-2-comment-2.part-10a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+and that climate change knowledge may buffer this association
+~~~~
+
+- After:
+
+~~~~text
+and that the predicted disaster-disease pattern varies by climate change knowledge status
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " the predicted disaster-disease pattern varies by"
+  2. `replace`
+     - Before: "may buffer this association"
+     - After: "status"
+
+### part-11
+
+- Location: Discussion, climate change knowledge interpretation paragraph
+- Reason: Remove protective-effect and adaptive-resource claims owned by this study while retaining the cited intervention evidence.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:26Z
+- Author: anonymous
+- Markup SHA-256 before: `d254cb7a7861725769c571aad114cfb20143764d63ac40bf740f9b10fce047d7`
+- Markup SHA-256 after: `584b54a1e86e10a092716c651e3b6c4b6ecb7b5936735078a55ab6072cd71571`
+- Revision IDs: `270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184526352064.reviewer-2-comment-2.part-11.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+The moderating role of climate change knowledge aligns with theoretical frameworks linking cognitive awareness to proactive health-seeking behaviour, including pre-emptive protection of water sources, improved hygiene practices, and earlier care-seeking during periods of environmental stress (Hossain, 2025; Iyer & Alphonsa Jose, 2025). The finding that the protective effect is most pronounced at high disaster counts suggests that climate knowledge functions as a critical adaptive resource precisely when environmental conditions are most severe. This pattern is consistent with evidence from comparable low-resource settings, where information-based interventions have demonstrated measurable reductions in climate-related health risks even in the absence of strong material adaptive capacity (Dumitraşcu et al., 2026; Mantilla et al., 2025). The spatial heterogeneity in buffering effects across province-ecological belt units, and the attenuation of disaster-disease associations among more educated households, further indicate that the protective value of climate knowledge is conditioned by local infrastructure, socioeconomic resources, and human capital (Ali et al., 2026; Negi et al., 2025; Sandilya & Goswami, 2025).
+~~~~
+
+- After:
+
+~~~~text
+The variation in predicted disease probability by climate change knowledge status aligns with theoretical frameworks linking cognitive awareness to proactive health-seeking behaviour, including pre-emptive protection of water sources, improved hygiene practices, and earlier care-seeking during periods of environmental stress (Hossain, 2025; Iyer & Alphonsa Jose, 2025). The larger knowledge-related prediction difference at high disaster counts indicates that the observed association is strongest when environmental conditions are most severe. This pattern is consistent with evidence from comparable low-resource settings, where information-based interventions have demonstrated measurable reductions in climate-related health risks even in the absence of strong material adaptive capacity (Dumitraşcu et al., 2026; Mantilla et al., 2025). The spatial heterogeneity in knowledge-related prediction differences across province-ecological belt units, and the attenuation of disaster-disease associations among more educated households, further indicate that the observed association varies with local infrastructure, socioeconomic resources, and human capital (Ali et al., 2026; Negi et al., 2025; Sandilya & Goswami, 2025).
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "moderating"
+     - After: "variation"
+  2. `replace`
+     - Before: "role"
+     - After: "in"
+  3. `replace`
+     - Before: "of"
+     - After: "predicted disease probability by"
+  4. `insert`
+     - Before: ""
+     - After: " status"
+  5. `replace`
+     - Before: "finding"
+     - After: "larger"
+  6. `replace`
+     - Before: "that"
+     - After: "knowledge-related"
+  7. `replace`
+     - Before: "the"
+     - After: "prediction"
+  8. `replace`
+     - Before: "protective effect is most pronounced"
+     - After: "difference"
+  9. `replace`
+     - Before: "suggests"
+     - After: "indicates"
+  10. `replace`
+     - Before: "climate"
+     - After: "the"
+  11. `replace`
+     - Before: "knowledge"
+     - After: "observed"
+  12. `replace`
+     - Before: "functions"
+     - After: "association"
+  13. `replace`
+     - Before: "as"
+     - After: "is"
+  14. `replace`
+     - Before: "a critical adaptive resource precisely"
+     - After: "strongest"
+  15. `replace`
+     - Before: "buffering"
+     - After: "knowledge-related"
+  16. `replace`
+     - Before: "effects"
+     - After: "prediction differences"
+  17. `replace`
+     - Before: "protective"
+     - After: "observed"
+  18. `replace`
+     - Before: "value"
+     - After: "association"
+  19. `replace`
+     - Before: "of"
+     - After: "varies"
+  20. `replace`
+     - Before: "climate knowledge is conditioned by"
+     - After: "with"
+
+### part-12
+
+- Location: Discussion, concluding paragraph beginning 'Multi-hazard exposure and climate change knowledge'
+- Reason: Replace independent-effect and cost-effectiveness claims with association and complementary-policy wording.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:26Z
+- Author: anonymous
+- Markup SHA-256 before: `584b54a1e86e10a092716c651e3b6c4b6ecb7b5936735078a55ab6072cd71571`
+- Markup SHA-256 after: `b7a15ddb5da45935d03722fb329fbf28675a0377f35f8bab63ed7f5ea7c328eb`
+- Revision IDs: `309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 329, 330, 331, 332, 333, 334, 335`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184526858321.reviewer-2-comment-2.part-12.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Multi-hazard exposure and climate change knowledge are strong and independent predictors of household disease incidence in Nepal, with effects that are nonlinear and spatially heterogeneous. These findings underscore the need for disaster risk reduction strategies that account for cumulative hazard accumulation rather than isolated events, and support the integration of climate education into community health programmers as a cost-effective approach to building health resilience in hazard-prone populations across South and Southeast Asia.
+~~~~
+
+- After:
+
+~~~~text
+Multi-hazard exposure and climate change knowledge are associated with predicted household disease incidence in Nepal, with nonlinear and spatially heterogeneous patterns. These findings support disaster risk reduction strategies that account for cumulative hazard accumulation rather than isolated events and position targeted climate-health education as a potential complement to general education and structural health protection in hazard-prone populations.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "strong"
+     - After: "associated"
+  2. `replace`
+     - Before: "and"
+     - After: "with"
+  3. `replace`
+     - Before: "independent predictors of"
+     - After: "predicted"
+  4. `delete`
+     - Before: "effects that are "
+     - After: ""
+  5. `insert`
+     - Before: ""
+     - After: " patterns"
+  6. `replace`
+     - Before: "underscore the need for"
+     - After: "support"
+  7. `delete`
+     - Before: ","
+     - After: ""
+  8. `replace`
+     - Before: "support"
+     - After: "position"
+  9. `replace`
+     - Before: "the"
+     - After: "targeted"
+  10. `replace`
+     - Before: "integration of climate"
+     - After: "climate-health"
+  11. `delete`
+     - Before: " into community health programmers"
+     - After: ""
+  12. `replace`
+     - Before: "cost-effective"
+     - After: "potential"
+  13. `replace`
+     - Before: "approach"
+     - After: "complement"
+  14. `replace`
+     - Before: "building"
+     - After: "general education and structural"
+  15. `replace`
+     - Before: "resilience"
+     - After: "protection"
+  16. `delete`
+     - Before: " across South and Southeast Asia"
+     - After: ""
+
+### part-13
+
+- Location: Figure 6 caption
+- Reason: Replace causal mediation wording with knowledge-status stratification wording.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:27Z
+- Author: anonymous
+- Markup SHA-256 before: `b7a15ddb5da45935d03722fb329fbf28675a0377f35f8bab63ed7f5ea7c328eb`
+- Markup SHA-256 after: `1fb16c8d9a5288a2ed2bc96ed2bcb87bc8798e3229c2da54e97e9558d0227aa4`
+- Revision IDs: `336, 337`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184527355016.reviewer-2-comment-2.part-13.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Figure 6: Global Relationship between Natural Disaster Count and Disease Increase Probability Mediated by Climate Change Knowledge
+~~~~
+
+- After:
+
+~~~~text
+Figure 6: Global Relationship between Natural Disaster Count and Disease Increase Probability by Climate Change Knowledge Status
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "Mediated "
+     - After: ""
+  2. `insert`
+     - Before: ""
+     - After: " Status"
+
+### part-14
+
+- Location: Figure 7 caption
+- Reason: Replace effect wording with prediction-difference wording.
+- Kila decisions: KILA-D-20260828-018
+- Mode: `replace`
+- Timestamp: 2026-08-28T09:45:27Z
+- Author: anonymous
+- Markup SHA-256 before: `1fb16c8d9a5288a2ed2bc96ed2bcb87bc8798e3229c2da54e97e9558d0227aa4`
+- Markup SHA-256 after: `c45b38a46b1fa6c9c50f51812880aae587188e71032d3f2016ee58f59b1e57d1`
+- Revision IDs: `338, 339, 340`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260828T184527873427.reviewer-2-comment-2.part-14.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Figure 7: Spatial Heterogeneity of The Effects of Climate Change Knowledge
+~~~~
+
+- After:
+
+~~~~text
+Figure 7: Spatial Heterogeneity in Climate Change Knowledge Prediction Differences
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "of The Effects of"
+     - After: "in"
+  2. `insert`
+     - Before: ""
+     - After: " Prediction Differences"
+
