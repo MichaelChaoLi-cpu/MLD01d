@@ -129,6 +129,76 @@ data_summary.to_excel(os.path.join(TABLES, 'Table1_DataSummary.xlsx'))
 # %%
 
 # %% [markdown]
+# ### Data Summary Table 2016
+
+# %%
+always_inputs = SettingForFeatures.return_input_variables()
+
+# %%
+aim_variable = SettingForFeatures.return_output_variables()[0]
+
+# %%
+selected_df = all_data[[aim_variable] + always_inputs]
+selected_df = selected_df[selected_df['Year'] == 2016]
+
+# %%
+data_summary = selected_df.describe().T.reset_index()
+
+# %%
+data_summary
+
+# %%
+VARIABLE_MAP_RENAMED = SettingForFeatures.return_beautiful_dict()
+
+# %%
+data_summary['index'] = data_summary['index'].map(VARIABLE_MAP_RENAMED)
+
+# %%
+data_summary
+
+# %%
+data_summary.to_excel(os.path.join(TABLES, 'Table1_DataSummary_2016.xlsx'))
+
+# %%
+
+# %%
+
+# %% [markdown]
+# ### Data Summary Table 2022
+
+# %%
+always_inputs = SettingForFeatures.return_input_variables()
+
+# %%
+aim_variable = SettingForFeatures.return_output_variables()[0]
+
+# %%
+selected_df = all_data[[aim_variable] + always_inputs]
+selected_df = selected_df[selected_df['Year'] == 2022]
+
+# %%
+data_summary = selected_df.describe().T.reset_index()
+
+# %%
+data_summary
+
+# %%
+VARIABLE_MAP_RENAMED = SettingForFeatures.return_beautiful_dict()
+
+# %%
+data_summary['index'] = data_summary['index'].map(VARIABLE_MAP_RENAMED)
+
+# %%
+data_summary
+
+# %%
+data_summary.to_excel(os.path.join(TABLES, 'Table1_DataSummary_2022.xlsx'))
+
+# %%
+
+# %%
+
+# %% [markdown]
 # ### Hyperparameter
 
 # %%

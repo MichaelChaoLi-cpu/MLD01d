@@ -81,7 +81,10 @@ all_data = SettingForFeatures.data_load_combine_dataset()
 always_inputs = SettingForFeatures.return_input_variables()
 
 # %%
-aim_variables = SettingForFeatures.return_output_variables()
+aim_variables = SettingForFeatures.return_output_variables()[:1]
+
+# %%
+aim_variables
 
 # %%
 n_splits = 10

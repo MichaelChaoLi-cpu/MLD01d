@@ -359,23 +359,15 @@ df_read.shape
 df_read
 
 # %%
-cols = ['B17A','B17B','B17C','B17D','B17E','B17F','B17G','B17H','B17I','B17J','B17K','B17L']
+b17_cols = ['B17A','B17B','B17C','B17D','B17E','B17F','B17G','B17H','B17I','B17J','B17K','B17L']
+dummy_cols = ['Radio_dummy','TV_dummy','Cable_dummy','PC_dummy','Net_dummy','Phone_dummy',
+              'Mobile_dummy','Motorbike_dummy','Car_dummy','Bike_dummy','OtherVehi_dummy','Refrige_dummy']
 
-df_read["Radio_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
-df_read["TV_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
-df_read["Cable_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
-df_read["PC_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
-df_read["Net_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
-df_read["Phone_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
-df_read["Mobile_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
-df_read["Motorbike_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
-df_read["Car_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
-df_read["Bike_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
-df_read["OtherVehi_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
-df_read["Refrige_dummy"] = (df_read[cols] == 1).any(axis=1).astype(int)
+for i, d_col in enumerate(dummy_cols, start=1):
+    df_read[d_col] = df_read[b17_cols].isin([float(i)]).any(axis=1).astype(int)
 
 # %%
-df_read.columns
+df_read[dummy_cols].describe()
 
 # %%
 df_select = df_read[['PSU', 'HHLD', 'B10', 'B11', 'B12A', 'B12B',
@@ -385,7 +377,6 @@ df_select = df_read[['PSU', 'HHLD', 'B10', 'B11', 'B12A', 'B12B',
        'Motorbike_dummy', 'Car_dummy', 'Bike_dummy', 'OtherVehi_dummy',
        'Refrige_dummy']].fillna(0)
 
-# %%
 df_select.columns = ['PSU', 'HHLD', 'Own_Resid', 'Resid_Type', 'WaterS1', 'WaterS2',
         'WaterS3', 'CookFuelS1', 'CookFuelS2', 'CookFuelS3', 'LightEnergy', 'Toilet', 'IncomeS1', 'IncomeS2', 'IncomeS3',
          'Remittance_dummy', 'Have_AgriLand', 'Radio_dummy', 'TV_dummy',
@@ -405,6 +396,8 @@ df_kept = df_kept.merge(df_select, on = ['PSU', 'HHLD'], how='left')
 
 # %%
 df_kept.shape
+
+# %%
 
 # %%
 
@@ -1217,6 +1210,21 @@ df_kept = df_kept.merge(df_select, on = ['PSU', 'HHLD'], how='left')
 
 # %%
 df_kept.shape
+
+# %%
+df_kept['LivingYear'].max()
+
+# %%
+df_kept[df_kept['LivingYear'] > 100]
+
+# %%
+df_kept.loc[df_kept['LivingYear'] > 100, 'LivingYear'] = 73.0
+
+# %%
+df_kept[df_kept['LivingYear'] > 100]['LivingYear']
+
+# %%
+df_kept['LivingYear'].describe()
 
 # %%
 
@@ -2263,11 +2271,26 @@ df_kept = df_kept.merge(df_select, on = ['PSU', 'HHLD'], how='left')
 df_kept.shape
 
 # %%
+df_kept['LivingYear'].max()
 
 # %% [markdown]
 # ### Save Data
 
 # %%
+df_kept['Dist_Road'].describe()
+
+# %%
+df_kept['Dist_HealthCenter'].describe()
+
+# %%
+df_kept.loc[df_kept['Dist_SecondarySchool'] > 100, 'Dist_SecondarySchool'] = 100
+
+# %%
+df_kept.loc[df_kept['Dist_AgriSupport'] > 100, 'Dist_AgriSupport'] = 100
+
+# %%
 df_kept.to_parquet(os.path.join('data', 'processed', '01_Napel2022.parquet'))
+
+# %%
 
 # %%

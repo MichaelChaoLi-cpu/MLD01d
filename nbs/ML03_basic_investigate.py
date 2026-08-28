@@ -201,7 +201,7 @@ for aim_variable in potential_output:
     importance_list.append(feature_importance_full)
 
 # %%
-os.makedirs(RESULTS := 'results', exist_ok=False)
+os.makedirs(RESULTS := 'results', exist_ok=True)
 
 # %%
 for idx, aim_variable in enumerate(potential_output):

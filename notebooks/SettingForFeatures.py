@@ -87,9 +87,11 @@ def return_input_variables():
         'Dist_Road', 'Dist_HealthCenter', 'Dist_SecondarySchool', 'Dist_Market', 'Dist_AgriSupport', 
         'FramMechan',
         'IncomeResAgri_dummy', 'IncomeResWage_dummy', 'IncomeResNonAgriBusi_dummy', 'IncomeResRemit_dummy',
-        'IncomeResOthers_dummy', 'TotalIncome',
+        'IncomeResOthers_dummy',
+        # 'TotalIncome', #remove total income
         'Year',
-        'DisasterExpInd', 'DisasterFoodShortageInd', 'DisasterDieInd', 'DisasterMoneyLoss',
+        'DisasterExpInd', 'DisasterFoodShortageInd', 'DisasterDieInd',
+        # 'DisasterMoneyLoss',
     ]
 
 
@@ -178,4 +180,4 @@ def load_spatial_data() -> gpd.GeoDataFrame:
     gdf_intersect = gdf_intersect.rename(columns={'EcoBelt': 'Eco_Belt'}) if 'EcoBelt' in gdf_intersect.columns else gdf_intersect
     
     print(f"✅ Loaded spatial data with {len(gdf_intersect)} intersected polygons.")
-    return gdf_intersect    
+    return gdf_intersect
