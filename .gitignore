@@ -81,3 +81,8 @@ Rev/docs/*
 Rev/revision/*
 !Rev/revision/response-draft.md
 # END manuscript revision workspace
+
+# Local analysis and revision backups
+figures/.kila-backups/
+logs/old/
+logs/old2/
