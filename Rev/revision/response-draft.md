@@ -407,9 +407,33 @@ The following detailed description has also been added to the Supplementary Mate
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for this helpful suggestion. We have expanded the Analytical Framework, Results, and Supplementary Materials with an exact out-of-fold TreeSHAP analysis that complements the existing gain-based feature importance. SHAP contributions were calculated for held-out observations in each outcome-stratified validation fold and combined to provide one out-of-fold profile for every household. Contributions were calculated for all 64 predictors, while the two supplementary figures display the 20 predictors with the largest mean absolute SHAP values for readability. We also report the SHAP scale and direction, verify additivity, and provide numerical results for multi-hazard exposure and climate change knowledge.
 
-"[Exact revised text will be inserted after verification.]"
+The revised Analytical Framework text reads:
+
+"To complement this measure, exact TreeSHAP contributions are calculated for held-out observations in each validation fold and combined into one out-of-fold SHAP profile per household; positive and negative values indicate contributions toward higher and lower predicted log-odds, respectively."
+
+(Lines/Pages: human verification required)
+
+The revised Results text reads:
+
+"The out-of-fold TreeSHAP analysis ranks multi-hazard exposure count first and climate change knowledge second by mean absolute SHAP value (0.346 and 0.120, respectively; Supplementary Materials Figures S3–S4). Mean SHAP contributions for the climate-change knowledge indicator are 0.106 log-odds for no and −0.135 log-odds for yes; those for multi-hazard exposure increase from −0.534 in the lowest exposure quartile to 0.387 in the highest."
+
+(Lines/Pages: human verification required)
+
+The following methodological description has also been added to the Supplementary Materials:
+
+"To complement gain-based importance, we calculate exact TreeSHAP contributions for held-out observations in each outcome-stratified validation fold using XGBoost’s built-in pred_contribs output. Fold-specific contributions are combined to obtain one out-of-fold SHAP profile for each of the 11,568 households across all 64 predictors. SHAP values are expressed on the raw prediction margin (log-odds) scale, where positive and negative values indicate contributions toward higher and lower model predictions, respectively. The sum of each household’s feature contributions and bias term reconstructs the corresponding raw margin, with a maximum absolute additivity error of 6.95 × 10−6. SHAP contributions are calculated for all 64 predictors; Figure S3 displays the 20 predictors with the largest mean absolute SHAP values, and Figure S4 displays their distributions and directions for readability. These values describe contributions within the fitted model rather than causal effects."
+
+(Lines/Pages: human verification required)
+
+The added supplementary figures are titled:
+
+"Figure S3: Global SHAP Feature Importance"
+
+(Lines/Pages: human verification required)
+
+"Figure S4: SHAP Summary Plot"
 
 (Lines/Pages: human verification required)
 

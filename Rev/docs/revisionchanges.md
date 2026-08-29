@@ -1869,3 +1869,115 @@ For comparison, we fit an L2-penalized ordinary logistic regression using the sa
      - Before: ", without added interaction terms"
      - After: ""
 
+## reviewer-2/comment-6
+
+### part-01
+
+- Location: Methods > Analytical Framework, paragraph beginning 'Feature importance is assessed using the gain metric' (approved bundle part 1 of 5)
+- Reason: Add the held-out TreeSHAP calculation and define the direction of SHAP contributions alongside the existing gain metric.
+- Kila decisions: KILA-D-20260829-015, KILA-D-20260829-021
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T14:02:58Z
+- Author: anonymous
+- Markup SHA-256 before: `2fd9864f2402ae2fb91e74e41812d9c8dfa5eb3a7521b79a89d44145f8d7cea7`
+- Markup SHA-256 after: `9255729a7ba2dbebadf751a55bd5372b016ce8c8159b1b680839905b0f0f874a`
+- Revision IDs: `400`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T230258728914.reviewer-2-comment-6.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Feature importance is assessed using the gain metric.
+~~~~
+
+- After:
+
+~~~~text
+Feature importance is assessed using the gain metric. To complement this measure, exact TreeSHAP contributions are calculated for held-out observations in each validation fold and combined into one out-of-fold SHAP profile per household; positive and negative values indicate contributions toward higher and lower predicted log-odds, respectively.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " To complement this measure, exact TreeSHAP contributions are calculated for held-out observations in each validation fold and combined into one out-of-fold SHAP profile per household; positive and negative values indicate contributions toward higher and lower predicted log-odds, respectively."
+
+### part-02b
+
+- Location: Results, first paragraph, final sentence (approved bundle part 2 of 5, mechanically split 2 of 2)
+- Reason: Replace the imprecise gain-only conclusion with the validated out-of-fold SHAP rankings, directions, and Supplementary Figures S3–S4 cross-reference.
+- Kila decisions: KILA-D-20260829-015, KILA-D-20260829-021
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T14:04:03Z
+- Author: anonymous
+- Markup SHA-256 before: `9255729a7ba2dbebadf751a55bd5372b016ce8c8159b1b680839905b0f0f874a`
+- Markup SHA-256 after: `4108f6c3748ac43e1fa8402bf6afc3ea728a5cea15ae7b8842dc1e561b301cfd`
+- Revision IDs: `401, 402, 403, 404, 405, 406, 407, 408, 409, 410, 411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423, 424, 425`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T230404071117.reviewer-2-comment-6.part-02b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The Natural Disaster Experience Indicator indicates a top driver of the model’s predictive performance.
+~~~~
+
+- After:
+
+~~~~text
+The out-of-fold TreeSHAP analysis ranks multi-hazard exposure count first and climate change knowledge second by mean absolute SHAP value (0.346 and 0.120, respectively; Supplementary Materials Figures S3–S4). Mean SHAP contributions for the climate-change knowledge indicator are 0.106 log-odds for no and −0.135 log-odds for yes; those for multi-hazard exposure increase from −0.534 in the lowest exposure quartile to 0.387 in the highest.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Natural"
+     - After: "out-of-fold"
+  2. `replace`
+     - Before: "Disaster"
+     - After: "TreeSHAP"
+  3. `replace`
+     - Before: "Experience"
+     - After: "analysis"
+  4. `replace`
+     - Before: "Indicator"
+     - After: "ranks"
+  5. `replace`
+     - Before: "indicates"
+     - After: "multi-hazard"
+  6. `replace`
+     - Before: "a"
+     - After: "exposure"
+  7. `replace`
+     - Before: "top"
+     - After: "count"
+  8. `replace`
+     - Before: "driver"
+     - After: "first"
+  9. `replace`
+     - Before: "of"
+     - After: "and climate change knowledge second by mean absolute SHAP value (0.346 and 0.120, respectively; Supplementary Materials Figures S3–S4). Mean SHAP contributions for"
+  10. `replace`
+     - Before: "model’s"
+     - After: "climate-change"
+  11. `replace`
+     - Before: "predictive"
+     - After: "knowledge"
+  12. `replace`
+     - Before: "performance"
+     - After: "indicator are 0"
+  13. `insert`
+     - Before: ""
+     - After: "106 log-odds for no and −0.135 log-odds for yes; those for multi-hazard exposure increase from −0.534 in the lowest exposure quartile to 0.387 in the highest."
+
