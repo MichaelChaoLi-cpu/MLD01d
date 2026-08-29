@@ -1618,3 +1618,117 @@ The model incorporates a comprehensive set of socio-demographic controls at both
   1. `insert`
      - Before: ""
      - After: " Missing values were handled during data preprocessing. Binary indicators followed an affirmative-only (‘yes-is-yes’) rule: a value of 1 was assigned only when the respondent explicitly reported the defining condition, while all other responses were coded as 0. For continuous variables, structurally inapplicable entries were assigned their logical zero value, such as agricultural-experience years for households without agricultural land, whereas observations with genuine missing continuous values were subject to complete-case exclusion. No applicable continuous values remained missing, so this step removed no observations. The final analytical dataset comprised 11,568 households with no missing values across the 64 predictors and outcome (0%); consequently, XGBoost’s native missing-value routing was not invoked."
+
+## reviewer-2/comment-8
+
+### part-01
+
+- Location: Methods > Variables, paragraph beginning 'The model incorporates a comprehensive set of socio-demographic controls' (approved bundle part 1 of 8)
+- Reason: Explicitly state that the pooled model controls survey-wave differences through a survey-year indicator.
+- Kila decisions: KILA-D-20260829-008, KILA-D-20260829-009, KILA-D-20260829-010, KILA-D-20260829-011
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T07:00:52Z
+- Author: Kila
+- Markup SHA-256 before: `1bbd9ce5c5db1237b9d2db3f8d649784952b9863f89505556cd1537817cf87ee`
+- Markup SHA-256 after: `98b6355f3cc0a664308e3058ff96cb9cc1f34a86d0c6d3dddb50d5f95491009a`
+- Revision IDs: `363`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T160052961315.reviewer-2-comment-8.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Spatial identifiers for province and ecological belt control for geographic and climatic heterogeneity.
+~~~~
+
+- After:
+
+~~~~text
+Spatial identifiers for province and ecological belt control for geographic and climatic heterogeneity. The pooled model also includes a survey-year indicator (2016 or 2022) to control for wave-level differences.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " The pooled model also includes a survey-year indicator (2016 or 2022) to control for wave-level differences."
+
+### part-02
+
+- Location: Methods > Analytical Framework, paragraph beginning 'The study uses XGBoost' (approved bundle part 2 of 8)
+- Reason: Describe the same-specification wave-specific sensitivity analysis and the fixed-hyperparameter comparability design.
+- Kila decisions: KILA-D-20260829-008, KILA-D-20260829-009, KILA-D-20260829-010, KILA-D-20260829-011
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T07:01:03Z
+- Author: Kila
+- Markup SHA-256 before: `98b6355f3cc0a664308e3058ff96cb9cc1f34a86d0c6d3dddb50d5f95491009a`
+- Markup SHA-256 after: `119d7c14a1524d2757bfdebebade5a68f5476648ed8d869ee94504a4ce7d1ff2`
+- Revision IDs: `364`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T160103759508.reviewer-2-comment-8.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Hyperparameters were optimized via random search over 500 iterations, tuning learning rate, maximum tree depth, number of estimators, and subsampling ratios.
+~~~~
+
+- After:
+
+~~~~text
+Hyperparameters were optimized via random search over 500 iterations, tuning learning rate, maximum tree depth, number of estimators, and subsampling ratios. To examine whether pooling masks temporal differences, we fit the same XGBoost specification separately to the 2016 and 2022 samples. Survey year is omitted from these wave-specific models because it is constant within each wave; all other predictors, the pooled-model hyperparameters, and outcome-stratified 10-fold cross-validation are retained. Using common hyperparameters provides a direct same-specification comparison without wave-specific re-optimization.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " To examine whether pooling masks temporal differences, we fit the same XGBoost specification separately to the 2016 and 2022 samples. Survey year is omitted from these wave-specific models because it is constant within each wave; all other predictors, the pooled-model hyperparameters, and outcome-stratified 10-fold cross-validation are retained. Using common hyperparameters provides a direct same-specification comparison without wave-specific re-optimization."
+
+### part-03
+
+- Location: Results, paragraph beginning 'The XGBoost classification model identifies cumulative disaster exposure' (approved bundle part 3 of 8)
+- Reason: Report concrete wave-specific AUC and accuracy values and show closely comparable predictive performance.
+- Kila decisions: KILA-D-20260829-008, KILA-D-20260829-009, KILA-D-20260829-010, KILA-D-20260829-011
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T07:01:14Z
+- Author: Kila
+- Markup SHA-256 before: `119d7c14a1524d2757bfdebebade5a68f5476648ed8d869ee94504a4ce7d1ff2`
+- Markup SHA-256 after: `1113889f04796c60e53682a569b2edbe3b32228415b4434dd4982a28f60efde1`
+- Revision IDs: `365`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T160114377774.reviewer-2-comment-8.part-03.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+This performance outperformed the logistic regression baseline mean of 61.8% as listed in Supplementary Materials Table S2.
+~~~~
+
+- After:
+
+~~~~text
+This performance outperformed the logistic regression baseline mean of 61.8% as listed in Supplementary Materials Table S2. In the wave-specific sensitivity analysis, the 2016 and 2022 models achieve AUCs of 0.779 and 0.774 and accuracies of 70.89% and 72.36%, respectively, indicating closely comparable predictive performance.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " In the wave-specific sensitivity analysis, the 2016 and 2022 models achieve AUCs of 0.779 and 0.774 and accuracies of 70.89% and 72.36%, respectively, indicating closely comparable predictive performance."
+

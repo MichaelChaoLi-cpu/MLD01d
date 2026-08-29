@@ -419,9 +419,27 @@ The revised text reads:
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for this important suggestion. Survey year is included in the pooled model to account for wave-level differences. We have also added a wave-specific sensitivity analysis that fits the same XGBoost specification separately to the 2016 and 2022 samples. The two models show closely comparable discrimination and accuracy, and both central findings retain the same direction across the supported exposure range: predicted disease probability increases with cumulative disaster exposure, while the climate-knowledge prediction difference remains negative. The numerical magnitudes vary somewhat between waves. To make the comparison direct, we retain the pooled-model hyperparameters rather than re-optimizing them separately by wave. The revised Methods, Results, and Discussion report these findings, and Supplementary Table S3 and Figure S2 provide the detailed wave-specific metrics and curves.
 
-"[Exact revised text will be inserted after verification.]"
+The revised text reads (five representative quotations from nine revised locations):
+
+"The pooled model also includes a survey-year indicator (2016 or 2022) to control for wave-level differences."
+
+(Lines/Pages: human verification required)
+
+"To examine whether pooling masks temporal differences, we fit the same XGBoost specification separately to the 2016 and 2022 samples. Survey year is omitted from these wave-specific models because it is constant within each wave; all other predictors, the pooled-model hyperparameters, and outcome-stratified 10-fold cross-validation are retained. Using common hyperparameters provides a direct same-specification comparison without wave-specific re-optimization."
+
+(Lines/Pages: human verification required)
+
+"In the wave-specific sensitivity analysis, the 2016 and 2022 models achieve AUCs of 0.779 and 0.774 and accuracies of 70.89% and 72.36%, respectively, indicating closely comparable predictive performance."
+
+(Lines/Pages: human verification required)
+
+"Across disaster counts from 1 to 10, where both waves contain at least 30 observations at each count, predicted disease probability increases by 16.11 percentage points in 2016 and 22.72 percentage points in 2022. The climate-knowledge prediction difference remains negative at all ten supported counts in both waves and averages −6.01 percentage points in 2016 and −2.51 percentage points in 2022. The corresponding disaster-exposure and knowledge-difference curves are strongly correlated across waves (r = 0.920 and r = 0.924, respectively). Thus, the direction of both central patterns is stable across survey waves, although their numerical magnitudes and the locations of nonlinear changes vary. Detailed wave-specific performance metrics and prediction curves are presented in Supplementary Materials Table S3 and Figure S2, respectively."
+
+(Lines/Pages: human verification required)
+
+"The wave-specific sensitivity analysis further supports the stability of these central patterns. Model discrimination and accuracy are closely comparable, cumulative exposure is associated with higher predicted disease probability, and the climate-knowledge prediction difference remains negative throughout the supported exposure range in both waves. The numerical variation may reflect differences in wave composition and the use of common pooled-model hyperparameters for direct comparability rather than separate wave-specific re-optimization; importantly, neither core pattern reverses."
 
 (Lines/Pages: human verification required)
 
