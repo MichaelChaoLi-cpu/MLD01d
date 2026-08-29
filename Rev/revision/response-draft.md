@@ -547,8 +547,8 @@ The revised text reads:
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for raising this point. We have added a detailed missing-data statement to the Variables section. The revised manuscript explains the affirmative-only coding of binary indicators, distinguishes structurally inapplicable continuous entries from genuine missing continuous values, and reports the missingness rate in the final analytical matrix. Because no missing values entered the fitted predictor matrix, XGBoost's native missing-value routing did not contribute to the reported predictive performance or interpretive plots. The same preprocessing rules were applied across both survey waves and all households.
 
-"[Exact revised text will be inserted after verification.]"
+"Missing values were handled during data preprocessing. Binary indicators followed an affirmative-only (‘yes-is-yes’) rule: a value of 1 was assigned only when the respondent explicitly reported the defining condition, while all other responses were coded as 0. For continuous variables, structurally inapplicable entries were assigned their logical zero value, such as agricultural-experience years for households without agricultural land, whereas observations with genuine missing continuous values were subject to complete-case exclusion. No applicable continuous values remained missing, so this step removed no observations. The final analytical dataset comprised 11,568 households with no missing values across the 64 predictors and outcome (0%); consequently, XGBoost’s native missing-value routing was not invoked."
 
 (Lines/Pages: human verification required)

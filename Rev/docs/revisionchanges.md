@@ -1579,3 +1579,42 @@ The broader literature also identifies population displacement and related disru
   3. `delete`
      - Before: " Forced migration often results in overcrowded temporary settlements, inadequate sanitation infrastructure, and limited access to clean water and medical services, thereby increasing the risk of communicable disease transmission and long-term health deterioration."
      - After: ""
+
+## reviewer-3/comment-6
+
+### part-01
+
+- Location: Methods > Variables, paragraph beginning 'The model incorporates a comprehensive set'
+- Reason: Report the implemented missing-data coding, the post-processing missingness rate, and whether XGBoost native missing-value routing was invoked.
+- Kila decisions: KILA-D-20260829-005, KILA-D-20260829-006
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T05:22:32Z
+- Author: anonymous
+- Markup SHA-256 before: `b7d11cae405ae7dbe12f0c360aa5b861ddea2389bb058016fbcf7be73cfb4922`
+- Markup SHA-256 after: `6d5f5b11e631202a9db517d18644ab8443687655593bdf9d18671d68e2d35253`
+- Revision IDs: `362`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T142232690679.reviewer-3-comment-6.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The model incorporates a comprehensive set of socio-demographic controls at both the individual and household levels. These controls help isolate the relationship between disaster exposure and health outcomes. Socio-demographic controls include respondent age, gender, literacy, and education; household demographic composition, such as shares of female, elderly, young, and educated members. Indicators of economic status cover residence ownership and type, asset ownership, agricultural land, access to communication and transportation assets, and distances to services, including the nearest health center. Spatial identifiers for province and ecological belt control for geographic and climatic heterogeneity. Descriptive statistics for all variables are reported in Table 1.
+~~~~
+
+- After:
+
+~~~~text
+The model incorporates a comprehensive set of socio-demographic controls at both the individual and household levels. These controls help isolate the relationship between disaster exposure and health outcomes. Socio-demographic controls include respondent age, gender, literacy, and education; household demographic composition, such as shares of female, elderly, young, and educated members. Indicators of economic status cover residence ownership and type, asset ownership, agricultural land, access to communication and transportation assets, and distances to services, including the nearest health center. Spatial identifiers for province and ecological belt control for geographic and climatic heterogeneity. Descriptive statistics for all variables are reported in Table 1. Missing values were handled during data preprocessing. Binary indicators followed an affirmative-only (‘yes-is-yes’) rule: a value of 1 was assigned only when the respondent explicitly reported the defining condition, while all other responses were coded as 0. For continuous variables, structurally inapplicable entries were assigned their logical zero value, such as agricultural-experience years for households without agricultural land, whereas observations with genuine missing continuous values were subject to complete-case exclusion. No applicable continuous values remained missing, so this step removed no observations. The final analytical dataset comprised 11,568 households with no missing values across the 64 predictors and outcome (0%); consequently, XGBoost’s native missing-value routing was not invoked.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " Missing values were handled during data preprocessing. Binary indicators followed an affirmative-only (‘yes-is-yes’) rule: a value of 1 was assigned only when the respondent explicitly reported the defining condition, while all other responses were coded as 0. For continuous variables, structurally inapplicable entries were assigned their logical zero value, such as agricultural-experience years for households without agricultural land, whereas observations with genuine missing continuous values were subject to complete-case exclusion. No applicable continuous values remained missing, so this step removed no observations. The final analytical dataset comprised 11,568 households with no missing values across the 64 predictors and outcome (0%); consequently, XGBoost’s native missing-value routing was not invoked."
