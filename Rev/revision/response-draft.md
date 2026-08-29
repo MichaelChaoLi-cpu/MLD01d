@@ -475,9 +475,11 @@ Reviewer #3: This study uses a pooled cross-sectional sample of 11,568 household
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for raising this important distinction. The 25-year residence criterion defines a long-term-resident sample, but it does not, by itself, establish uninterrupted physical presence or rule out temporary disaster-related evacuation followed by return. At the same time, our analysis does not include a measure of displacement history, so it cannot identify which respondents experienced temporary displacement or estimate that pathway; people who left their communities after a disaster and consequently did not meet the residence criterion are outside the analytic sample. The displacement and migration discussion in the Introduction was intended to summarize a general health pathway identified in the broader climate-health literature, rather than to imply that the present study analyzes health outcomes among displaced or migrant populations. We agree that the previous two-sentence discussion gave this pathway disproportionate prominence relative to the study scope. We have therefore condensed it to a single background sentence in the Introduction.
 
-"[Exact revised text will be inserted after verification.]"
+The revised text reads:
+
+"The broader literature also identifies that extreme climate events may displace populations, disrupt livelihoods and social networks, and place additional pressure on public health systems (Ali et al., 2026; Cai et al., 2024; Neira et al., 2023)."
 
 (Lines/Pages: human verification required)
 

@@ -1540,3 +1540,42 @@ Figure 7: Spatial Heterogeneity in Climate Change Knowledge Prediction Differenc
      - Before: ""
      - After: " Prediction Differences"
 
+## reviewer-3/comment-1
+
+### part-01
+
+- Location: Introduction, first paragraph, displacement and migration pathway discussion
+- Reason: Present displacement as a proportionate general literature background pathway without implying that the study directly analyzes displaced or migrant populations.
+- Kila decisions: KILA-D-20260829-001, KILA-D-20260829-002
+- Mode: `replace`
+- Timestamp: 2026-08-29T00:51:22Z
+- Author: anonymous
+- Markup SHA-256 before: `fdcecd4cb3960562fedf6664d9374cc522bee172a5c538f133bd14f39deb6c5b`
+- Markup SHA-256 after: `3a689f7220d7c79ca3be6763d504e86e097568f70e87de33d8fd0420061d1e6a`
+- Revision IDs: `353, 354, 355, 356`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T095122823973.reviewer-3-comment-1.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `6e3ceae216f0c4101517f9a6a20a8f53fe4c999a4d4cbef3a2f0c3b4acefa265`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Extreme climate events also displace populations, disrupting livelihoods, fragmenting social networks, and placing additional pressure on already strained public health systems (Ali et al., 2026; Cai et al., 2024; Neira et al., 2023). Forced migration often results in overcrowded temporary settlements, inadequate sanitation infrastructure, and limited access to clean water and medical services, thereby increasing the risk of communicable disease transmission and long-term health deterioration.
+~~~~
+
+- After:
+
+~~~~text
+The broader literature also identifies population displacement and related disruptions to livelihoods and essential services as potential health pathways of extreme climate events (Ali et al., 2026; Cai et al., 2024; Neira et al., 2023).
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Extreme"
+     - After: "The broader literature also identifies population displacement and related disruptions to livelihoods and essential services as potential health pathways of extreme"
+  2. `delete`
+     - Before: " also displace populations, disrupting livelihoods, fragmenting social networks, and placing additional pressure on already strained public health systems"
+     - After: ""
+  3. `delete`
+     - Before: " Forced migration often results in overcrowded temporary settlements, inadequate sanitation infrastructure, and limited access to clean water and medical services, thereby increasing the risk of communicable disease transmission and long-term health deterioration."
+     - After: ""
