@@ -377,9 +377,27 @@ The manuscript compares XGBoost with logistic regression but provides limited in
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for this important suggestion. We have expanded the Analytical Framework, Results, and Supplementary Materials to provide a like-for-like comparison between XGBoost and conventional logistic regression. The logistic model uses the same 11,568 households, outcome, 64 predictors, and outcome-stratified 10-fold splits as XGBoost, with the lbfgs solver, L2 regularization (C=1), the existing analytical matrix without standardization, and no added interaction terms. In addition to the 100-iteration specification, we ran a diagnostic refit that changed only the maximum number of iterations to 5,000. Table S2 now reports discrimination, threshold-based performance, Brier score, log loss, calibration intercept and slope, the Hosmer–Lemeshow statistic, convergence warnings, and whether the iteration limit was reached.
 
-"[Exact revised text will be inserted after verification.]"
+The ordinary logistic model reached its iteration limit with convergence warnings in all 10 folds under both iteration settings. Its performance values are therefore reported transparently as diagnostic benchmarks rather than as estimates from a converged fit. The 100-iteration model yielded an AUC of 0.637 and accuracy of 61.87%, while the 5,000-iteration diagnostic refit yielded an AUC of 0.670 and accuracy of 64.50%; the corresponding XGBoost values were 0.773 and 71.46%. We have also clarified the methodological rationale for XGBoost: it retains the prespecified covariate information without outcome-driven screening, accommodates nonlinear relationships and high-order interactions without estimating a full-rank coefficient vector, and controls model complexity through regularization and row and column subsampling. Finally, we replaced the unqualified baseline-superiority wording in the Summary and Results with the validated out-of-fold metric and explicit convergence diagnostics.
+
+The revised main-text passages read:
+
+"Findings: The model achieved 71.4% validation accuracy and an out-of-fold AUC of 0.773."
+
+(Lines/Pages: human verification required)
+
+"Unlike ordinary logistic regression, XGBoost does not require estimation of a full-rank coefficient vector, allowing the prespecified covariate set to be retained without outcome-driven variable screening; regularization and row and column subsampling constrain model complexity. For comparison, we fit an L2-penalized ordinary logistic regression using the same 11,568 households, outcome, 64 predictors, and outcome-stratified 10-fold splits. Detailed specifications and diagnostics are reported in Supplementary Materials Table S2."
+
+(Lines/Pages: human verification required)
+
+"The corresponding out-of-fold AUC was 0.773. Under identical outcome-stratified 10-fold splits, the ordinary logistic regression yielded an AUC of 0.637 and accuracy of 61.87%, but reached its iteration limit with convergence warnings in all 10 folds. Increasing the maximum iterations from 100 to 5,000 did not resolve convergence; its performance values are therefore treated as diagnostic benchmarks, with full specifications and goodness-of-fit diagnostics reported in Supplementary Materials Table S2."
+
+(Lines/Pages: human verification required)
+
+The following detailed description has also been added to the Supplementary Materials:
+
+"To provide a conventional benchmark, we fit ordinary binary logistic regression using the same 11,568 households, outcome, 64 predictors, and identical outcome-stratified 10-fold splits used for XGBoost. The model used the lbfgs solver with L2 regularization (C=1), the existing analytical matrix without standardization, and no added interaction terms. The default fit used a maximum of 100 iterations; a diagnostic refit changed only the maximum to 5,000. Convergence was assessed from fold-specific warnings and whether the iteration limit was reached. Predictive diagnostics included AUC, accuracy, balanced accuracy, sensitivity, specificity, precision, F1 score, Brier score, and log loss. Calibration intercept and slope and the Hosmer–Lemeshow statistic were also calculated; given the large sample, the Hosmer–Lemeshow test was interpreted together with the Brier and calibration measures."
 
 (Lines/Pages: human verification required)
 

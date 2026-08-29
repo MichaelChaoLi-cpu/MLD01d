@@ -1732,3 +1732,140 @@ This performance outperformed the logistic regression baseline mean of 61.8% as 
      - Before: ""
      - After: " In the wave-specific sensitivity analysis, the 2016 and 2022 models achieve AUCs of 0.779 and 0.774 and accuracies of 70.89% and 72.36%, respectively, indicating closely comparable predictive performance."
 
+## reviewer-2/comment-5
+
+### part-01
+
+- Location: Methods > Analytical Framework, paragraph beginning 'The study uses XGBoost' (approved integrated bundle part 1 of 4)
+- Reason: Describe the fair ordinary-logistic comparator and explain the affirmative methodological rationale for retaining XGBoost with the prespecified high-dimensional covariate set.
+- Kila decisions: KILA-D-20260829-013, KILA-D-20260829-014, KILA-D-20260829-016, KILA-D-20260829-017
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T12:40:32Z
+- Author: Kila
+- Markup SHA-256 before: `304137f448ee52ddc573c7f0fe763d14d7302945aae39d9a430fd354120d4317`
+- Markup SHA-256 after: `f24f9631dbd3b97d95b4fdba7e970899f609637a1d964e61240a7ac8f1303805`
+- Revision IDs: `379`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T214032908697.reviewer-2-comment-5.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+XGBoost captures nonlinear relationships and high-order interactions without imposing parametric constraints—properties particularly valuable when marginal effects may vary with exposure level, socioeconomic status, and geographic context (Chen & Guestrin, 2016; Li & Managi, 2025; Li et al., 2026).
+~~~~
+
+- After:
+
+~~~~text
+XGBoost captures nonlinear relationships and high-order interactions without imposing parametric constraints—properties particularly valuable when marginal effects may vary with exposure level, socioeconomic status, and geographic context (Chen & Guestrin, 2016; Li & Managi, 2025; Li et al., 2026). Unlike ordinary logistic regression, XGBoost does not require estimation of a full-rank coefficient vector, allowing the prespecified covariate set to be retained without outcome-driven variable screening; regularization and row and column subsampling constrain model complexity. For comparison, we fit an L2-penalized ordinary logistic regression using the same 11,568 households, outcome, 64 predictors, and outcome-stratified 10-fold splits, without added interaction terms. Detailed specifications and diagnostics are reported in Supplementary Materials Table S2.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " Unlike ordinary logistic regression, XGBoost does not require estimation of a full-rank coefficient vector, allowing the prespecified covariate set to be retained without outcome-driven variable screening; regularization and row and column subsampling constrain model complexity. For comparison, we fit an L2-penalized ordinary logistic regression using the same 11,568 households, outcome, 64 predictors, and outcome-stratified 10-fold splits, without added interaction terms. Detailed specifications and diagnostics are reported in Supplementary Materials Table S2."
+
+### part-02
+
+- Location: Results, paragraph beginning 'The XGBoost classification model identifies cumulative disaster exposure' (approved integrated bundle part 2 of 4)
+- Reason: Replace the unqualified logistic-superiority statement with concrete same-fold performance and explicit non-convergence diagnostics.
+- Kila decisions: KILA-D-20260829-013, KILA-D-20260829-014, KILA-D-20260829-016, KILA-D-20260829-017
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T12:40:44Z
+- Author: Kila
+- Markup SHA-256 before: `f24f9631dbd3b97d95b4fdba7e970899f609637a1d964e61240a7ac8f1303805`
+- Markup SHA-256 after: `c5ea2422842f1bd273a0f4a036d8c9fddb03806a2239d5964d1d0b1616a24a0d`
+- Revision IDs: `380, 381, 382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393, 394, 395`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T214044146361.reviewer-2-comment-5.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+This performance outperformed the logistic regression baseline mean of 61.8% as listed in Supplementary Materials Table S2.
+~~~~
+
+- After:
+
+~~~~text
+The corresponding out-of-fold AUC was 0.773. Under identical outcome-stratified 10-fold splits, the ordinary logistic regression yielded an AUC of 0.637 and accuracy of 61.87%, but reached its iteration limit with convergence warnings in all 10 folds. Increasing the maximum iterations from 100 to 5,000 did not resolve convergence; its performance values are therefore treated as diagnostic benchmarks, with full specifications and goodness-of-fit diagnostics reported in Supplementary Materials Table S2.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "This"
+     - After: "The"
+  2. `replace`
+     - Before: "performance"
+     - After: "corresponding"
+  3. `replace`
+     - Before: "outperformed"
+     - After: "out-of-fold AUC was 0.773. Under identical outcome-stratified 10-fold splits,"
+  4. `insert`
+     - Before: ""
+     - After: " ordinary"
+  5. `replace`
+     - Before: "baseline"
+     - After: "yielded"
+  6. `replace`
+     - Before: "mean"
+     - After: "an AUC of 0.637 and accuracy"
+  7. `replace`
+     - Before: "8"
+     - After: "87"
+  8. `insert`
+     - Before: ""
+     - After: ", but reached its iteration limit with convergence warnings in all 10 folds. Increasing the maximum iterations from 100 to 5,000 did not resolve convergence; its performance values are therefore treated"
+  9. `replace`
+     - Before: "listed"
+     - After: "diagnostic benchmarks, with full specifications and goodness-of-fit diagnostics reported"
+
+### part-01-reedit-01
+
+- Location: Methods > Analytical Framework, sentence beginning 'For comparison, we fit an L2-penalized ordinary logistic regression'
+- Reason: Keep the main-text comparator description concise while retaining the complete interaction-term specification in the Supplementary Materials.
+- Kila decisions: KILA-D-20260829-019
+- Mode: `reedit`
+- Revises prior parts: reviewer-2/comment-5#part-01
+- Timestamp: 2026-08-29T13:32:32Z
+- Author: anonymous
+- Markup SHA-256 before: `3bb236018dda151764aa9f0ae27603492bcc8fb4218fec9e96050afcc7227cd1`
+- Markup SHA-256 after: `2fd9864f2402ae2fb91e74e41812d9c8dfa5eb3a7521b79a89d44145f8d7cea7`
+- Revision IDs: `109`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T223232489578.reviewer-2-comment-5.part-01-reedit-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+For comparison, we fit an L2-penalized ordinary logistic regression using the same 11,568 households, outcome, 64 predictors, and outcome-stratified 10-fold splits, without added interaction terms.
+~~~~
+
+- After:
+
+~~~~text
+For comparison, we fit an L2-penalized ordinary logistic regression using the same 11,568 households, outcome, 64 predictors, and outcome-stratified 10-fold splits.
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: ", without added interaction terms"
+     - After: ""
+
