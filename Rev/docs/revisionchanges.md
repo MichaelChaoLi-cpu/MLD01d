@@ -2262,3 +2262,42 @@ Across the out-of-fold predictions, the XGBoost model achieved an accuracy of 71
   1. `replace`
      - Before: "The XGBoost model achieved a mean classification accuracy of 71·4% with a standard deviation of 0.014."
      - After: "Across the out-of-fold predictions, the XGBoost model achieved an accuracy of 71.46%, balanced accuracy of 67.55%, sensitivity/recall of 49.55%, specificity of 85.56%, precision of 68.84%, and F1 score of 57.62%; the Brier score was 0.187 and log loss was 0.551."
+
+## reviewer-1/comment-4
+
+### part-01
+
+- Location: Methods > Analytical framework, sentence beginning 'Spatial aggregation across province-ecological belt units'
+- Reason: Clarify that the spatial maps use the Government of Nepal administrative boundary while the ecological-belt layer is author-derived from JAXA global DSM elevation data.
+- Kila decisions: KILA-D-20260830-011, KILA-D-20260830-012, KILA-D-20260830-013
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T07:05:40Z
+- Author: Kila
+- Markup SHA-256 before: `705e3f935946edb3266ba77cbb8259fbaf3717d96b5c3cc8b1c964a90a07a09c`
+- Markup SHA-256 after: `a4d782632ae5539d8bf6df864aec554033f84c3cd174cddf4ec399a313d7f9c6`
+- Revision IDs: `458`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260830T160540678130.reviewer-1-comment-4.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Spatial aggregation across province-ecological belt units and socioeconomic subgroup analyses characterize heterogeneity in disaster-related health risks.
+~~~~
+
+- After:
+
+~~~~text
+Spatial aggregation across province-ecological belt units and socioeconomic subgroup analyses characterize heterogeneity in disaster-related health risks. The spatial maps use the Government of Nepal administrative-boundary shapefile. Ecological-belt boundaries (Mountain, Hill, and Terai) are derived by the authors through elevation-based classification of JAXA global DSM data because an official EcoBelt vector layer was not available from the Government of Nepal.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " The spatial maps use the Government of Nepal administrative-boundary shapefile. Ecological-belt boundaries (Mountain, Hill, and Terai) are derived by the authors through elevation-based classification of JAXA global DSM data because an official EcoBelt vector layer was not available from the Government of Nepal."

@@ -188,9 +188,27 @@ All figures should be updated using the Government of Nepal approached shape fil
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for this comment. We have updated all five spatial figures (Figures 1–4 and 7) using the Government of Nepal administrative-boundary shapefile. During this update, we also corrected administrative-name matching issues in the original mapping workflow so that the survey units align consistently with the updated boundary layer. For the ecological-belt component, an official EcoBelt vector layer was not available from the Government of Nepal. We therefore use the study's Mountain, Hill, and Terai classification derived from elevation using JAXA global DSM data. The revised Methods section now states both the administrative-boundary source and the ecological-belt construction method.
 
-"[Exact revised text will be inserted after verification.]"
+The revised text and updated figure locations read (five representative locations shown from six changed locations):
+
+"The spatial maps use the Government of Nepal administrative-boundary shapefile. Ecological-belt boundaries (Mountain, Hill, and Terai) are derived by the authors through elevation-based classification of JAXA global DSM data because an official EcoBelt vector layer was not available from the Government of Nepal."
+
+(Lines/Pages: human verification required)
+
+"Figure 1: Spatial Distribution of Respondents in Each Wave"
+
+(Lines/Pages: human verification required)
+
+"Figure 2: Regional Average Probability of Household Disease Incidence in Each Wave"
+
+(Lines/Pages: human verification required)
+
+"Figure 4: Regional Average Percentage of Population with Climate Knowledge in Each Wave"
+
+(Lines/Pages: human verification required)
+
+"Figure 7: Spatial Heterogeneity in Climate Change Knowledge Prediction Differences"
 
 (Lines/Pages: human verification required)
 
