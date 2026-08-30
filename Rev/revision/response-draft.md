@@ -364,9 +364,21 @@ Reporting only an overall accuracy of 71.4% provides an incomplete evaluation of
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for this helpful request. We have expanded the Analytical Framework, Results, and Supplementary Materials to describe the model-evaluation procedure and report a complete set of performance measures. The tuned XGBoost model is evaluated using outcome-stratified 10-fold cross-validation with shuffling, so each household contributes one prediction from a fold in which it was held out and each fold uses 90% of the sample for training and 10% for testing. We now report the outcome prevalence, the absence of over- or undersampling and class weighting, the probability threshold, and discrimination, classification, and probabilistic performance metrics. The Summary reports validation accuracy and out-of-fold AUC, while Supplementary Materials Table S2 provides the complete performance and diagnostic results. We also clarify that these values represent cross-validated out-of-fold performance rather than independent external validation.
 
-"[Exact revised text will be inserted after verification.]"
+The revised main-text passages read:
+
+"The model minimizes a binary cross-entropy loss function. Hyperparameters were optimized via random search over 500 iterations, tuning learning rate, maximum tree depth, number of estimators, and subsampling ratios. Using the selected hyperparameters, predictive performance is evaluated through outcome-stratified 10-fold cross-validation with shuffling (seed 42). Each fold uses 90% of the sample for training and 10% for held-out testing, so every household contributes one out-of-fold prediction. The outcome prevalence is 39.17%, and stratification preserves this distribution across folds; no over- or undersampling or class weighting is applied. Threshold-based metrics use a probability threshold of 0.5. We report AUC, accuracy, balanced accuracy, sensitivity/recall, specificity, precision, F1 score, Brier score, and log loss. These estimates represent cross-validated out-of-fold performance rather than independent external validation."
+
+(Lines/Pages: human verification required)
+
+"Across the out-of-fold predictions, the XGBoost model achieved an accuracy of 71.46%, balanced accuracy of 67.55%, sensitivity/recall of 49.55%, specificity of 85.56%, precision of 68.84%, and F1 score of 57.62%; the Brier score was 0.187 and log loss was 0.551. The corresponding out-of-fold AUC was 0.773."
+
+(Lines/Pages: human verification required)
+
+The revised Supplementary Materials text reads:
+
+"We conduct a systematic hyperparameter tuning process using 500 random-search iterations across a predefined parameter space. The tuned parameters include learning rate, maximum tree depth, number of estimators, and row and column subsampling ratios. Using the selected hyperparameters, we evaluate the XGBoost model with outcome-stratified 10-fold cross-validation shuffled with seed 42. Each fold uses 90% of households for training and 10% for held-out testing, and the fold-specific predictions are combined so that each household contributes one out-of-fold prediction. The outcome prevalence is 39.17%; stratification preserves this distribution across folds, and no over- or undersampling or class weighting is applied. Threshold-based metrics use a probability threshold of 0.5. We report AUC, accuracy, balanced accuracy, sensitivity/recall, specificity, precision, F1 score, Brier score, and log loss (Table S2). These values describe cross-validated out-of-fold performance rather than independent external validation."
 
 (Lines/Pages: human verification required)
 

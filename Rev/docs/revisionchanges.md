@@ -1981,3 +1981,81 @@ The out-of-fold TreeSHAP analysis ranks multi-hazard exposure count first and cl
      - Before: ""
      - After: "106 log-odds for no and −0.135 log-odds for yes; those for multi-hazard exposure increase from −0.534 in the lowest exposure quartile to 0.387 in the highest."
 
+## reviewer-2/comment-4
+
+### part-01
+
+- Location: Methods > Analytical Framework, paragraph beginning 'We use the XGBoost machine learning algorithm'
+- Reason: Replace the generic train-test description with the approved outcome-stratified ten-fold out-of-fold evaluation design, class-balance handling, threshold, metric set, and validation boundary.
+- Kila decisions: KILA-D-20260829-016, KILA-D-20260829-023
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T14:44:41Z
+- Author: Kila
+- Markup SHA-256 before: `b95a866b28e29e36b40b68571985cfa4d995daf8586a29058e9bb3c3af9a8191`
+- Markup SHA-256 after: `0c604564dbf046e6df348f1ef717a676f17fe380a74b1009276df08a84e23e1d`
+- Revision IDs: `431, 432`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T234441330443.reviewer-2-comment-4.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The model minimizes a binary cross-entropy loss function and is trained on a reproducible train-test split. Hyperparameters were optimized via random search over 500 iterations, tuning learning rate, maximum tree depth, number of estimators, and subsampling ratios.
+~~~~
+
+- After:
+
+~~~~text
+The model minimizes a binary cross-entropy loss function. Hyperparameters were optimized via random search over 500 iterations, tuning learning rate, maximum tree depth, number of estimators, and subsampling ratios. Using the selected hyperparameters, predictive performance is evaluated through outcome-stratified 10-fold cross-validation with shuffling (seed 42). Each fold uses 90% of the sample for training and 10% for held-out testing, so every household contributes one out-of-fold prediction. The outcome prevalence is 39.17%, and stratification preserves this distribution across folds; no over- or undersampling or class weighting is applied. Threshold-based metrics use a probability threshold of 0.5. We report AUC, accuracy, balanced accuracy, sensitivity/recall, specificity, precision, F1 score, Brier score, and log loss. These estimates represent cross-validated out-of-fold performance rather than independent external validation.
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: " and is trained on a reproducible train-test split"
+     - After: ""
+  2. `insert`
+     - Before: ""
+     - After: " Using the selected hyperparameters, predictive performance is evaluated through outcome-stratified 10-fold cross-validation with shuffling (seed 42). Each fold uses 90% of the sample for training and 10% for held-out testing, so every household contributes one out-of-fold prediction. The outcome prevalence is 39.17%, and stratification preserves this distribution across folds; no over- or undersampling or class weighting is applied. Threshold-based metrics use a probability threshold of 0.5. We report AUC, accuracy, balanced accuracy, sensitivity/recall, specificity, precision, F1 score, Brier score, and log loss. These estimates represent cross-validated out-of-fold performance rather than independent external validation."
+
+### part-02
+
+- Location: Results, paragraph beginning 'The XGBoost classification model identifies cumulative disaster exposure'
+- Reason: Replace the accuracy-only statement with the approved complete out-of-fold performance metrics; the human performed this part in Word after the machine dry-run was blocked by incompatible run styles.
+- Kila decisions: KILA-D-20260829-016, KILA-D-20260829-023, KILA-D-20260830-001
+- Mode: `human-manual-replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T09:01:52+09:00
+- Author: Jie MI
+- Markup SHA-256 before: `0c604564dbf046e6df348f1ef717a676f17fe380a74b1009276df08a84e23e1d`
+- Markup SHA-256 after: `c78de5e7e3ac1ae8f99c3ccf26f0f6a1443ccf566dd2809c263f6f731168a7ce`
+- Revision IDs: `128, 129`
+- Recovery source: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260829T234441330443.reviewer-2-comment-4.part-01.docx` (the Results target is unchanged in this pre-part-01 backup)
+- Paragraph properties preserved: `true`
+- Run style verification: deferred to consolidated fresh-clean visual review
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The XGBoost model achieved a mean classification accuracy of 71·4% with a standard deviation of 0.014.
+~~~~
+
+- After:
+
+~~~~text
+Across the out-of-fold predictions, the XGBoost model achieved an accuracy of 71.46%, balanced accuracy of 67.55%, sensitivity/recall of 49.55%, specificity of 85.56%, precision of 68.84%, and F1 score of 57.62%; the Brier score was 0.187 and log loss was 0.551.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "The XGBoost model achieved a mean classification accuracy of 71·4% with a standard deviation of 0.014."
+     - After: "Across the out-of-fold predictions, the XGBoost model achieved an accuracy of 71.46%, balanced accuracy of 67.55%, sensitivity/recall of 49.55%, specificity of 85.56%, precision of 68.84%, and F1 score of 57.62%; the Brier score was 0.187 and log loss was 0.551."
