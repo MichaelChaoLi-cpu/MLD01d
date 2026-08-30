@@ -224,9 +224,28 @@ The discussion section should be strengthened linking with climate change and he
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for this constructive suggestion. We have strengthened the Discussion by linking the study's principal findings to Nepal's National Adaptation Plan (NAP) 2021–2050, Health National Adaptation Plan (HNAP) 2023–2030, and Nationally Determined Contribution (NDC) 3.0. Specifically, the revised policy-linkage paragraph relates the nonlinear cumulative-exposure pattern to multi-hazard early warning and emergency preparedness, the spatial heterogeneity to disease surveillance, climate-resilient health infrastructure, and water, sanitation, and hygiene services, and the larger knowledge-related prediction contrast among households with lower literacy and education ratios to public awareness, capacity building, and health-workforce training. We have placed our recommendations in a separate paragraph so that the relationship with existing national priorities is distinguished clearly from the study's proposed targeting and evaluation implications. We have also added the three Government of Nepal policy documents to the References.
 
-"[Exact revised text will be inserted after verification.]"
+The revised Discussion text and policy reference entries read:
+
+"These findings have policy relevance for targeting and programme design. The nonlinear increase in predicted disease probability as households accumulate distinct hazard types is directly relevant to the National Adaptation Plan (NAP) 2021–2050 and Nationally Determined Contribution (NDC) 3.0 priorities for multi-hazard early-warning systems and emergency preparedness, because it indicates that monitoring and response planning should consider cumulative exposure rather than isolated events (Government of Nepal, 2021, 2025). The spatial heterogeneity across province–ecological belt units is likewise relevant to the NAP and Health National Adaptation Plan (HNAP) 2023–2030 priorities for climate-sensitive disease surveillance, climate-resilient health infrastructure, and water, sanitation, and hygiene services (Government of Nepal, 2021, 2023). The larger knowledge-related prediction contrast among households with lower literacy and education ratios adds a population-targeting dimension to the HNAP’s public-awareness and capacity-building priorities and NDC 3.0’s health-workforce training agenda, indicating where community-level climate-health communication may warrant greater emphasis (Government of Nepal, 2023, 2025)."
+
+(Lines/Pages: human verification required)
+
+"Within these policy frameworks, infrastructure reinforcement and medical resource allocation should be prioritised in high-risk province-ecological belt units where multi-hazard intensity and disease burden coincide, particularly in the Terai and Hill regions. Simultaneously, targeted climate-health education delivered through community health programmes may complement general education and literacy, particularly where broader human-capital resources are limited and the knowledge-related prediction contrast in Figure 8 is larger; this targeted approach reinforces rather than replaces general education and structural health protection. Given that the present study measures climate change knowledge, disaster exposure, and household disease change in the same interview, prospective evaluations of such programmes could use separate measures of climate-health knowledge and preparedness practices alongside independently assessed health outcomes. This would clarify how information translates into action and health benefits."
+
+(Lines/Pages: human verification required)
+
+"Government of Nepal. (2021). National Adaptation Plan of Nepal."
+
+(Lines/Pages: human verification required)
+
+"Government of Nepal. (2023). Climate Change Health Adaptation
+Strategy and Action Plan (2023-2030)."
+
+(Lines/Pages: human verification required)
+
+"Government of Nepal. (2025). Nepal's Nationally Determined Contribution (NDC) 3.0."
 
 (Lines/Pages: human verification required)
 
@@ -653,9 +672,47 @@ The revised text reads:
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for raising this concern. We agree that the pooled cross-sectional design supports associative and predictive interpretation rather than claims that climate change knowledge mitigates, buffers, or reduces disease risk. The manuscript-wide language revision now uses association, predicted-probability difference, and knowledge-status contrast consistently across the title, Summary, Methods, Results, Discussion, conclusion, and figure captions. The revised limitations also state explicitly that the design precludes causal inference and that reverse causation cannot be excluded.
 
-"[Exact revised text will be inserted after verification.]"
+The revised text reads (10 representative locations shown from 15 changed locations):
+
+"Climate Knowledge Is Associated with Lower Health Risks from Multi-Hazard Exposure: Evidence from Nepal"
+
+(Lines/Pages: human verification required)
+
+"Interpretation: Cumulative multi-hazard exposure is associated with increased household disease risk in a nonlinear pattern, and climate change knowledge is associated with a lower predicted probability of disease increase. Targeted climate-health education delivered through community health programmes may complement general education and structural health protection in hazard-prone populations across South and Southeast Asia."
+
+(Lines/Pages: human verification required)
+
+"To characterize the marginal association between each predictor and the predicted outcome, we compute partial dependence plots (PDPs) that average model predictions over the observed distribution of all other covariates(Molnar, 2020). Subgroup PDPs stratified by climate knowledge status characterize differences in predicted probabilities across knowledge groups."
+
+(Lines/Pages: human verification required)
+
+"Climate change knowledge is associated with differences in the predicted probability of increased household disease incidence across the cumulative disaster-exposure gradient. The y-axis of the PDPs is the mean predicted probability of new disease occurrence. As shown in Figure 6, across the full exposure gradient, households with climate change knowledge exhibit a consistently lower predicted probability of disease increase compared with those without. The prediction difference widens as disaster counts increase and is largest under high multi-hazard exposure. At lower exposure levels the difference is modest, but it expands substantially as households accumulate four or more distinct hazard types."
+
+(Lines/Pages: human verification required)
+
+"Spatial analysis shows that the climate-knowledge prediction difference varies across Nepal’s province-ecological belt units, as shown in Figure 7. Larger negative prediction differences are concentrated in several western and eastern units, while parts of central Nepal show comparatively smaller differences. This spatial heterogeneity indicates that the association between climate change knowledge and predicted disease risk varies across local environmental, infrastructural, and socioeconomic contexts."
+
+(Lines/Pages: human verification required)
+
+"This study provides evidence that cumulative multi-hazard exposure is associated with increased household disease risk in Nepal, and that the predicted disaster-disease pattern varies by climate change knowledge status. Three central findings emerge. Multi-hazard exposure is the dominant predictor of increased disease incidence, with a nonlinear exposure-response pattern characterized by rapid risk escalation during initial hazard accumulation and saturation at high exposure levels. Climate change knowledge is consistently associated with lower predicted disease probability across the full exposure gradient, with the prediction difference widening at higher disaster counts. Substantial spatial and socioeconomic heterogeneity indicates that these predictive patterns vary by geographic context and household characteristics."
+
+(Lines/Pages: human verification required)
+
+"The variation in predicted disease probability by climate change knowledge status aligns with theoretical frameworks linking cognitive awareness to proactive health-seeking behaviour, including pre-emptive protection of water sources, improved hygiene practices, and earlier care-seeking during periods of environmental stress (Hossain, 2025; Iyer & Alphonsa Jose, 2025). The larger knowledge-related prediction difference at high disaster counts indicates that the observed association is strongest when environmental conditions are most severe. This pattern is consistent with evidence from comparable low-resource settings, where information-based interventions have demonstrated measurable reductions in climate-related health risks even in the absence of strong material adaptive capacity (Dumitraşcu et al., 2026; Mantilla et al., 2025). The spatial heterogeneity in knowledge-related prediction differences across province-ecological belt units, and the attenuation of disaster-disease associations among more educated households, further indicate that the observed association varies with local infrastructure, socioeconomic resources, and human capital (Ali et al., 2026; Negi et al., 2025; Sandilya & Goswami, 2025)."
+
+(Lines/Pages: human verification required)
+
+"Second, the pooled cross-sectional design precludes causal inference; findings reflect associations between perceived disaster exposure and perceived health deterioration."
+
+(Lines/Pages: human verification required)
+
+"Reverse causation also cannot be excluded because perceived household health deterioration may influence climate-change awareness or the retrospective reporting of disaster exposure."
+
+(Lines/Pages: human verification required)
+
+"Multi-hazard exposure and climate change knowledge are associated with predicted household disease incidence in Nepal, with nonlinear and spatially heterogeneous patterns. These findings support disaster risk reduction strategies that account for cumulative hazard accumulation rather than isolated events and position targeted climate-health education as a potential complement to general education and structural health protection in hazard-prone populations."
 
 (Lines/Pages: human verification required)
 
