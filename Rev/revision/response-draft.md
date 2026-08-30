@@ -561,9 +561,21 @@ The revised text reads:
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for requesting this clarification. Yes, survey wave is included in the pooled model as a survey-year indicator distinguishing the 2016 and 2022 observations, and the revised Variables section states this explicitly. The indicator is included to account for wave-level differences when the two nationally representative samples are analysed together.
 
-"[Exact revised text will be inserted after verification.]"
+We also examine whether pooling obscures temporal differences through a complementary wave-specific sensitivity analysis. The same XGBoost specification is fitted separately to the 2016 and 2022 samples. Survey year is omitted only from these wave-specific models because it has no within-wave variation; all other predictors, the pooled-model hyperparameters, and the outcome-stratified 10-fold cross-validation procedure are retained. This design allows the two waves to be compared under a common specification rather than under separately optimized models. The resulting discrimination and accuracy are closely comparable across waves. Detailed wave-specific performance metrics and prediction curves are reported in Supplementary Materials Table S3 and Figure S2. Thus, survey year is controlled in the pooled analysis, while the stratified sensitivity analysis provides an additional check that the central patterns are not produced solely by pooling the two survey waves.
+
+The revised text reads:
+
+"The pooled model also includes a survey-year indicator (2016 or 2022) to control for wave-level differences."
+
+(Lines/Pages: human verification required)
+
+"To examine whether pooling masks temporal differences, we fit the same XGBoost specification separately to the 2016 and 2022 samples. Survey year is omitted from these wave-specific models because it is constant within each wave; all other predictors, the pooled-model hyperparameters, and outcome-stratified 10-fold cross-validation are retained. Using common hyperparameters provides a direct same-specification comparison without wave-specific re-optimization."
+
+(Lines/Pages: human verification required)
+
+"In the wave-specific sensitivity analysis, the 2016 and 2022 models achieve AUCs of 0.779 and 0.774 and accuracies of 70.89% and 72.36%, respectively, indicating closely comparable predictive performance."
 
 (Lines/Pages: human verification required)
 
