@@ -285,9 +285,35 @@ Nepal specific more literature need to be reviewed and including in discussion s
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for this suggestion. We have expanded the Discussion with six additional Nepal-specific primary studies that are distinct from the disease-focused evidence and official policy documents added in response to the preceding comments. The new paragraph reviews evidence on climate-risk perception across ecological settings, differences in protection motivation, the gap between perceived climatic change and reported adaptation, and the financial, informational, agency, institutional, and livelihood-resource constraints that shape adaptive capacity. This evidence strengthens the interpretation of our knowledge-related and geographic contrasts while preserving the distinction between basic climate awareness and actual preparedness or adaptive action.
 
-"[Exact revised text will be inserted after verification.]"
+The revised text and all six added reference entries read:
+
+"Nepal-specific research places these knowledge-related and geographic patterns in a broader context of risk perception and adaptive capacity. Studies across central Nepal and the Khumbu region show that perceptions of climate change and its health and environmental impacts vary by elevation and by perceived vulnerability, efficacy, and response costs  (Phuyal et al., 2025; Poudyal et al., 2021). Although more than 80% of surveyed households in the Koshi River Basin perceived climatic changes, only 32% reported agricultural adaptation (Hussain et al., 2018); studies elsewhere in Nepal similarly identify financial, informational, agency, and institutional constraints on adaptation  (Choquette-Levy et al., 2025; Gurung et al., 2021). Together with evidence that livelihood assets shape household vulnerability across ecological settings (Pandey & Bardsley, 2015), these findings support interpreting the present knowledge-related contrasts as context dependent rather than equating awareness with preparedness or adaptive action."
+
+(Lines/Pages: human verification required)
+
+"Choquette-Levy, N., Ghimire, D., Oppenheimer, M., Ghimire, R., & Ck, D. (2025). Retrenchment under climate-driven risks in subsistence farming communities. Population and Environment, 47(2), 22. https://doi.org/10.1007/s11111-025-00493-8"
+
+(Lines/Pages: human verification required)
+
+"Gurung, L. J., Miller, K. K., Venn, S., & Bryan, B. A. (2021). Climate change adaptation for managing non-timber forest products in the Nepalese Himalaya. Science of The Total Environment, 796, 148853. https://doi.org/https://doi.org/10.1016/j.scitotenv.2021.148853"
+
+(Lines/Pages: human verification required)
+
+"Hussain, A., Rasul, G., Mahapatra, B., Wahid, S., & Tuladhar, S. (2018). Climate change-induced hazards and local adaptations in agriculture: a study from Koshi River Basin, Nepal. Natural Hazards, 91(3), 1365-1383. https://doi.org/10.1007/s11069-018-3187-1"
+
+(Lines/Pages: human verification required)
+
+"Pandey, R., & Bardsley, D. K. (2015). Social-ecological vulnerability to climate change in the Nepali Himalaya. Applied Geography, 64, 74-86. https://doi.org/https://doi.org/10.1016/j.apgeog.2015.09.008"
+
+(Lines/Pages: human verification required)
+
+"Phuyal, P., Kramer, I. M., Kadel, I., Wouters, E., Magdeburg, A., Groneberg, D. A., Kuch, U., Ahrens, B., Dhimal, M. L., Dhimal, M., & Müller, R. (2025). On people’s perceptions of climate change and its impacts in a hotspot of global warming. PLOS ONE, 20(2), e0317786. https://doi.org/10.1371/journal.pone.0317786"
+
+(Lines/Pages: human verification required)
+
+"Poudyal, N. C., Joshi, O., Hodges, D. G., Bhandari, H., & Bhattarai, P. (2021). Climate change, risk perception, and protection motivation among high-altitude residents of the Mt. Everest region in Nepal. Ambio, 50(2), 505-518. https://doi.org/10.1007/s13280-020-01369-x"
 
 (Lines/Pages: human verification required)
 
