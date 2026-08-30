@@ -150,9 +150,15 @@ In line 95-97, it is mentioned that "Future longitudinal and quasi-experimental 
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for highlighting that the earlier wording grouped future study designs too broadly. We have revised both the Research in Context and Discussion sections to distinguish the questions these designs address. Longitudinal studies can help establish temporal ordering but do not by themselves eliminate confounding. Interrupted time-series analysis is now identified explicitly as one quasi-experimental option for evaluating policy or programme implementation using repeated observations before and after implementation. Randomised controlled trials are distinct from quasi-experimental designs. If future climate-health education is delivered at the community level, a cluster-randomised design could be considered, where feasible and ethically appropriate, to evaluate its effects on preparedness practices and health outcomes. The revised language therefore presents these approaches as complementary rather than treating quasi-experimental research as the only or universally preferred option.
 
-"[Exact revised text will be inserted after verification.]"
+The revised text reads:
+
+"Future research should match study design to the question. Longitudinal studies can establish temporal ordering, while natural or quasi-experimental designs, including interrupted time-series analyses, can evaluate policy or programme implementation. Where feasible and ethically appropriate, cluster-randomised controlled trials can test whether community-based climate-health education improves preparedness practices and health outcomes."
+
+(Lines/Pages: human verification required)
+
+"Fifth, the XGBoost framework does not address potential endogeneity between climate knowledge and health outcomes. Future research should use designs matched to the question, including longitudinal studies to establish temporal ordering, interrupted time-series analyses or other natural or quasi-experimental approaches to evaluate policy or programme implementation, and, where feasible and ethically appropriate, cluster-randomised controlled trials to test the effects of community-based climate-health education on preparedness practices and health outcomes."
 
 (Lines/Pages: human verification required)
 
