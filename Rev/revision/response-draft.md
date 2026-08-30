@@ -573,9 +573,23 @@ The revised text reads:
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for this important point. The Methods section now states explicitly that the outcome, multi-hazard exposure, and climate-change knowledge measures are reported by the same respondent in the same interview. We have also carried this caveat through the Discussion rather than confining it to the limitations paragraph. The revised interpretation presents shared reporting tendencies and reverse causation as alternative explanations for part of the observed knowledge-related pattern, while the revised policy section recommends prospective evaluation that measures knowledge, preparedness practices, and health outcomes separately. The limitations paragraph retains and consolidates the corresponding boundaries concerning retrospective judgment, reporting heterogeneity, common-method bias, and reverse causation.
 
-"[Exact revised text will be inserted after verification.]"
+The revised text reads:
+
+"The survey measures used for the outcome, multi-hazard exposure, and climate-change knowledge are all reported by the same respondent in the same interview."
+
+(Lines/Pages: human verification required)
+
+"At the same time, because climate change knowledge, disaster exposure, and household disease change are reported by the same respondent in the same interview, shared reporting tendencies and the possibility that perceived health deterioration shapes climate-change awareness or retrospective exposure reporting remain alternative explanations for part of the observed pattern."
+
+(Lines/Pages: human verification required)
+
+"Because the present survey measures climate change knowledge, reported disaster exposure, and reported disease change in the same interview, such programmes should be accompanied by prospective evaluation that separately measures climate-health knowledge, preparedness practices, and independently assessed health outcomes. This would clarify how information translates into action and health benefits."
+
+(Lines/Pages: human verification required)
+
+"Second, the pooled cross-sectional design precludes causal inference; findings reflect associations between perceived disaster exposure and perceived health deterioration. The outcome asks one respondent to compare family illness with conditions 25 years earlier, and the outcome, exposure, and climate-knowledge measures are reported by the same respondent in the same interview. The outcome therefore captures perceived change rather than clinically verified incidence and may vary with memory, respondent age or education, proxy reporting for other household members, and interpretation of the reference period. Correlated reporting tendencies may create common-method bias and influence the magnitude or direction of the observed associations; consequently, the findings should not be interpreted as estimates of objective disease incidence. Reverse causation also cannot be excluded because perceived household health deterioration may influence climate-change awareness or the retrospective reporting of disaster exposure."
 
 (Lines/Pages: human verification required)
 

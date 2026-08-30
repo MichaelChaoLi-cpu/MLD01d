@@ -232,6 +232,209 @@ Reverse causation also cannot be excluded because perceived household health det
      - Before: ""
      - After: "Reverse causation also cannot be excluded because perceived household health deterioration may influence subsequent climate-change awareness or the reporting of past disaster exposure. "
 
+### part-03
+
+- Location: Discussion, climate change knowledge interpretation paragraph
+- Reason: Carry the shared-reporting and reverse-causation caveat into the interpretation of the knowledge-related pattern, as approved in bundle part 1 of 3.
+- Kila decisions: KILA-D-20260830-005
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T02:23:33Z
+- Author: Kila
+- Markup SHA-256 before: `c78de5e7e3ac1ae8f99c3ccf26f0f6a1443ccf566dd2809c263f6f731168a7ce`
+- Markup SHA-256 after: `ffca20660f70286d12a09fe084b949961c61425961cfc5455af55f72296f3c0b`
+- Revision IDs: `435`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260830T112333647253.reviewer-3-comment-3.part-03.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The variation in predicted disease probability by climate change knowledge status aligns with theoretical frameworks linking cognitive awareness to proactive health-seeking behaviour, including pre-emptive protection of water sources, improved hygiene practices, and earlier care-seeking during periods of environmental stress (Hossain, 2025; Iyer & Alphonsa Jose, 2025). The larger knowledge-related prediction difference at high disaster counts indicates that the observed association is strongest when environmental conditions are most severe. This pattern is consistent with evidence from comparable low-resource settings, where information-based interventions have demonstrated measurable reductions in climate-related health risks even in the absence of strong material adaptive capacity (Dumitraşcu et al., 2026; Mantilla et al., 2025). The spatial heterogeneity in knowledge-related prediction differences across province-ecological belt units, and the attenuation of disaster-disease associations among more educated households, further indicate that the observed association varies with local infrastructure, socioeconomic resources, and human capital (Ali et al., 2026; Negi et al., 2025; Sandilya & Goswami, 2025).
+~~~~
+
+- After:
+
+~~~~text
+The variation in predicted disease probability by climate change knowledge status aligns with theoretical frameworks linking cognitive awareness to proactive health-seeking behaviour, including pre-emptive protection of water sources, improved hygiene practices, and earlier care-seeking during periods of environmental stress (Hossain, 2025; Iyer & Alphonsa Jose, 2025). The larger knowledge-related prediction difference at high disaster counts indicates that the observed association is strongest when environmental conditions are most severe. This pattern is consistent with evidence from comparable low-resource settings, where information-based interventions have demonstrated measurable reductions in climate-related health risks even in the absence of strong material adaptive capacity (Dumitraşcu et al., 2026; Mantilla et al., 2025). The spatial heterogeneity in knowledge-related prediction differences across province-ecological belt units, and the attenuation of disaster-disease associations among more educated households, further indicate that the observed association varies with local infrastructure, socioeconomic resources, and human capital (Ali et al., 2026; Negi et al., 2025; Sandilya & Goswami, 2025). At the same time, because climate change knowledge, disaster exposure, and household disease change are reported by the same respondent in the same interview, shared reporting tendencies and the possibility that perceived health deterioration shapes climate-change awareness or retrospective exposure reporting remain alternative explanations for part of the observed pattern.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " At the same time, because climate change knowledge, disaster exposure, and household disease change are reported by the same respondent in the same interview, shared reporting tendencies and the possibility that perceived health deterioration shapes climate-change awareness or retrospective exposure reporting remain alternative explanations for part of the observed pattern."
+
+### part-04
+
+- Location: Discussion, policy paragraph beginning 'These findings have direct policy implications'
+- Reason: Carry the shared-reporting and temporal-ordering caveat into a constructive programme-evaluation recommendation while preserving the approved substantive policy priorities, as approved in bundle part 2 of 3.
+- Kila decisions: KILA-D-20260830-005
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T02:24:00Z
+- Author: Kila
+- Markup SHA-256 before: `ffca20660f70286d12a09fe084b949961c61425961cfc5455af55f72296f3c0b`
+- Markup SHA-256 after: `8d9ad60cee279519c8dee4ed267868d9f6d18ba87b9532786acdb22b20a8d02e`
+- Revision IDs: `436, 437, 438, 439, 440`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260830T112400350693.reviewer-3-comment-3.part-04.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `18be3bb9140ea30c36fd7dfe87069732fa45498a7648c9ef61bdf41873cfd67b`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+These findings have direct policy implications. Infrastructure reinforcement and medical resource allocation should be prioritised in high-risk province-ecological belt units where multi-hazard intensity and disease burden coincide, particularly in the Terai and Hill regions. Simultaneously, targeted climate-health education delivered through community health programmes may complement general education and literacy, particularly where broader human-capital resources are limited and the knowledge-related prediction contrast in Figure 8 is larger; this targeted approach reinforces rather than replaces general education and structural health protection. Disaster risk reduction frameworks should move beyond single-hazard approaches to address the cumulative and nonlinear nature of multi-hazard health threats (Erdem (Erdem Okumus, 2025; O’Donnell & Sovacool, 2026).
+~~~~
+
+- After:
+
+~~~~text
+These findings have policy relevance for targeting and programme design. Infrastructure reinforcement and medical resource allocation should be prioritised in high-risk province-ecological belt units where multi-hazard intensity and disease burden coincide, particularly in the Terai and Hill regions. Simultaneously, targeted climate-health education delivered through community health programmes may complement general education and literacy, particularly where broader human-capital resources are limited and the knowledge-related prediction contrast in Figure 8 is larger; this targeted approach reinforces rather than replaces general education and structural health protection. Because the present survey measures climate change knowledge, reported disaster exposure, and reported disease change in the same interview, such programmes should be accompanied by prospective evaluation that separately measures climate-health knowledge, preparedness practices, and independently assessed health outcomes. This would clarify how information translates into action and health benefits. Disaster risk reduction frameworks should move beyond single-hazard approaches to address the cumulative and nonlinear nature of multi-hazard health threats (Erdem Okumus, 2025; O’Donnell & Sovacool, 2026).
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "direct "
+     - After: ""
+  2. `replace`
+     - Before: "implications"
+     - After: "relevance for targeting and programme design"
+  3. `insert`
+     - Before: ""
+     - After: "Because the present survey measures climate change knowledge, reported disaster exposure, and reported disease change in the same interview, such programmes should be accompanied by prospective evaluation that separately measures climate-health knowledge, preparedness practices, and independently assessed health outcomes. This would clarify how information translates into action and health benefits. "
+  4. `delete`
+     - Before: "(Erdem "
+     - After: ""
+
+### part-03-reapply-01
+
+- Location: Discussion, climate change knowledge interpretation paragraph
+- Reason: Restore the already approved interpretation sentence after the human Word save for part 05 replaced a stale open copy and removed the earlier machine insertion.
+- Kila decisions: KILA-D-20260830-005, KILA-D-20260830-006
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T02:35:02Z
+- Author: Kila
+- Markup SHA-256 before: `98b6787b9de6285b8a3b4c4a1ae72a36b3f1dd58a22a2724e226a8c7c54e9e24`
+- Markup SHA-256 after: `c0c719cb3da67ffbf079e69d5053408480932de07643e3b5c19a1aa7245398d9`
+- Revision IDs: `452`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260830T113502465515.reviewer-3-comment-3.part-03-reapply-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The variation in predicted disease probability by climate change knowledge status aligns with theoretical frameworks linking cognitive awareness to proactive health-seeking behaviour, including pre-emptive protection of water sources, improved hygiene practices, and earlier care-seeking during periods of environmental stress (Hossain, 2025; Iyer & Alphonsa Jose, 2025). The larger knowledge-related prediction difference at high disaster counts indicates that the observed association is strongest when environmental conditions are most severe. This pattern is consistent with evidence from comparable low-resource settings, where information-based interventions have demonstrated measurable reductions in climate-related health risks even in the absence of strong material adaptive capacity (Dumitraşcu et al., 2026; Mantilla et al., 2025). The spatial heterogeneity in knowledge-related prediction differences across province-ecological belt units, and the attenuation of disaster-disease associations among more educated households, further indicate that the observed association varies with local infrastructure, socioeconomic resources, and human capital (Ali et al., 2026; Negi et al., 2025; Sandilya & Goswami, 2025).
+~~~~
+
+- After:
+
+~~~~text
+The variation in predicted disease probability by climate change knowledge status aligns with theoretical frameworks linking cognitive awareness to proactive health-seeking behaviour, including pre-emptive protection of water sources, improved hygiene practices, and earlier care-seeking during periods of environmental stress (Hossain, 2025; Iyer & Alphonsa Jose, 2025). The larger knowledge-related prediction difference at high disaster counts indicates that the observed association is strongest when environmental conditions are most severe. This pattern is consistent with evidence from comparable low-resource settings, where information-based interventions have demonstrated measurable reductions in climate-related health risks even in the absence of strong material adaptive capacity (Dumitraşcu et al., 2026; Mantilla et al., 2025). The spatial heterogeneity in knowledge-related prediction differences across province-ecological belt units, and the attenuation of disaster-disease associations among more educated households, further indicate that the observed association varies with local infrastructure, socioeconomic resources, and human capital (Ali et al., 2026; Negi et al., 2025; Sandilya & Goswami, 2025). At the same time, because climate change knowledge, disaster exposure, and household disease change are reported by the same respondent in the same interview, shared reporting tendencies and the possibility that perceived health deterioration shapes climate-change awareness or retrospective exposure reporting remain alternative explanations for part of the observed pattern.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " At the same time, because climate change knowledge, disaster exposure, and household disease change are reported by the same respondent in the same interview, shared reporting tendencies and the possibility that perceived health deterioration shapes climate-change awareness or retrospective exposure reporting remain alternative explanations for part of the observed pattern."
+
+### part-04-reapply-01
+
+- Location: Discussion, policy paragraph beginning 'These findings have direct policy implications'
+- Reason: Restore the already approved policy revision after the human Word save for part 05 replaced a stale open copy and removed the earlier machine changes.
+- Kila decisions: KILA-D-20260830-005, KILA-D-20260830-006
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T02:35:50Z
+- Author: Kila
+- Markup SHA-256 before: `c0c719cb3da67ffbf079e69d5053408480932de07643e3b5c19a1aa7245398d9`
+- Markup SHA-256 after: `705e3f935946edb3266ba77cbb8259fbaf3717d96b5c3cc8b1c964a90a07a09c`
+- Revision IDs: `453, 454, 455, 456, 457`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260830T113550356424.reviewer-3-comment-3.part-04-reapply-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `18be3bb9140ea30c36fd7dfe87069732fa45498a7648c9ef61bdf41873cfd67b`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+These findings have direct policy implications. Infrastructure reinforcement and medical resource allocation should be prioritised in high-risk province-ecological belt units where multi-hazard intensity and disease burden coincide, particularly in the Terai and Hill regions. Simultaneously, targeted climate-health education delivered through community health programmes may complement general education and literacy, particularly where broader human-capital resources are limited and the knowledge-related prediction contrast in Figure 8 is larger; this targeted approach reinforces rather than replaces general education and structural health protection. Disaster risk reduction frameworks should move beyond single-hazard approaches to address the cumulative and nonlinear nature of multi-hazard health threats (Erdem (Erdem Okumus, 2025; O’Donnell & Sovacool, 2026).
+~~~~
+
+- After:
+
+~~~~text
+These findings have policy relevance for targeting and programme design. Infrastructure reinforcement and medical resource allocation should be prioritised in high-risk province-ecological belt units where multi-hazard intensity and disease burden coincide, particularly in the Terai and Hill regions. Simultaneously, targeted climate-health education delivered through community health programmes may complement general education and literacy, particularly where broader human-capital resources are limited and the knowledge-related prediction contrast in Figure 8 is larger; this targeted approach reinforces rather than replaces general education and structural health protection. Because the present survey measures climate change knowledge, reported disaster exposure, and reported disease change in the same interview, such programmes should be accompanied by prospective evaluation that separately measures climate-health knowledge, preparedness practices, and independently assessed health outcomes. This would clarify how information translates into action and health benefits. Disaster risk reduction frameworks should move beyond single-hazard approaches to address the cumulative and nonlinear nature of multi-hazard health threats (Erdem Okumus, 2025; O’Donnell & Sovacool, 2026).
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "direct "
+     - After: ""
+  2. `replace`
+     - Before: "implications"
+     - After: "relevance for targeting and programme design"
+  3. `insert`
+     - Before: ""
+     - After: "Because the present survey measures climate change knowledge, reported disaster exposure, and reported disease change in the same interview, such programmes should be accompanied by prospective evaluation that separately measures climate-health knowledge, preparedness practices, and independently assessed health outcomes. This would clarify how information translates into action and health benefits. "
+  4. `delete`
+     - Before: "(Erdem "
+     - After: ""
+
+### part-05
+
+- Location: Discussion, complete limitations paragraph beginning 'Several limitations should be acknowledged'
+- Reason: Reorganize the limitations without a deliberate shortening target, explicitly connect same-interview reporting to common-method bias and reverse causation, and preserve all limitation and contribution commitments approved for earlier reviewer comments.
+- Kila decisions: KILA-D-20260830-004, KILA-D-20260830-005, KILA-D-20260830-006
+- Mode: `human-manual-replace`
+- Revises prior parts: `reviewer-2/comment-1#part-02`, `reviewer-2/comment-3#part-02`, `reviewer-3/comment-3#part-02`, `reviewer-2/comment-7#part-02`
+- Timestamp: 2026-08-30T11:30:00+09:00
+- Author: Jie MI
+- Markup SHA-256 before: `8d9ad60cee279519c8dee4ed267868d9f6d18ba87b9532786acdb22b20a8d02e`
+- Markup SHA-256 after human save: `98b6787b9de6285b8a3b4c4a1ae72a36b3f1dd58a22a2724e226a8c7c54e9e24`
+- Revision IDs created or updated by the human save in this paragraph: `355, 357, 358, 360, 361, 363, 364, 366, 367, 369, 370, 372, 373, 375, 376, 378, 379, 381, 382, 384, 385, 387, 388, 390, 393, 394`
+- Recovery source: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260830T112400350693.reviewer-3-comment-3.part-04.docx` (the limitations target is unchanged in this pre-part-04 backup)
+- Paragraph properties preserved: pending consolidated fresh-clean visual review
+- Run style verification: deferred to consolidated fresh-clean visual review
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Several limitations should be acknowledged. The data capture conditions reported in the 2016 and 2022 survey waves. Given the time gap between the survey periods and the analysis, subsequent changes in hazard patterns, health-service access, climate information, adaptation practices, and disease conditions may have altered the magnitude and geographic distribution of the observed relationships. The findings should therefore be interpreted in relation to the survey periods. Within this temporal scope, the analysis identifies the nonlinear relationship between cumulative multi-hazard exposure and reported household disease change and shows how this relationship varies with climate change knowledge and across geographic and socioeconomic groups. These results provide specific priorities for current monitoring, including whether risk remains concentrated after multiple hazards, where knowledge-related differences persist, and which population groups continue to experience greater vulnerability. First, the pooled cross-sectional design precludes causal inference; findings reflect associations between perceived disaster exposure and perceived health deterioration. Second, the outcome asks one respondent to compare family illness with conditions 25 years earlier, while the exposure and climate-knowledge measures are also self-reported. The outcome therefore captures perceived change rather than clinically verified incidence and may vary with memory, respondent age or education, proxy reporting for other household members, and interpretation of the reference period. Correlated reporting tendencies may also create common-method bias and influence the magnitude or direction of observed associations; consequently, the findings should not be interpreted as estimates of objective disease incidence. Reverse causation also cannot be excluded because perceived household health deterioration may influence subsequent climate-change awareness or the reporting of past disaster exposure. Third, the binary climate knowledge measure captures basic awareness and may reflect access to climate-related information, but it does not measure the depth or accuracy of understanding, risk perception, preparedness, adaptive actions, or the resources needed to implement them. It should therefore be interpreted as an awareness indicator rather than as a direct measure of behavioural change, preparedness, or adaptive capacity. Accordingly, the observed moderation pattern should be interpreted as an association with reported awareness status, rather than as evidence that awareness translated into behavioural adaptation or improved preparedness. Although the model includes distance to the nearest health center, residence characteristics, province, and ecological belt as proxies for access and structural or geographic context, it does not include direct measures of baseline health status, health-service affordability, quality or use, household water and sanitation conditions, or local disease epidemiology. Residual confounding by these factors may affect the magnitude or direction of the observed associations, which should therefore be interpreted as descriptive and predictive patterns rather than causally identified effects. Fourth, the XGBoost framework does not address potential endogeneity between climate knowledge and health outcomes; longitudinal or quasi-experimental designs would strengthen causal identification. Fifth, spatial dependence and spillover effects are not explicitly modelled, and geographically weighted approaches could further illuminate regional drivers of climate-health vulnerability.
+~~~~
+
+- After:
+
+~~~~text
+Several limitations should be acknowledged. First, the data capture conditions reported in the 2016 and 2022 survey waves. Given the time gap between the survey periods and the analysis, subsequent changes in hazard patterns, health-service access, climate information, adaptation practices, and disease conditions may have altered the magnitude and geographic distribution of the observed relationships. The findings should therefore be interpreted in relation to the survey periods. Within this temporal scope, the analysis identifies the nonlinear relationship between cumulative multi-hazard exposure and reported household disease change and shows how this relationship varies with climate change knowledge and across geographic and socioeconomic groups. These results provide specific priorities for current monitoring, including whether risk remains concentrated after multiple hazards, where knowledge-related differences persist, and which population groups continue to experience greater vulnerability. Second, the pooled cross-sectional design precludes causal inference; findings reflect associations between perceived disaster exposure and perceived health deterioration. The outcome asks one respondent to compare family illness with conditions 25 years earlier, and the outcome, exposure, and climate-knowledge measures are reported by the same respondent in the same interview. The outcome therefore captures perceived change rather than clinically verified incidence and may vary with memory, respondent age or education, proxy reporting for other household members, and interpretation of the reference period. Correlated reporting tendencies may create common-method bias and influence the magnitude or direction of the observed associations; consequently, the findings should not be interpreted as estimates of objective disease incidence. Reverse causation also cannot be excluded because perceived household health deterioration may influence climate-change awareness or the retrospective reporting of disaster exposure. Third, the binary climate knowledge measure captures basic awareness and may reflect access to climate-related information, but it does not measure the depth or accuracy of understanding, risk perception, preparedness, adaptive actions, or the resources needed to implement them. It should therefore be interpreted as an awareness indicator rather than as a direct measure of behavioural change, preparedness, or adaptive capacity; accordingly, the observed moderation pattern is not evidence that awareness translated into behavioural adaptation or improved preparedness. Fourth, although the model includes distance to the nearest health center, residence characteristics, province, and ecological belt as proxies for access and structural or geographic context, it does not include direct measures of baseline health status, health-service affordability, quality or use, household water and sanitation conditions, or local disease epidemiology. Residual confounding by these factors may affect the magnitude or direction of the observed associations, which should therefore be interpreted as descriptive and predictive patterns rather than causally identified effects. Fifth, the XGBoost framework does not address potential endogeneity between climate knowledge and health outcomes; longitudinal or quasi-experimental designs would strengthen causal identification. Spatial dependence and spillover effects are also not explicitly modelled, and geographically weighted approaches could further illuminate regional drivers of climate-health vulnerability.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Complete prior limitations paragraph"
+     - After: "Complete approved content-preserving limitations paragraph"
+
 ## reviewer-2/comment-7
 
 ### part-01
