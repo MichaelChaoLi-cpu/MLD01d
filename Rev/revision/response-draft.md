@@ -608,9 +608,19 @@ The revised text reads:
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for this important point and for suggesting the medical-education study. We have revised the Research in Context and Discussion to present climate-health education as a component to be evaluated alongside general education and structural protection, rather than as an intervention already shown to reduce disease incidence. We also cite Segala et al. (2024) only as contextual evidence of climate-health knowledge gaps and limited curricular provision among young doctors and medical students. Because that study is cross-sectional and does not evaluate an educational intervention or disease outcomes, we do not use it as evidence that education alone reduces disease incidence. The manuscript continues to recommend prospective evaluation using separate measures of knowledge, preparedness practices, and independently assessed health outcomes.
 
-"[Exact revised text will be inserted after verification.]"
+The revised text and added reference read:
+
+"Public health and disaster risk reduction strategies in Nepal and similar hazard-prone settings could therefore evaluate climate-health education as one component alongside targeted investments in health systems, water and sanitation, and local preparedness."
+
+(Lines/Pages: human verification required)
+
+"Simultaneously, targeted climate-health education delivered through community health programmes  could be evaluated as a complement to general education and literacy, particularly where broader human-capital resources are limited and the knowledge-related prediction contrast in Figure 8 is larger; this targeted approach would reinforce rather than replace general education and structural health protection. An Italian national survey documenting climate-health knowledge gaps and limited curricular provision among young doctors and medical students provides additional context for health-workforce education (Segala et al., 2024)."
+
+(Lines/Pages: human verification required)
+
+"Segala, F. V., Di Gennaro, F., Giannini, L. A. A., Stroffolini, G., Colpani, A., De Vito, A., Di Gregorio, S., Frallonardo, L., Guido, G., Novara, R., Amendolara, A., Ritacco, I. A., Ferrante, F., Masini, L., Iannetti, I., Mazzeo, S., Marello, S., Veronese, N., Gobbi, F., . . . Saracino, A. (2024). Perspectives on climate action and the changing burden of infectious diseases among young Italian doctors and students: a national survey [Original Research]. Frontiers in Public Health, Volume 12 - 2024. https://doi.org/10.3389/fpubh.2024.1382505"
 
 (Lines/Pages: human verification required)
 
