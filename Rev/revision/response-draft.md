@@ -236,9 +236,27 @@ There is perception of people on increase risk of disease due to climate change.
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
+Thank you for this helpful suggestion. We have expanded the Discussion by relating the respondent-reported household disease pattern to Nepal-specific epidemiological, entomological, synthesis, and modelling evidence on diarrhoeal and vector-borne diseases. The revised paragraph reports the national associations of childhood diarrhoeal incidence with temperature and rainfall, summarizes field evidence on the distribution and climatic determinants of disease vectors across Nepal's elevation gradient, and incorporates evidence on the expansion and thermal suitability of vector-borne disease risk in highland and mid-hill areas. We also clarify that these disease-specific studies provide scientific context for the perceived household disease changes identified in our analysis while operating at different analytical scales. Five supporting studies have been added to the References.
 
-"[Exact revised text will be inserted after verification.]"
+The revised text and representative reference entries read (five representative locations shown from six changed locations):
+
+"The reported household disease pattern is also consistent with Nepal-specific epidemiological and entomological evidence on climate-sensitive diseases. A national ecological time-series analysis found that childhood diarrhoeal incidence increased by 4.4% per 1 °C increase in mean temperature and by 0.28% per 1 cm increase in rainfall, with the largest estimated effects in mountain regions (Dhimal et al., 2022). Field studies documented vectors of dengue and lymphatic filariasis across Nepal’s elevation gradient and showed that temperature, rainfall, and relative humidity predicted vector abundance (Dhimal et al., 2015; Dhimal et al., 2014). A systematic synthesis of the Hindu Kush Himalayan region and recent Nepal-wide modelling further indicate expansion of vector-borne disease risk into highland areas and longer periods of thermal suitability for dengue in the mid-hills and major urban centres (Acharya et al., 2025; Dhimal et al., 2021). Although these studies use disease-specific outcomes at different analytical scales, they provide Nepal-specific scientific context for the perceived household disease changes identified in our analysis."
+
+(Lines/Pages: human verification required)
+
+"Acharya, B. K., Khanal, L., & Dhimal, M. (2025). Increased thermal suitability elevates the risk of dengue transmission across the mid hills of Nepal. PLOS ONE, 20(4), e0322031. https://doi.org/10.1371/journal.pone.0322031"
+
+(Lines/Pages: human verification required)
+
+"Dhimal, M., Bhandari, D., Karki, K. B., Shrestha, S. L., Khanal, M., Shrestha, R. R., Dahal, S., Bista, B., Ebi, K. L., Cissé, G., Sapkota, A., & Groneberg, D. A. (2022). Effects of Climatic Factors on Diarrheal Diseases among Children below 5 Years of Age at National and Subnational Levels in Nepal: An Ecological Study. International Journal of Environmental Research and Public Health, 19(10), 6138."
+
+(Lines/Pages: human verification required)
+
+"Dhimal, M., Gautam, I., Kreß, A., Müller, R., & Kuch, U. (2014). Spatio-Temporal Distribution of Dengue and Lymphatic Filariasis Vectors along an Altitudinal Transect in Central Nepal. PLOS Neglected Tropical Diseases, 8(7), e3035. https://doi.org/10.1371/journal.pntd.0003035"
+
+(Lines/Pages: human verification required)
+
+"Dhimal, M., Gautam, I., Joshi, H. D., O’Hara, R. B., Ahrens, B., & Kuch, U. (2015). Risk Factors for the Presence of Chikungunya and Dengue Vectors (Aedes aegypti and Aedes albopictus), Their Altitudinal Distribution and Climatic Determinants of Their Abundance in Central Nepal. PLOS Neglected Tropical Diseases, 9(3), e0003545. https://doi.org/10.1371/journal.pntd.0003545"
 
 (Lines/Pages: human verification required)
 
