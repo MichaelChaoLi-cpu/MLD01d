@@ -323,11 +323,7 @@ This is a timely and potentially impactful manuscript addressing an important pu
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
-
-"[Exact revised text will be inserted after verification.]"
-
-(Lines/Pages: human verification required)
+Thank you for recognizing the timeliness, novelty, and potential policy relevance of this study, and for identifying the methodological and reporting issues that required clarification. We have addressed each concern in the detailed responses below. The revised manuscript clarifies the recency and temporal limitations of the survey data, consistently presents the findings as non-causal associations, and defines the respondent-reported outcome and its measurement limitations. We have also expanded the Analytical Framework, Results, and Supplementary Materials to provide outcome-stratified out-of-fold validation with comprehensive performance metrics, a fully specified logistic-regression comparison and diagnostics, out-of-fold TreeSHAP analyses, and wave-specific sensitivity analyses. Finally, the revision more clearly distinguishes measured proxies from residual confounding, basic climate-change awareness from preparedness or adaptive capacity, and contextual educational evidence from intervention effectiveness. These changes improve the manuscript’s methodological transparency, robustness, interpretability, and precision in communicating its policy implications.
 
 ## Comment 1
 
