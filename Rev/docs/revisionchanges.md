@@ -2301,3 +2301,769 @@ Spatial aggregation across province-ecological belt units and socioeconomic subg
   1. `insert`
      - Before: ""
      - After: " The spatial maps use the Government of Nepal administrative-boundary shapefile. Ecological-belt boundaries (Mountain, Hill, and Terai) are derived by the authors through elevation-based classification of JAXA global DSM data because an official EcoBelt vector layer was not available from the Government of Nepal."
+
+## reviewer-1/comment-1
+
+### part-01
+
+- Location: Research in Context > Implications, final sentence
+- Reason: Distinguish the questions addressed by longitudinal, interrupted time-series or other natural/quasi-experimental, and cluster-randomised controlled designs.
+- Kila decisions: `KILA-D-20260830-019`, `KILA-D-20260830-020`
+- Mode: `human-manual-replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T17:22:57+09:00
+- Author: Jie MI
+- Markup SHA-256 before human save: `2f20c5b17b071b942eb32b1029426ae49684333bc0450a098da1a28cdff12bd8`
+- Markup SHA-256 after final human save: `a83634d56501ec56104f8e4bfb62434c1c48b5ed89eef90d2f57ef5071e0d29e`
+- Revision IDs created by the human save in this paragraph: `39, 40`
+- Backup: human Word edit; no new machine backup was created
+- Paragraph properties preserved: verified in fresh clean and rendered markup
+- Run style verification: verified in fresh clean and rendered markup
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: effective state unchanged; `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Future longitudinal and quasi-experimental studies are required to clarify causal pathways and test whether community-based climate-health education can reduce disaster-related disease burden.
+~~~~
+
+- After:
+
+~~~~text
+Future research should match study design to the question. Longitudinal studies can establish temporal ordering, while natural or quasi-experimental designs, including interrupted time-series analyses, can evaluate policy or programme implementation. Where feasible and ethically appropriate, cluster-randomised controlled trials can test whether community-based climate-health education improves preparedness practices and health outcomes.
+~~~~
+
+- Minimal tracked fragments:
+  1. `human-manual-replace`
+     - Before: "Future longitudinal and quasi-experimental studies are required to clarify causal pathways and test whether community-based climate-health education can reduce disaster-related disease burden."
+     - After: "Future research should match study design to the question. Longitudinal studies can establish temporal ordering, while natural or quasi-experimental designs, including interrupted time-series analyses, can evaluate policy or programme implementation. Where feasible and ethically appropriate, cluster-randomised controlled trials can test whether community-based climate-health education improves preparedness practices and health outcomes."
+
+### part-02
+
+- Location: Discussion > limitations paragraph, sentence beginning 'Fifth, the XGBoost framework'
+- Reason: Explain how future designs address temporal ordering, policy or programme implementation, and intervention effects, while preserving the separate spatial-dependence limitation.
+- Kila decisions: `KILA-D-20260830-019`, `KILA-D-20260830-020`
+- Mode: `human-manual-replace`
+- Revises prior parts: `reviewer-3/comment-3#part-05`, `reviewer-2/comment-7#part-02`
+- Timestamp: 2026-08-30T17:22:57+09:00
+- Author: Jie MI
+- Markup SHA-256 before human save: `2f20c5b17b071b942eb32b1029426ae49684333bc0450a098da1a28cdff12bd8`
+- Markup SHA-256 after final human save: `a83634d56501ec56104f8e4bfb62434c1c48b5ed89eef90d2f57ef5071e0d29e`
+- Human revision IDs created or updated in this paragraph: `364–366, 368–406`
+- Correction history: the first human save removed the following spatial-dependence sentence; the final human save restored it before fresh-clean approval
+- Backup: human Word edit; no new machine backup was created
+- Paragraph properties preserved: verified in fresh clean and rendered markup
+- Run style verification: verified in fresh clean and rendered markup
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: effective state unchanged; `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Fifth, the XGBoost framework does not address potential endogeneity between climate knowledge and health outcomes; longitudinal or quasi-experimental designs would strengthen causal identification. Spatial dependence and spillover effects are also not explicitly modelled, and geographically weighted approaches could further illuminate regional drivers of climate-health vulnerability.
+~~~~
+
+- After:
+
+~~~~text
+Fifth, the XGBoost framework does not address potential endogeneity between climate knowledge and health outcomes. Future research should use designs matched to the question, including longitudinal studies to establish temporal ordering, interrupted time-series analyses or other natural or quasi-experimental approaches to evaluate policy or programme implementation, and, where feasible and ethically appropriate, cluster-randomised controlled trials to test the effects of community-based climate-health education on preparedness practices and health outcomes. Spatial dependence and spillover effects are also not explicitly modelled, and geographically weighted approaches could further illuminate regional drivers of climate-health vulnerability.
+~~~~
+
+- Minimal tracked fragments:
+  1. `human-manual-replace`
+     - Before: "Fifth, the XGBoost framework does not address potential endogeneity between climate knowledge and health outcomes; longitudinal or quasi-experimental designs would strengthen causal identification."
+     - After: "Fifth, the XGBoost framework does not address potential endogeneity between climate knowledge and health outcomes. Future research should use designs matched to the question, including longitudinal studies to establish temporal ordering, interrupted time-series analyses or other natural or quasi-experimental approaches to evaluate policy or programme implementation, and, where feasible and ethically appropriate, cluster-randomised controlled trials to test the effects of community-based climate-health education on preparedness practices and health outcomes."
+  2. `preserve-after-correction`
+     - Text: "Spatial dependence and spillover effects are also not explicitly modelled, and geographically weighted approaches could further illuminate regional drivers of climate-health vulnerability."
+
+## reviewer-1/comment-6
+
+### part-01
+
+- Location: Discussion, between the nonlinear multi-hazard interpretation and the climate-change-knowledge interpretation
+- Reason: Add Nepal-specific epidemiological, entomological, synthesis, and modelling evidence for diarrhoeal and vector-borne disease patterns requested by the reviewer while distinguishing the analytical scales from the present household outcome.
+- Kila decisions: `KILA-D-20260830-022`, `KILA-D-20260830-023`, `KILA-D-20260830-024`, `KILA-D-20260830-025`
+- Mode: `human-manual-insert-with-endnote-fields`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T18:34:49+09:00
+- Author: Jie MI
+- Markup SHA-256 before human implementation: `a83634d56501ec56104f8e4bfb62434c1c48b5ed89eef90d2f57ef5071e0d29e`
+- Markup SHA-256 after final EndNote update: `4f72ecb292e5dd116ecbc144ba176bd39432e2bd1bc0a9ca493aabad5b25e1de`
+- Revision IDs: `282` for the inserted Discussion prose; EndNote citation fields are embedded within the inserted paragraph
+- Backup: human Word edit; no new machine backup was created
+- Paragraph properties preserved: verified in fresh clean and rendered markup
+- Run style verification: verified in fresh clean and rendered markup
+- Formula verification: not applicable
+- EndNote fields: final markup and clean each contain 60 `ADDIN EN.CITE` fields and one `ADDIN EN.REFLIST` field
+- Before:
+
+~~~~text
+[No Nepal-specific disease-evidence paragraph at this location.]
+~~~~
+
+- After:
+
+~~~~text
+The reported household disease pattern is also consistent with Nepal-specific epidemiological and entomological evidence on climate-sensitive diseases. A national ecological time-series analysis found that childhood diarrhoeal incidence increased by 4.4% per 1 °C increase in mean temperature and by 0.28% per 1 cm increase in rainfall, with the largest estimated effects in mountain regions (Dhimal et al., 2022). Field studies documented vectors of dengue and lymphatic filariasis across Nepal’s elevation gradient and showed that temperature, rainfall, and relative humidity predicted vector abundance (Dhimal et al., 2015; Dhimal et al., 2014). A systematic synthesis of the Hindu Kush Himalayan region and recent Nepal-wide modelling further indicate expansion of vector-borne disease risk into highland areas and longer periods of thermal suitability for dengue in the mid-hills and major urban centres (Acharya et al., 2025; Dhimal et al., 2021). Although these studies use disease-specific outcomes at different analytical scales, they provide Nepal-specific scientific context for the perceived household disease changes identified in our analysis.
+~~~~
+
+- Minimal tracked fragments:
+  1. `human-manual-insert`
+     - Before: ""
+     - After: complete paragraph shown above
+
+### part-02
+
+- Location: References, Acharya et al. (2025)
+- Reason: Add the Nepal-wide dengue thermal-suitability study cited in the new Discussion paragraph.
+- Kila decisions: `KILA-D-20260830-022`, `KILA-D-20260830-023`, `KILA-D-20260830-024`, `KILA-D-20260830-025`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T18:34:49+09:00
+- Markup SHA-256 before human implementation: `a83634d56501ec56104f8e4bfb62434c1c48b5ed89eef90d2f57ef5071e0d29e`
+- Markup SHA-256 after final EndNote update: `4f72ecb292e5dd116ecbc144ba176bd39432e2bd1bc0a9ca493aabad5b25e1de`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate `w:ins` wrapper
+- Backup: human Word/EndNote edit; no new machine backup was created
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Acharya, B. K., Khanal, L., & Dhimal, M. (2025). Increased thermal suitability elevates the risk of dengue transmission across the mid hills of Nepal. PLOS ONE, 20(4), e0322031. https://doi.org/10.1371/journal.pone.0322031
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+## reviewer-2/comment-10
+
+### part-01
+
+- Location: Research in Context—Implications, sentence beginning “Public health and disaster risk reduction strategies...”
+- Reason: Present climate-health education as a component to be evaluated alongside structural investments rather than as a programme that should already be adopted on the basis of the observational findings.
+- Kila decisions: `KILA-D-20260830-032`
+- Mode: `human-manual-replace`
+- Revises prior parts: none at the target sentence; the same paragraph also contains text revised for `reviewer-1/comment-1`
+- Timestamp: 2026-08-30T23:41:01+09:00
+- Markup SHA-256 before human implementation: `18af012475d28795fd3283065bc39a41ba322370eb21f0a5602418c65a2b4216`
+- Markup SHA-256 after final human save: `2b6778b677a9a9aa19d4ff241c676a2f2581c792f890d27da6e48b8d35fef7f3`
+- Fresh clean SHA-256: `0f90b1bea04fc341194e89db8ff163c4129f4579e88e5246b4d5a98b2b3bcaec`
+- Revision IDs: human Word tracked change; verified in markup and accepted fresh clean
+- Backup: human Word edit; no new machine backup was created
+- Before:
+
+~~~~text
+Public health and disaster risk reduction strategies in Nepal and similar hazard-prone settings should therefore combine climate-health education with targeted investments in health systems, water and sanitation, and local preparedness.
+~~~~
+
+- After:
+
+~~~~text
+Public health and disaster risk reduction strategies in Nepal and similar hazard-prone settings could therefore evaluate climate-health education as one component alongside targeted investments in health systems, water and sanitation, and local preparedness.
+~~~~
+
+- Minimal tracked fragments: `human-manual-replace`
+
+### part-02
+
+- Location: Discussion, recommendation paragraph beginning “Within these policy frameworks”
+- Reason: Make the education recommendation conditional and complementary, and use Segala et al. (2024) only as contextual evidence about climate-health knowledge and curricular gaps among young health professionals.
+- Kila decisions: `KILA-D-20260830-032`
+- Mode: `human-manual-replace-with-endnote-field`
+- Revises prior parts: `reviewer-1/comment-5#part-02`, including its disclosed overlaps with `reviewer-3/comment-3#part-04` and `reviewer-3/comment-5#part-03a`–`part-03d`
+- Timestamp: 2026-08-30T23:41:01+09:00
+- Markup SHA-256 before human implementation: `18af012475d28795fd3283065bc39a41ba322370eb21f0a5602418c65a2b4216`
+- Markup SHA-256 after final human save: `2b6778b677a9a9aa19d4ff241c676a2f2581c792f890d27da6e48b8d35fef7f3`
+- Fresh clean SHA-256: `0f90b1bea04fc341194e89db8ff163c4129f4579e88e5246b4d5a98b2b3bcaec`
+- Revision IDs: human Word tracked change plus EndNote `ADDIN EN.CITE` field; verified in markup and accepted fresh clean
+- Backup: human Word/EndNote edit; no new machine backup was created
+- Before:
+
+~~~~text
+Simultaneously, targeted climate-health education delivered through community health programmes may complement general education and literacy, particularly where broader human-capital resources are limited and the knowledge-related prediction contrast in Figure 8 is larger; this targeted approach reinforces rather than replaces general education and structural health protection.
+~~~~
+
+- After:
+
+~~~~text
+Simultaneously, targeted climate-health education delivered through community health programmes  could be evaluated as a complement to general education and literacy, particularly where broader human-capital resources are limited and the knowledge-related prediction contrast in Figure 8 is larger; this targeted approach would reinforce rather than replace general education and structural health protection. An Italian national survey documenting climate-health knowledge gaps and limited curricular provision among young doctors and medical students provides additional context for health-workforce education (Segala et al., 2024).
+~~~~
+
+- Minimal tracked fragments: `human-manual-replace-with-endnote-field`
+
+### part-03
+
+- Location: References, Segala et al. (2024)
+- Reason: Add the reviewer-suggested medical-education source cited in the revised Discussion.
+- Kila decisions: `KILA-D-20260830-032`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T23:41:01+09:00
+- Markup SHA-256 before human implementation: `18af012475d28795fd3283065bc39a41ba322370eb21f0a5602418c65a2b4216`
+- Markup SHA-256 after final human save: `2b6778b677a9a9aa19d4ff241c676a2f2581c792f890d27da6e48b8d35fef7f3`
+- Fresh clean SHA-256: `0f90b1bea04fc341194e89db8ff163c4129f4579e88e5246b4d5a98b2b3bcaec`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate `w:ins` wrapper
+- Backup: human Word/EndNote edit; no new machine backup was created
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Segala, F. V., Di Gennaro, F., Giannini, L. A. A., Stroffolini, G., Colpani, A., De Vito, A., Di Gregorio, S., Frallonardo, L., Guido, G., Novara, R., Amendolara, A., Ritacco, I. A., Ferrante, F., Masini, L., Iannetti, I., Mazzeo, S., Marello, S., Veronese, N., Gobbi, F., . . . Saracino, A. (2024). Perspectives on climate action and the changing burden of infectious diseases among young Italian doctors and students: a national survey [Original Research]. Frontiers in Public Health, Volume 12 - 2024. https://doi.org/10.3389/fpubh.2024.1382505
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+## reviewer-1/comment-7
+
+### part-01
+
+- Location: Discussion, paragraph beginning "Nepal-specific research places"
+- Reason: Add distinct Nepal-specific evidence on climate-risk perception, protection motivation, the perception–adaptation gap, adaptation constraints, livelihood assets, and ecological heterogeneity without duplicating the disease evidence or official policy documents added for preceding comments.
+- Kila decisions: `KILA-D-20260830-029`, `KILA-D-20260830-030`
+- Mode: `human-manual-insert-with-endnote-fields`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T22:32:28+09:00
+- Author: Jie MI
+- Markup SHA-256 before human implementation: `8dfc5bddba9770525ca9d727babc206077d48b60125593c1f39f2eadd4fac474`
+- Markup SHA-256 after final EndNote correction: `18af012475d28795fd3283065bc39a41ba322370eb21f0a5602418c65a2b4216`
+- Revision IDs: human-created tracked insertion retained and visually verified in the rendered markup
+- Backup: human Word/EndNote edit; no new machine backup was created
+- Paragraph properties preserved: verified in fresh clean and rendered markup
+- Run style verification: verified in fresh clean and rendered markup
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+[No separate Nepal-specific risk-perception and adaptive-capacity paragraph at this location.]
+~~~~
+
+- After:
+
+~~~~text
+Nepal-specific research places these knowledge-related and geographic patterns in a broader context of risk perception and adaptive capacity. Studies across central Nepal and the Khumbu region show that perceptions of climate change and its health and environmental impacts vary by elevation and by perceived vulnerability, efficacy, and response costs  (Phuyal et al., 2025; Poudyal et al., 2021). Although more than 80% of surveyed households in the Koshi River Basin perceived climatic changes, only 32% reported agricultural adaptation (Hussain et al., 2018); studies elsewhere in Nepal similarly identify financial, informational, agency, and institutional constraints on adaptation  (Choquette-Levy et al., 2025; Gurung et al., 2021). Together with evidence that livelihood assets shape household vulnerability across ecological settings (Pandey & Bardsley, 2015), these findings support interpreting the present knowledge-related contrasts as context dependent rather than equating awareness with preparedness or adaptive action.
+~~~~
+
+- Minimal tracked fragments: `human-manual-insert-with-endnote-fields`; final Hussain citation is attached directly to the 32% adaptation statistic
+- EndNote hyperlink guard: markup and fresh clean each contain 69 `ADDIN EN.CITE` fields and 55 hyperlinks
+
+### part-02
+
+- Location: References, Choquette-Levy et al. (2025)
+- Reason: Add the Nepal subsistence-farming study cited as evidence on constraints shaping adaptation.
+- Kila decisions: `KILA-D-20260830-029`, `KILA-D-20260830-030`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T22:32:28+09:00
+- Markup SHA-256 after final EndNote correction: `18af012475d28795fd3283065bc39a41ba322370eb21f0a5602418c65a2b4216`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate revision wrapper required
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Choquette-Levy, N., Ghimire, D., Oppenheimer, M., Ghimire, R., & Ck, D. (2025). Retrenchment under climate-driven risks in subsistence farming communities. Population and Environment, 47(2), 22. https://doi.org/10.1007/s11111-025-00493-8
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+### part-03
+
+- Location: References, Gurung et al. (2021)
+- Reason: Add the Nepalese Himalaya adaptation study cited as evidence on informational and institutional constraints.
+- Kila decisions: `KILA-D-20260830-029`, `KILA-D-20260830-030`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T22:32:28+09:00
+- Markup SHA-256 after final EndNote correction: `18af012475d28795fd3283065bc39a41ba322370eb21f0a5602418c65a2b4216`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate revision wrapper required
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Gurung, L. J., Miller, K. K., Venn, S., & Bryan, B. A. (2021). Climate change adaptation for managing non-timber forest products in the Nepalese Himalaya. Science of The Total Environment, 796, 148853. https://doi.org/https://doi.org/10.1016/j.scitotenv.2021.148853
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+### part-04
+
+- Location: References, Hussain et al. (2018)
+- Reason: Add the Koshi River Basin study cited for the documented gap between perceived climatic change and reported agricultural adaptation.
+- Kila decisions: `KILA-D-20260830-029`, `KILA-D-20260830-030`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T22:32:28+09:00
+- Markup SHA-256 after final EndNote correction: `18af012475d28795fd3283065bc39a41ba322370eb21f0a5602418c65a2b4216`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate revision wrapper required
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Hussain, A., Rasul, G., Mahapatra, B., Wahid, S., & Tuladhar, S. (2018). Climate change-induced hazards and local adaptations in agriculture: a study from Koshi River Basin, Nepal. Natural Hazards, 91(3), 1365-1383. https://doi.org/10.1007/s11069-018-3187-1
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+### part-05
+
+- Location: References, Pandey and Bardsley (2015)
+- Reason: Add the Nepali Himalaya study cited for livelihood-asset and ecological-setting variation in household vulnerability.
+- Kila decisions: `KILA-D-20260830-029`, `KILA-D-20260830-030`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T22:32:28+09:00
+- Markup SHA-256 after final EndNote correction: `18af012475d28795fd3283065bc39a41ba322370eb21f0a5602418c65a2b4216`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate revision wrapper required
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Pandey, R., & Bardsley, D. K. (2015). Social-ecological vulnerability to climate change in the Nepali Himalaya. Applied Geography, 64, 74-86. https://doi.org/https://doi.org/10.1016/j.apgeog.2015.09.008
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+### part-06
+
+- Location: References, Phuyal et al. (2025)
+- Reason: Add the central Nepal climate-perception study cited for elevation-related variation in perceived climate, health, and environmental impacts.
+- Kila decisions: `KILA-D-20260830-029`, `KILA-D-20260830-030`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T22:32:28+09:00
+- Markup SHA-256 after final EndNote correction: `18af012475d28795fd3283065bc39a41ba322370eb21f0a5602418c65a2b4216`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate revision wrapper required
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Phuyal, P., Kramer, I. M., Kadel, I., Wouters, E., Magdeburg, A., Groneberg, D. A., Kuch, U., Ahrens, B., Dhimal, M. L., Dhimal, M., & Müller, R. (2025). On people’s perceptions of climate change and its impacts in a hotspot of global warming. PLOS ONE, 20(2), e0317786. https://doi.org/10.1371/journal.pone.0317786
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+### part-07
+
+- Location: References, Poudyal et al. (2021)
+- Reason: Add the Khumbu-region study cited for heterogeneity in risk perception and protection motivation.
+- Kila decisions: `KILA-D-20260830-029`, `KILA-D-20260830-030`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T22:32:28+09:00
+- Markup SHA-256 after final EndNote correction: `18af012475d28795fd3283065bc39a41ba322370eb21f0a5602418c65a2b4216`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate revision wrapper required
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Poudyal, N. C., Joshi, O., Hodges, D. G., Bhandari, H., & Bhattarai, P. (2021). Climate change, risk perception, and protection motivation among high-altitude residents of the Mt. Everest region in Nepal. Ambio, 50(2), 505-518. https://doi.org/10.1007/s13280-020-01369-x
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+## reviewer-1/comment-5
+
+### part-01
+
+- Location: Discussion, policy-linkage paragraph beginning "These findings have policy relevance for targeting and programme design"
+- Reason: Link the study's cumulative-exposure, spatial-heterogeneity, and household-human-capital findings directly to relevant priorities in Nepal's NAP 2021–2050, HNAP 2023–2030, and NDC 3.0.
+- Kila decisions: `KILA-D-20260830-027`
+- Mode: `human-manual-restructure-with-endnote-fields`
+- Revises prior parts: `reviewer-3/comment-3#part-04`, `reviewer-3/comment-3#part-04-reapply-01`, and the policy wording subsequently revised for `reviewer-3/comment-5`
+- Timestamp: 2026-08-30T20:37:23+09:00
+- Author: Jie MI
+- Markup SHA-256 before initial human implementation: `4f72ecb292e5dd116ecbc144ba176bd39432e2bd1bc0a9ca493aabad5b25e1de`
+- Markup SHA-256 after final human correction: `8dfc5bddba9770525ca9d727babc206077d48b60125593c1f39f2eadd4fac474`
+- Revision IDs: human-created tracked revisions retained and visually verified in the rendered markup
+- Backup: human Word/EndNote edit; no new machine backup was created
+- Paragraph properties preserved: verified in fresh clean and rendered markup
+- Run style verification: verified in fresh clean and rendered markup
+- Formula verification: not applicable
+- EndNote fields: final markup and clean each contain 63 `ADDIN EN.CITE` fields and one `ADDIN EN.REFLIST` field; both contain 49 hyperlink elements
+- Before:
+
+~~~~text
+[No separate Nepal policy-linkage paragraph at this location.]
+~~~~
+
+- After:
+
+~~~~text
+These findings have policy relevance for targeting and programme design. The nonlinear increase in predicted disease probability as households accumulate distinct hazard types is directly relevant to the National Adaptation Plan (NAP) 2021–2050 and Nationally Determined Contribution (NDC) 3.0 priorities for multi-hazard early-warning systems and emergency preparedness, because it indicates that monitoring and response planning should consider cumulative exposure rather than isolated events (Government of Nepal, 2021, 2025). The spatial heterogeneity across province–ecological belt units is likewise relevant to the NAP and Health National Adaptation Plan (HNAP) 2023–2030 priorities for climate-sensitive disease surveillance, climate-resilient health infrastructure, and water, sanitation, and hygiene services (Government of Nepal, 2021, 2023). The larger knowledge-related prediction contrast among households with lower literacy and education ratios adds a population-targeting dimension to the HNAP’s public-awareness and capacity-building priorities and NDC 3.0’s health-workforce training agenda, indicating where community-level climate-health communication may warrant greater emphasis (Government of Nepal, 2023, 2025).
+~~~~
+
+- Minimal tracked fragments: `human-manual-restructure-with-endnote-fields`
+
+### part-02
+
+- Location: Discussion, recommendation paragraph beginning "Within these policy frameworks"
+- Reason: Separate the manuscript's recommendations from the preceding policy-linkage paragraph while retaining earlier reviewer-approved infrastructure, education, prospective-evaluation, and multi-hazard recommendations and replacing the absolute prospective-evaluation wording with a cautious formulation.
+- Kila decisions: `KILA-D-20260830-027`
+- Mode: `human-manual-restructure`
+- Revises prior parts: `reviewer-3/comment-3#part-04`, `reviewer-3/comment-3#part-04-reapply-01`, and the policy wording subsequently revised for `reviewer-3/comment-5`
+- Timestamp: 2026-08-30T20:37:23+09:00
+- Author: Jie MI
+- Markup SHA-256 before latest human correction: `da481be3504018db73b28e69686ae97cfc6ead7bd234bd392af3d71fe542f1de`
+- Markup SHA-256 after final human correction: `8dfc5bddba9770525ca9d727babc206077d48b60125593c1f39f2eadd4fac474`
+- Revision IDs: human-created tracked revisions retained and visually verified in the rendered markup
+- Backup: human Word edit; no new machine backup was created
+- Paragraph properties preserved: verified in fresh clean and rendered markup
+- Run style verification: verified in fresh clean and rendered markup
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+These findings have policy relevance for targeting and programme design. Infrastructure reinforcement and medical resource allocation should be prioritised in high-risk province-ecological belt units where multi-hazard intensity and disease burden coincide, particularly in the Terai and Hill regions. Simultaneously, targeted climate-health education delivered through community health programmes may complement general education and literacy, particularly where broader human-capital resources are limited and the knowledge-related prediction contrast in Figure 8 is larger; this targeted approach reinforces rather than replaces general education and structural health protection. Because the present survey measures climate change knowledge, reported disaster exposure, and reported disease change in the same interview, such programmes should be accompanied by prospective evaluation that separately measures climate-health knowledge, preparedness practices, and independently assessed health outcomes. This would clarify how information translates into action and health benefits. Disaster risk reduction frameworks should move beyond single-hazard approaches to address the cumulative and nonlinear nature of multi-hazard health threats (Erdem Okumus, 2025; O’Donnell & Sovacool, 2026).
+~~~~
+
+- After:
+
+~~~~text
+Within these policy frameworks, infrastructure reinforcement and medical resource allocation should be prioritised in high-risk province-ecological belt units where multi-hazard intensity and disease burden coincide, particularly in the Terai and Hill regions. Simultaneously, targeted climate-health education delivered through community health programmes may complement general education and literacy, particularly where broader human-capital resources are limited and the knowledge-related prediction contrast in Figure 8 is larger; this targeted approach reinforces rather than replaces general education and structural health protection. Given that the present study measures climate change knowledge, disaster exposure, and household disease change in the same interview, prospective evaluations of such programmes could use separate measures of climate-health knowledge and preparedness practices alongside independently assessed health outcomes. This would clarify how information translates into action and health benefits. Disaster risk reduction frameworks should move beyond single-hazard approaches to address the cumulative and nonlinear nature of multi-hazard health threats  (Erdem Okumus, 2025; O’Donnell & Sovacool, 2026).
+~~~~
+
+- Minimal tracked fragments: `human-manual-restructure`; final cautious prospective-evaluation wording occurs once in the fresh clean manuscript
+
+### part-03
+
+- Location: References, Government of Nepal (2021)
+- Reason: Add the official National Adaptation Plan cited in the revised Discussion.
+- Kila decisions: `KILA-D-20260830-027`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T20:37:23+09:00
+- Markup SHA-256 after final human correction: `8dfc5bddba9770525ca9d727babc206077d48b60125593c1f39f2eadd4fac474`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate revision wrapper required
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Government of Nepal. (2021). National Adaptation Plan of Nepal.
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+### part-04
+
+- Location: References, Government of Nepal (2023)
+- Reason: Add the official Climate Change Health Adaptation Strategy and Action Plan cited in the revised Discussion.
+- Kila decisions: `KILA-D-20260830-027`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T20:37:23+09:00
+- Markup SHA-256 after final human correction: `8dfc5bddba9770525ca9d727babc206077d48b60125593c1f39f2eadd4fac474`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate revision wrapper required
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Government of Nepal. (2023). Climate Change Health Adaptation Strategy and Action Plan (2023-2030).
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+### part-05
+
+- Location: References, Government of Nepal (2025)
+- Reason: Add Nepal's official Nationally Determined Contribution 3.0 cited in the revised Discussion.
+- Kila decisions: `KILA-D-20260830-027`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T20:37:23+09:00
+- Markup SHA-256 after final human correction: `8dfc5bddba9770525ca9d727babc206077d48b60125593c1f39f2eadd4fac474`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate revision wrapper required
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Government of Nepal. (2025). Nepal's Nationally Determined Contribution (NDC) 3.0.
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+## reviewer-1/comment-6
+
+### part-03
+
+- Location: References, Dhimal et al. (2022)
+- Reason: Add the national ecological childhood-diarrhoeal study cited in the new Discussion paragraph.
+- Kila decisions: `KILA-D-20260830-022`, `KILA-D-20260830-023`, `KILA-D-20260830-024`, `KILA-D-20260830-025`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T18:34:49+09:00
+- Markup SHA-256 before human implementation: `a83634d56501ec56104f8e4bfb62434c1c48b5ed89eef90d2f57ef5071e0d29e`
+- Markup SHA-256 after final EndNote update: `4f72ecb292e5dd116ecbc144ba176bd39432e2bd1bc0a9ca493aabad5b25e1de`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate `w:ins` wrapper
+- Backup: human Word/EndNote edit; no new machine backup was created
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Dhimal, M., Bhandari, D., Karki, K. B., Shrestha, S. L., Khanal, M., Shrestha, R. R., Dahal, S., Bista, B., Ebi, K. L., Cissé, G., Sapkota, A., & Groneberg, D. A. (2022). Effects of Climatic Factors on Diarrheal Diseases among Children below 5 Years of Age at National and Subnational Levels in Nepal: An Ecological Study. International Journal of Environmental Research and Public Health, 19(10), 6138.
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+### part-04
+
+- Location: References, Dhimal et al. (2015)
+- Reason: Add the high-altitude Aedes-vector field study cited in the new Discussion paragraph.
+- Kila decisions: `KILA-D-20260830-022`, `KILA-D-20260830-023`, `KILA-D-20260830-024`, `KILA-D-20260830-025`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T18:34:49+09:00
+- Markup SHA-256 before human implementation: `a83634d56501ec56104f8e4bfb62434c1c48b5ed89eef90d2f57ef5071e0d29e`
+- Markup SHA-256 after final EndNote update: `4f72ecb292e5dd116ecbc144ba176bd39432e2bd1bc0a9ca493aabad5b25e1de`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate `w:ins` wrapper
+- Backup: human Word/EndNote edit; no new machine backup was created
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Dhimal, M., Gautam, I., Joshi, H. D., O’Hara, R. B., Ahrens, B., & Kuch, U. (2015). Risk Factors for the Presence of Chikungunya and Dengue Vectors (Aedes aegypti and Aedes albopictus), Their Altitudinal Distribution and Climatic Determinants of Their Abundance in Central Nepal. PLOS Neglected Tropical Diseases, 9(3), e0003545. https://doi.org/10.1371/journal.pntd.0003545
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+### part-05
+
+- Location: References, Dhimal et al. (2014)
+- Reason: Add the elevation-transect dengue and lymphatic-filariasis vector study cited in the new Discussion paragraph.
+- Kila decisions: `KILA-D-20260830-022`, `KILA-D-20260830-023`, `KILA-D-20260830-024`, `KILA-D-20260830-025`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T18:34:49+09:00
+- Markup SHA-256 before human implementation: `a83634d56501ec56104f8e4bfb62434c1c48b5ed89eef90d2f57ef5071e0d29e`
+- Markup SHA-256 after final EndNote update: `4f72ecb292e5dd116ecbc144ba176bd39432e2bd1bc0a9ca493aabad5b25e1de`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate `w:ins` wrapper
+- Backup: human Word/EndNote edit; no new machine backup was created
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Dhimal, M., Gautam, I., Kreß, A., Müller, R., & Kuch, U. (2014). Spatio-Temporal Distribution of Dengue and Lymphatic Filariasis Vectors along an Altitudinal Transect in Central Nepal. PLOS Neglected Tropical Diseases, 8(7), e3035. https://doi.org/10.1371/journal.pntd.0003035
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+### part-06
+
+- Location: References, Dhimal et al. (2021)
+- Reason: Add the Hindu Kush Himalayan vector and vector-borne-disease systematic synthesis cited in the new Discussion paragraph.
+- Kila decisions: `KILA-D-20260830-022`, `KILA-D-20260830-023`, `KILA-D-20260830-024`, `KILA-D-20260830-025`
+- Mode: `human-endnote-reference-insert`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T18:34:49+09:00
+- Markup SHA-256 before human implementation: `a83634d56501ec56104f8e4bfb62434c1c48b5ed89eef90d2f57ef5071e0d29e`
+- Markup SHA-256 after final EndNote update: `4f72ecb292e5dd116ecbc144ba176bd39432e2bd1bc0a9ca493aabad5b25e1de`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; no separate `w:ins` wrapper
+- Backup: human Word/EndNote edit; no new machine backup was created
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Dhimal, M., Kramer, I. M., Phuyal, P., Budhathoki, S. S., Hartke, J., Ahrens, B., Kuch, U., Groneberg, D. A., Nepal, S., Liu, Q.-Y., Huang, C.-R., CissÉ, G., Ebi, K. L., KlingelhÖfer, D., & Müller, R. (2021). Climate change and its association with the expansion of vectors and vector-borne diseases in the Hindu Kush Himalayan region: A systematic synthesis of the literature. Advances in Climate Change Research, 12(3), 421-429. https://doi.org/https://doi.org/10.1016/j.accre.2021.05.003
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
+## finalization/markup-metadata
+
+### metadata-normalization-01
+
+- Location: Whole markup document > tracked-change and proofing-language metadata
+- Reason: Human required American English proofing metadata and anonymous tracked-change authors.
+- Kila decisions: none (non-substantive metadata normalization)
+- Mode: `metadata-only`
+- Timestamp: 2026-08-31T02:58:18.493404+00:00
+- Author: anonymous
+- Markup SHA-256 before: `d5c8b65f89022e8dfdf6b417ebf24ec479042e3722f3674a3e4e54fa70a16937`
+- Markup SHA-256 after: `dfbb245bf5952da074725d59f855053b1c78dc5c6023b92ccb83492e4a1cd4db`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T115818493537.metadata-normalization.docx`
+- Tracked authors before: `{"Jie MI": 193, "Kila": 28, "anonymous": 327}`
+- Tracked authors after: `{"anonymous": 548}`
+- Western proofing languages before: `{"en-JP": 29, "en-US": 1}`
+- Western proofing languages after: `{"en-US": 30}`
+- Author attributes changed: `221`
+- Language attributes changed: `29`
+- Metadata-only canonical XML verification: `true`
+- Manuscript text unchanged: `true`
+- Revision IDs unchanged: `true`
+- Unmodified package members byte-identical: `true`
+
+## finalization/markup-metadata
+
+### metadata-normalization-02
+
+- Location: Whole markup document > tracked-change and proofing-language metadata
+- Reason: Human required American English proofing metadata and anonymous tracked-change authors.
+- Kila decisions: none (non-substantive metadata normalization)
+- Mode: `metadata-only`
+- Timestamp: 2026-08-31T03:12:28.215549+00:00
+- Author: anonymous
+- Markup SHA-256 before: `dfbb245bf5952da074725d59f855053b1c78dc5c6023b92ccb83492e4a1cd4db`
+- Markup SHA-256 after: `351a61293ad6d52492e7b41a10a115bc0d41321d919a248d7d353685bc9278e6`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T121228215681.metadata-normalization.docx`
+- Tracked authors before: `{"anonymous": 548}`
+- Tracked authors after: `{"anonymous": 548}`
+- Western proofing languages before: `{"en-US": 30}`
+- Western proofing languages after: `{"en-US": 30}`
+- Author attributes changed: `0`
+- Language attributes changed: `0`
+- Core document identity properties changed: `2`
+- Metadata-only canonical XML verification: `true`
+- Manuscript text unchanged: `true`
+- Revision IDs unchanged: `true`
+- Unmodified package members byte-identical: `true`
+
+## editor/artwork-guidelines
+
+### figure-legends-layout-01
+
+- Location: Front matter page break; end matter Figure Legends section
+- Reason: Comply with the editor's artwork instructions by listing figure legends without embedded artwork.
+- Kila decisions: none (editorial packaging and layout only)
+- Mode: `tracked-heading-plus-layout-object-cleanup`
+- Timestamp: 2026-08-31T05:05:05.403100+00:00
+- Before heading: `Figures:`
+- After heading: `Figure Legends`
+- Preserved captions: `["Figure 1: Spatial Distribution of Respondents in Each Wave", "Figure 2: Regional Average Probability of Household Disease Incidence in Each Wave", "Figure 3: Regional Average Type Counts of Natural Disasters in Each Wave", "Figure 4: Regional Average Percentage of Population with Climate Knowledge in Each Wave", "Figure 5: Global Relationship between Natural Disaster Count and Disease Increase Probability", "Figure 6: Global Relationship between Natural Disaster Count and Disease Increase Probability by Climate Change Knowledge Status", "Figure 7: Spatial Heterogeneity in Climate Change Knowledge Prediction Differences", "Figure 8: Heterogeneity in Climate Change Knowledge Prediction Differences among Different Groups"]`
+- Removed artwork paragraphs: `8`
+- Removed drawing objects, including prior tracked image versions: `15`
+- Removed redundant/inter-figure layout paragraphs: `16`
+- Removed unused image relationships: `["rId10", "rId11", "rId12", "rId13", "rId14", "rId15", "rId16", "rId17", "rId18", "rId19", "rId20", "rId21", "rId22", "rId9"]`
+- Removed unused media parts: `["word/media/image1.png", "word/media/image10.png", "word/media/image11.png", "word/media/image12.png", "word/media/image13.png", "word/media/image14.png", "word/media/image2.jpg", "word/media/image3.png", "word/media/image4.png", "word/media/image5.png", "word/media/image6.png", "word/media/image7.png", "word/media/image8.png", "word/media/image9.png"]`
+- Tracked heading revision IDs: `[1829, 1830]`
+- Markup SHA-256 before: `23c555c426239c2e010e81d1f29707d2c72a2c12052e97ad0096d4c07ecb7520`
+- Markup SHA-256 after: `56a6c3766b00c942aa7eac80464469af02eb1efabe12bc4c1c388800afd159be`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T140505403109.artwork-layout.docx`
+- Table legends section unchanged: `true`
+- Figure caption text and order unchanged: `true`
+- Page break before References retained: `true`
+- Endnote hyperlink parts unchanged: `true`
+- Track revisions retained: `true`
+
+## finalization/markup-metadata
+
+### metadata-normalization-03
+
+- Location: Whole markup document > tracked-change and proofing-language metadata
+- Reason: Human required American English proofing metadata and anonymous tracked-change authors.
+- Kila decisions: none (non-substantive metadata normalization)
+- Mode: `metadata-only`
+- Timestamp: 2026-08-31T05:05:31.325084+00:00
+- Author: anonymous
+- Markup SHA-256 before: `56a6c3766b00c942aa7eac80464469af02eb1efabe12bc4c1c388800afd159be`
+- Markup SHA-256 after: `353eb531d889ecd10447e04b4c8e018a125450f161c669b81f5f03e06a9b80e1`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T140531325227.metadata-normalization.docx`
+- Tracked authors before: `{"Jie MI": 1278, "anonymous": 539}`
+- Tracked authors after: `{"anonymous": 1817}`
+- Western proofing languages before: `{"en-US": 1}`
+- Western proofing languages after: `{"en-US": 1}`
+- Author attributes changed: `1278`
+- Language attributes changed: `0`
+- Core document identity properties changed: `1`
+- Metadata-only canonical XML verification: `true`
+- Manuscript text unchanged: `true`
+- Revision IDs unchanged: `true`
+- Unmodified package members byte-identical: `true`
+
+## finalization/markup-metadata
+
+### metadata-normalization-04
+
+- Location: Whole markup document > tracked-change and proofing-language metadata
+- Reason: Human required American English proofing metadata and anonymous tracked-change authors.
+- Kila decisions: none (non-substantive metadata normalization)
+- Mode: `metadata-only`
+- Timestamp: 2026-08-31T05:37:51.898945+00:00
+- Author: anonymous
+- Markup SHA-256 before: `7a8ecabe130e115282681fd63c6eebaba69ceee292785cc0bfeb3c870a17f172`
+- Markup SHA-256 after: `a1480f4c49bf2797272cdf4666d8fe1d542e68b3a6f090981bfd045dea024e5a`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T143751899071.metadata-normalization.docx`
+- Tracked authors before: `{"Jie MI": 62, "anonymous": 1814}`
+- Tracked authors after: `{"anonymous": 1876}`
+- Western proofing languages before: `{"en-US": 1}`
+- Western proofing languages after: `{"en-US": 1}`
+- Author attributes changed: `62`
+- Language attributes changed: `0`
+- Core document identity properties changed: `1`
+- Metadata-only canonical XML verification: `true`
+- Manuscript text unchanged: `true`
+- Revision IDs unchanged: `true`
+- Unmodified package members byte-identical: `true`
