@@ -138,11 +138,7 @@ This paper is highly relevant and well‑timed, and I appreciated reading it. Co
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
-
-"[Exact revised text will be inserted after verification.]"
-
-(Lines/Pages: human verification required)
+Thank you for your encouraging assessment and constructive comments. We have addressed each of the issues raised in the detailed responses below. In particular, we clarified the proposed designs for future causal evaluation and the definition of multi-hazard exposure; documented the statutory confidentiality and information-protection framework of the two official surveys and the anonymized secondary-data basis of this study; updated the spatial figures using Government of Nepal administrative boundaries and clarified the elevation-based derivation of the EcoBelt layer; and strengthened the Discussion by linking the findings to Nepal’s NAP, HNAP, and NDC priorities and incorporating additional Nepal-specific evidence on climate-sensitive diseases, risk perception, and adaptive capacity. We believe these revisions improve the manuscript’s methodological transparency, geographic accuracy, and relevance to Nepal’s scientific and policy context.
 
 ## Comment 1
 
