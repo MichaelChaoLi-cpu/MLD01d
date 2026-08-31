@@ -168,11 +168,7 @@ It is important to know whether ethical approval was taken to conduct 2016 and 2
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
-
-"[Exact revised text will be inserted after verification.]"
-
-(Lines/Pages: human verification required)
+Thank you for raising this important point. The 2016 Nepal National Climate Change Impact Survey and the 2022 Climate Change Survey were official national statistical surveys conducted by the Government of Nepal through the Central Bureau of Statistics and the National Statistics Office, respectively. The questionnaires for both waves state that the information collected is confidential under the applicable Statistical Act, that individual information is not published, and that the data are used only for statistical purposes. These provisions establish the statutory confidentiality and information-protection framework governing the original data collection. The present study uses only anonymized secondary data and involves no participant recruitment, direct contact, intervention, or collection of identifiable information.
 
 ## Comment 3
 
