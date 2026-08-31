@@ -620,11 +620,7 @@ Reviewer #3: This study uses a pooled cross-sectional sample of 11,568 household
 
 **Response:**
 
-[Response to be completed after the corresponding manuscript revision is verified in a fresh clean copy.]
-
-"[Exact revised text will be inserted after verification.]"
-
-(Lines/Pages: human verification required)
+Thank you for your careful summary of the study and for the conceptual and technical comments provided below. We have addressed each point in the detailed responses. Specifically, the revised manuscript clarifies the scope of the long-term-resident sample and the limits of interpreting displacement and migration pathways; states explicitly how survey year is incorporated; and carries the implications of same-respondent reporting, retrospective judgment, shared reporting tendencies, and reverse causation through the Methods, interpretation, policy, and limitations sections. We have also revised the manuscript to use consistently non-causal language, clarified that Figure 8 presents heterogeneity in the climate-change-knowledge prediction contrast across levels of household human capital, and documented the missing-data coding rules, missingness rate, and resulting analytical matrix. These changes strengthen the transparency of the study’s sample boundaries, temporal specification, measurement and interpretation limits, human-capital analysis, and data preprocessing.
 
 ## Comment 1
 
