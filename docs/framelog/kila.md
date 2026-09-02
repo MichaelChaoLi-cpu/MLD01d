@@ -6341,3 +6341,954 @@ Reviewer 3 Overall Comment becomes complete and eligible for its narrowly scoped
 ### Follow-Up
 
 Mark Reviewer 3 Overall Comment done and commit and push only its intended response artifact.
+
+## KILA-D-20260831-012: Limit final manuscript cleanup to American English
+
+- Event SHA-256: 5acf1a56568df42b6d921d1ecc1a8fe9e5f2a920783e4d578e455597544eb2c6
+- Recorded at: 2026-08-31T16:04:07+09:00
+- Revision workspace: Rev
+- Revision stage: final-quality-review
+- Reviewer ID: editor
+- Comment ID: overall-comment
+- Decision type: submission-scope
+- Source skill: edit-markup-docx
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/MLD01d.rev.markup.docx
+- Object SHA-256: a1480f4c49bf2797272cdf4666d8fe1d542e68b3a6f090981bfd045dea024e5a
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Resolve final manuscript issues before submission.
+
+### Decision Context
+
+Final manuscript review identified language inconsistency together with separate ethics, heading, contributor, and reference-format concerns.
+
+### Kila Recommendation
+
+Correct American-English usage and review the other flagged issues separately.
+
+### Options Presented
+
+- Correct American-English usage only and leave the other flagged issues unchanged.
+
+### Human Decision
+
+Proceed only with American-English normalization; leave the other final-review issues unchanged in this revision.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The manuscript and author responses use American English while the other flagged passages remain unchanged.
+
+### Affected Manuscript Sections
+
+- Whole manuscript
+- Response to reviewers
+
+### Related Artifacts
+
+- Rev/revision/MLD01d.rev.markup.docx
+- Rev/revision/response-draft.md
+
+### Follow-Up
+
+Regenerate the clean manuscript, refresh response quotations and locators, and rebuild the response DOCX.
+
+## KILA-D-20260831-013: Restore the association-framed original title
+
+- Event SHA-256: de4242e006ee0d0ab50a48e6739a52d5e00ee415b1ee9ef25f35540ad1344725
+- Recorded at: 2026-08-31T17:09:03+09:00
+- Revision workspace: Rev
+- Revision stage: final-file-preparation
+- Reviewer ID: editor
+- Comment ID: overall-comment
+- Decision type: title-position
+- Source skill: edit-markup-docx
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/MLD01d.rev.markup.docx
+- Object SHA-256: 1808cae466c408dccaee06937c252c39b752951a82f6765b00b5d5fd7d9515b8
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Finalize the manuscript title for resubmission.
+
+### Decision Context
+
+The final manuscript currently uses a non-declamatory pooled cross-sectional descriptor title following editorial preparation, while an earlier approved title retained the study relationship in associative language.
+
+### Kila Recommendation
+
+None presented
+
+### Options Presented
+
+- Retain the current pooled cross-sectional descriptor title.
+- Restore the earlier association-framed title.
+
+### Human Decision
+
+Restore the title to Climate Knowledge Is Associated with Lower Health Risks from Multi-Hazard Exposure: Evidence from Nepal.
+
+### Human-Provided Rationale
+
+The human decided that the manuscript should use the original association-framed title.
+
+### Expected Revision Effect
+
+The manuscript title and all response quotations or summaries of the title will use the restored association-framed wording.
+
+### Affected Manuscript Sections
+
+- Title
+- Response to reviewers
+
+### Related Artifacts
+
+- Rev/revision/MLD01d.rev.markup.docx
+- Rev/revision/response-draft.md
+
+### Follow-Up
+
+Apply the title as an anonymous tracked re-edit, regenerate clean, and synchronize the response.
+
+## KILA-D-20260831-014: Restore initial figure appearance and use raster files
+
+- Event SHA-256: c262704764f281ae36b7f4b1fa1b70608b07f345f3839ffbb88933e2540242ca
+- Recorded at: 2026-08-31T17:09:03+09:00
+- Revision workspace: Rev
+- Revision stage: submission-artwork
+- Reviewer ID: editor
+- Comment ID: overall-comment
+- Decision type: figure-format-layout
+- Source skill: documents
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Finalize standalone figure appearance, layout, and file format for resubmission.
+
+### Decision Context
+
+The figures were separated into standalone PDF files and some layouts were adjusted during submission preparation.
+
+### Kila Recommendation
+
+None presented
+
+### Options Presented
+
+- Keep the current standalone PDF versions and adjusted layouts.
+- Restore the initial embedded visual treatment and layout, then export as image files.
+
+### Human Decision
+
+Use the visual appearance and panel layout of the initial embedded figures and provide standalone raster image files rather than PDFs.
+
+### Human-Provided Rationale
+
+The human prefers the original embedded figure appearance and layout.
+
+### Expected Revision Effect
+
+Standalone figure files will visually match the initial manuscript figures while satisfying the request for image rather than PDF output.
+
+### Affected Manuscript Sections
+
+- Figures 1-8
+
+### Related Artifacts
+
+- Rev/origin/MLD01d.docx
+- Rev/revision/figures
+
+### Follow-Up
+
+Locate and compare the initial embedded assets, reproduce their original layout without redesign, and export raster figure files.
+
+## KILA-D-20260831-015: Add Nepal education-to-adaptation evidence
+
+- Event SHA-256: cefcbfe18ac968450587d4b5bdce8558fdd9518f05604c263432fb816b1ac02f
+- Recorded at: 2026-08-31T18:54:09+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-7
+- Decision type: citation-addition
+- Source skill: edit-markup-docx
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Add the 2026 article From knowledge to action: Educational pathways to climate adaptation in Nepal to the main manuscript without separately emphasizing it in the response letter.
+
+### Decision Context
+
+Final manuscript refinement following Reviewer 1's request for additional Nepal-specific literature.
+
+### Kila Recommendation
+
+None presented
+
+### Options Presented
+
+- Integrate the article naturally into the Discussion and add its Vancouver reference entry.
+
+### Human Decision
+
+Add the specified article to the main manuscript and leave the response letter unchanged.
+
+### Human-Provided Rationale
+
+The user requested this Nepal-specific education and adaptation evidence be incorporated into the manuscript without drawing separate attention to it in the response.
+
+### Expected Revision Effect
+
+Strengthen the Nepal-specific evidence linking education, climate knowledge, and adaptation action.
+
+### Affected Manuscript Sections
+
+- Discussion
+- References
+
+### Related Artifacts
+
+- Rev/revision/MLD01d.rev.markup.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Verify the article metadata and present the exact two-location tracked-change proposal for approval before editing.
+
+## KILA-D-20260901-001: Extend non-causal wording audit to Summary background
+
+- Event SHA-256: d549d42839aef77f2257d72d328ff8a7ed7a0f62d21114db81a9db8b4dd6ba15
+- Recorded at: 2026-09-01T06:16:30+09:00
+- Revision workspace: Rev
+- Revision stage: final-manuscript-audit
+- Reviewer ID: reviewer-2
+- Comment ID: comment-2
+- Decision type: interpretation-boundary
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Maintain consistently associative language in the Summary and Research in Context.
+
+### Decision Context
+
+Final manuscript wording audit identified two remaining background formulations that could imply effect modification or causal shaping.
+
+### Kila Recommendation
+
+Replace poorly with insufficiently and describe heterogeneity as the association varying by climate-change knowledge status.
+
+### Options Presented
+
+- Apply the two-location minimal wording bundle.
+
+### Human Decision
+
+The human approved both proposed replacements as one bundle.
+
+### Human-Provided Rationale
+
+The human requested more rigorous wording and questioned whether moderates could be read causally.
+
+### Expected Revision Effect
+
+The Background and Research in Context describe evidence gaps and heterogeneity without implying that climate knowledge causally modifies health effects.
+
+### Affected Manuscript Sections
+
+- Summary > Background
+- Research in Context > Evidence before this study
+
+### Related Artifacts
+
+- Rev/revision/MLD01d.rev.markup.docx
+- Rev/revision/response-draft.md
+
+### Follow-Up
+
+Apply two minimal tracked changes, regenerate fresh clean, and audit the response draft for affected quotations.
+
+## KILA-D-20260901-002: Submit Research in Context as separate file
+
+- Event SHA-256: 331751628f58874c3a49752611e685c13fc71ddaaa0eb31d9f155de6b1254914
+- Recorded at: 2026-09-01T07:08:33+09:00
+- Revision workspace: Rev
+- Revision stage: final-submission-packaging
+- Reviewer ID: editor
+- Comment ID: overall-comment
+- Decision type: separate-research-in-context-file
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/Research in context.docx
+- Object SHA-256: e77366037f07b68e017e4e2586101acc9d3f33a2c5eb9d2c05310aa96b63de8d
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Prepare Research in Context as a separate submission document rather than as part of the main manuscript.
+
+### Decision Context
+
+The editor requires Research in Context to be supplied as a separate file, and the human has removed it from the tracked manuscript and saved it separately.
+
+### Kila Recommendation
+
+Verify the separate file against the removed manuscript text and use tracked-manuscript page and line locators for responses.
+
+### Options Presented
+
+- Remove Research in Context from the main manuscript and submit it as a standalone DOCX.
+
+### Human Decision
+
+The human removed Research in Context from the main manuscript and saved it as Rev/revision/Research in context.docx.
+
+### Human-Provided Rationale
+
+The journal requires Research in Context to be submitted as a separate file.
+
+### Expected Revision Effect
+
+The submission package contains a main tracked manuscript without Research in Context and a standalone Research in Context document.
+
+### Affected Manuscript Sections
+
+- Main manuscript > Research in Context
+- Separate Research in Context file
+
+### Related Artifacts
+
+- Rev/revision/MLD01d.rev.markup.docx
+- Rev/revision/Research in context.docx
+
+### Follow-Up
+
+Regenerate a fresh clean manuscript, verify the separate file, and determine the authoritative tracked-manuscript locator convention for the response letter.
+
+## KILA-D-20260901-003: Retain current Ethics Statement
+
+- Event SHA-256: 11b572f4cf8aa5e4d8bc5bb89cd5f5b43dea1a547cce9c183fc80597d0d2ea4f
+- Recorded at: 2026-09-01T07:25:21+09:00
+- Revision workspace: Rev
+- Revision stage: final-submission-packaging
+- Reviewer ID: reviewer-1
+- Comment ID: comment-2
+- Decision type: ethics-statement-boundary
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer requested clarification of ethical approval for the 2016 and 2022 official household surveys.
+
+### Decision Context
+
+Final audit identified that the current Ethics Statement contains statutory confidentiality language and a secondary-data ethics conclusion.
+
+### Kila Recommendation
+
+Retain only verifiable survey confidentiality and secondary-data facts, or obtain a documented institutional determination for any ethics-waiver statement.
+
+### Options Presented
+
+- Retain the current Ethics Statement without further revision.
+
+### Human Decision
+
+The human directed that the current Ethics Statement remain unchanged and that no further ethics wording be added or removed.
+
+### Human-Provided Rationale
+
+The human explicitly chose to retain the present statement.
+
+### Expected Revision Effect
+
+The final manuscript preserves the current Ethics Statement exactly as saved.
+
+### Affected Manuscript Sections
+
+- Ethics Statement
+
+### Related Artifacts
+
+- Rev/revision/MLD01d.rev.markup.docx
+- Rev/revision/MLD01d.rev.clean.docx
+
+### Follow-Up
+
+Do not modify the Ethics Statement during final packaging.
+
+## KILA-D-20260901-004: Finalize standalone Research in Context
+
+- Event SHA-256: 8abc2fff4dc6299a1ce6e3b4042fe3a3b53423d29637f7fa146cce1a20856301
+- Recorded at: 2026-09-01T07:25:41+09:00
+- Revision workspace: Rev
+- Revision stage: final-submission-packaging
+- Reviewer ID: editor
+- Comment ID: overall-comment
+- Decision type: standalone-research-in-context-finalization
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260901-002
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Submit Research in Context as a standalone file and keep it outside the main manuscript and tracked revision content.
+
+### Decision Context
+
+Audit confirmed that Research in Context is separate but its standalone file is stale, personally attributed, unnumbered, and inefficiently paginated; its deletion remains visible in All Markup.
+
+### Kila Recommendation
+
+Synchronize the standalone file to the last approved text, anonymize metadata, add continuous line numbering, compress the layout, and manually accept only the main-manuscript deletion in Word.
+
+### Options Presented
+
+- Finalize the standalone file and remove the tracked deletion from the main manuscript display.
+
+### Human Decision
+
+The human approved correction of all identified standalone-file issues and directed that the Research in Context deletion be accepted so it is not included in the main manuscript or displayed revisions.
+
+### Human-Provided Rationale
+
+Research in Context is a required separate submission file and should not appear as main-manuscript content or a displayed revision.
+
+### Expected Revision Effect
+
+The submission package contains a synchronized, anonymous, line-numbered standalone Research in Context file and a main tracked manuscript in which this removed section no longer appears after the human accepts that deletion.
+
+### Affected Manuscript Sections
+
+- Main manuscript > Research in Context
+- Standalone Research in Context document
+
+### Related Artifacts
+
+- Rev/revision/MLD01d.rev.markup.docx
+- Rev/revision/Research in context.docx
+
+### Follow-Up
+
+Agent finalizes and verifies the standalone file; human accepts only the Research in Context deletion in Word, saves markup, and returns it for a fresh-clean and locator audit.
+
+## KILA-D-20260901-005: Confirm accepted Research in Context removal
+
+- Event SHA-256: d69eeb3523509e107f2619aee5955e3dbe6e450c8e316726b838bc9abe6908eb
+- Recorded at: 2026-09-01T07:45:42+09:00
+- Revision workspace: Rev
+- Revision stage: final-submission-packaging
+- Reviewer ID: editor
+- Comment ID: overall-comment
+- Decision type: standalone-research-in-context-finalization
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260901-004
+- Decision object: Rev/revision/MLD01d.rev.markup.docx
+- Object SHA-256: 03ce7ee1893b59750bac2ccfa72a0b3897a7ff8e677078d49140378ea44512c7
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Keep Research in Context outside the main manuscript and outside the displayed tracked revisions.
+
+### Decision Context
+
+The current tracked manuscript was resaved after the human reported having already accepted the Research in Context deletion.
+
+### Kila Recommendation
+
+Verify the current package structurally and do not repeat the acceptance operation if the section is absent.
+
+### Options Presented
+
+- Treat the prior selective acceptance as complete after verification.
+
+### Human Decision
+
+The human reported that the Research in Context deletion had already been accepted in the previous Word session.
+
+### Human-Provided Rationale
+
+The section is a required standalone submission file and no longer belongs in the main manuscript.
+
+### Expected Revision Effect
+
+Research in Context is absent from both the accepted manuscript and the underlying tracked-manuscript XML.
+
+### Affected Manuscript Sections
+
+- Main manuscript > Research in Context
+
+### Related Artifacts
+
+- Rev/revision/MLD01d.rev.markup.docx
+
+### Follow-Up
+
+Regenerate a fresh clean and verify the heading and section text are absent.
+
+## KILA-D-20260901-006: Remove AUC from Summary Findings
+
+- Event SHA-256: bcec18327eb78c6a8356202fb8ebbc6ce5759ad010b76f7192ae49c8998db7b7
+- Recorded at: 2026-09-01T07:45:56+09:00
+- Revision workspace: Rev
+- Revision stage: final-manuscript-audit
+- Reviewer ID: reviewer-2
+- Comment ID: comment-5
+- Decision type: summary-performance-reporting
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Keep the Summary concise and avoid unnecessary emphasis on the AUC metric.
+
+### Decision Context
+
+The Summary Findings currently reports both validation accuracy and an out-of-fold AUC, while detailed model discrimination remains available in the Results and Supplementary Materials.
+
+### Kila Recommendation
+
+Delete only the phrase reporting the out-of-fold AUC and retain the 71.4% validation accuracy sentence.
+
+### Options Presented
+
+- Delete the AUC phrase.
+- Replace the AUC phrase with another metric.
+
+### Human Decision
+
+The human directed that the AUC phrase be deleted or replaced because it does not need emphasis in the Summary, and authorized the minimal choice.
+
+### Human-Provided Rationale
+
+The AUC does not need separate emphasis in the Summary Findings.
+
+### Expected Revision Effect
+
+The Summary reports validation accuracy once and leaves detailed AUC reporting to the main Results and Supplementary Materials.
+
+### Affected Manuscript Sections
+
+- Summary > Findings
+
+### Related Artifacts
+
+- Rev/revision/MLD01d.rev.markup.docx
+
+### Follow-Up
+
+Apply the minimal tracked deletion and update any exact response quotation after final locator regeneration.
+
+## KILA-D-20260901-007: Correct the missing-data response logic
+
+- Event SHA-256: a8477ec180c7e9525dfcdb7be7c6eb1159410bcedb6c696000923d4ec7295447
+- Recorded at: 2026-09-01T08:05:15+09:00
+- Revision workspace: Rev
+- Revision stage: response-revision
+- Reviewer ID: reviewer-3
+- Comment ID: comment-6
+- Decision type: missing-data-interpretation
+- Source skill: execute-procedure
+- Entry type: revision
+- Supersedes: KILA-D-20260829-006
+- Relates to: none
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Disclose missingness, explain its treatment, and address whether XGBoost native missing routing could affect performance and interpretive plots.
+
+### Decision Context
+
+The approved response equated zero remaining NA values in the fitted matrix with an absence of model-relevant missingness. The human identified that affirmative-only preprocessing assigned every nonaffirmative binary response to zero before modelling, so matrix completeness is a consequence of deterministic recoding rather than evidence that source item nonresponse did not exist.
+
+### Kila Recommendation
+
+Separate source-survey response categories from post-preprocessing matrix completeness; state that XGBoost native routing was not invoked, while explicitly acknowledging the reference-category assignment and its potential misclassification consequences.
+
+### Options Presented
+
+- Revise the Methods and response to distinguish source nonresponse coding from final-matrix NA status without asserting that zero remaining NA resolves the reviewer's concern.
+
+### Human Decision
+
+Do not defend the analysis solely by reporting zero missing values after preprocessing. The revised response must disclose that affirmative-only coding assigns non-explicit yes responses, including any refusal, don't-know, or skip categories, to zero and must treat this as a substantive preprocessing assumption rather than as evidence that missingness was absent.
+
+### Human-Provided Rationale
+
+The existing argument contains a logical gap that a reviewer could identify: zero post-processing missingness was produced by the coding rule itself. This assignment may attenuate associations under nondifferential misclassification.
+
+### Expected Revision Effect
+
+Reopen Reviewer 3 Comment 6 for a more transparent Methods limitation and response that accurately separates deterministic binary recoding, final-matrix completeness, and non-use of XGBoost native missing routing.
+
+### Affected Manuscript Sections
+
+- Methods—Variables
+- Discussion—limitations
+- Response—Reviewer 3 Comment 6
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/MLD01d.rev.markup.docx
+- notebooks/ML01_data_cleansing_v1.ipynb
+
+### Follow-Up
+
+Audit raw source response categories and rates, then present a complete revised proposal bundle for human approval before changing markup or response.
+
+## KILA-D-20260901-008: Approve integrated binary and continuous missing-data response logic
+
+- Event SHA-256: 781898459c978769ceb0acb3a5606048e668b5f10f95f9d6071b0ae90992b2fc
+- Recorded at: 2026-09-01T08:40:00+09:00
+- Revision workspace: Rev
+- Revision stage: response-proposal
+- Reviewer ID: reviewer-3
+- Comment ID: comment-6
+- Decision type: response-position
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260901-007
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Report missingness and its handling and clarify whether XGBoost native missing routing could affect model performance or interpretive plots.
+
+### Decision Context
+
+The revised response position separates source response status from post-processing completeness and now places verified continuous-variable handling immediately after the binary-variable explanation.
+
+### Kila Recommendation
+
+Use the integrated binary and continuous explanation, then support it with a minimal Methods correction and a limitation on uncertain-response misclassification.
+
+### Options Presented
+
+- Approve the integrated response logic with the verified 2016 and 2022 continuous-variable details.
+
+### Human Decision
+
+The human approved the integrated response logic: follow the binary-variable explanation with the continuous-variable statement covering structural agricultural-experience blanks, zero remaining applicable continuous missingness, zero complete-case exclusions, and non-use of XGBoost native missing routing.
+
+### Human-Provided Rationale
+
+The response should account for continuous variables as well as binary coding.
+
+### Expected Revision Effect
+
+Lock the response position and allow preparation of the complete two-location manuscript proposal without changing files before bundle approval.
+
+### Affected Manuscript Sections
+
+- Methods—Variables
+- Discussion—limitations
+- Response—Reviewer 3 Comment 6
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/MLD01d.rev.markup.docx
+
+### Follow-Up
+
+Present the exact two-location manuscript proposal and obtain bundle approval before applying tracked changes.
+
+## KILA-D-20260901-009: Use one concise Discussion-bias sentence in R3C6 response
+
+- Event SHA-256: 0c906ed856495dda010ef2bfc154b13b45fe803f92bb5a3355452ad9a5e6be8a
+- Recorded at: 2026-09-01T08:47:09+09:00
+- Revision workspace: Rev
+- Revision stage: response-revision
+- Reviewer ID: reviewer-3
+- Comment ID: comment-6
+- Decision type: response-scope
+- Source skill: execute-procedure
+- Entry type: revision
+- Supersedes: KILA-D-20260901-007
+- Relates to: none
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: df76b50319f03ae9ec50f3f38afb5a0d1889e2be46f138b82f2381417f705f71
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Disclose missingness and handling and explain the implications of preprocessing for XGBoost performance and interpretation.
+
+### Decision Context
+
+The expanded response draft repeated the full misclassification interpretation in a separate paragraph after the detailed binary- and continuous-variable handling explanation. This revision retains the source-versus-post-processing distinction recorded previously but narrows how the response presents the limitation.
+
+### Kila Recommendation
+
+Keep the detailed source-response and preprocessing explanation in one response paragraph, then use one concise sentence to state that the corresponding potential bias is discussed in the manuscript Discussion.
+
+### Options Presented
+
+- Retain the full standalone bias paragraph in the response.
+- Replace it with one concise sentence referring to the corresponding Discussion limitation.
+
+### Human Decision
+
+Use the detailed combined binary- and continuous-variable handling paragraph, but replace the separate bias paragraph with one academically worded sentence stating that the potential bias is also discussed in the Discussion.
+
+### Human-Provided Rationale
+
+A separate full paragraph is unnecessarily long and its wording is not sufficiently rigorous for the response.
+
+### Expected Revision Effect
+
+The response remains transparent about preprocessing while avoiding repetitive or overextended bias interpretation; the manuscript Discussion carries the detailed limitation.
+
+### Affected Manuscript Sections
+
+- Response—Reviewer 3 Comment 6
+- Discussion—limitations
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/MLD01d.rev.markup.docx
+
+### Follow-Up
+
+Present and approve the exact Methods and Discussion manuscript bundle; after implementation and fresh-clean verification, update the R3C6 response block with the approved concise structure.
+
+## KILA-D-20260901-010: Approve reopened R3C6 manuscript and response bundle
+
+- Event SHA-256: 7777b1db97d180543ba56e6bbe622ba9cd148902e9495ffc3238a72dc34d78e9
+- Recorded at: 2026-09-01T08:53:52+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-3
+- Comment ID: comment-6
+- Decision type: implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260901-009
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Disclose missingness and preprocessing accurately and address the implications for XGBoost performance and interpretation.
+
+### Decision Context
+
+The complete two-part proposal replaces the prior missing-data Methods block with a source-versus-post-processing account covering binary and continuous variables and adds one concise misclassification limitation to the Discussion. The linked response uses the detailed processing explanation and one sentence referring to the Discussion limitation.
+
+### Kila Recommendation
+
+Approve the two exact manuscript parts and the linked concise response structure for tracked implementation and fresh-clean verification.
+
+### Options Presented
+
+- Approve both manuscript parts and update Reviewer 3 Comment 6 response after verification.
+
+### Human Decision
+
+The human approved the complete two-part manuscript proposal and authorized updating both the main manuscript and Reviewer 3 Comment 6 response.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Replace the logically incomplete 0% post-processing defense with transparent source-response and continuous-variable reporting, add a balanced Discussion limitation, and synchronize the response with the verified manuscript.
+
+### Affected Manuscript Sections
+
+- Methods—Variables
+- Discussion—limitations
+- Response—Reviewer 3 Comment 6
+
+### Related Artifacts
+
+- Rev/revision/MLD01d.rev.markup.docx
+- Rev/revision/response-draft.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply the two approved tracked parts sequentially, regenerate and review a fresh clean manuscript, then update only the R3C6 response block and set it to human review.
+
+## KILA-D-20260901-011: Approve final reopened R3C6 implementation and response
+
+- Event SHA-256: 561bd8843aa64f84e691af7bff71ead87aa3d2e7c7b118b0327c763396c95516
+- Recorded at: 2026-09-01T09:15:19+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-3
+- Comment ID: comment-6
+- Decision type: final-implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260901-010
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 42eb34226fb0473cf09022e7e606ef34de38f4f0fa43d423fa0551a5f8a6d101
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Confirm whether the reopened Reviewer 3 Comment 6 manuscript implementation and response are acceptable.
+
+### Decision Context
+
+The approved Methods and Discussion revisions were implemented as tracked changes, the response was synchronized with the fresh clean manuscript, and the user reviewed the resulting handoff.
+
+### Kila Recommendation
+
+Accept the verified implementation and close Reviewer 3 Comment 6.
+
+### Options Presented
+
+- Approve the current manuscript implementation and response and continue the workflow.
+
+### Human Decision
+
+The human accepted the current Reviewer 3 Comment 6 manuscript implementation and response and asked the workflow to continue.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Close Reviewer 3 Comment 6 and allow the workflow to route to the next executable revision task.
+
+### Affected Manuscript Sections
+
+- Methods—Variables
+- Discussion—limitations
+- Response—Reviewer 3 Comment 6
+
+### Related Artifacts
+
+- Rev/revision/MLD01d.rev.markup.docx
+- Rev/revision/MLD01d.rev.clean.docx
+- Rev/revision/response-draft.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Mark Reviewer 3 Comment 6 done, create its narrow Git checkpoint if safely available, then select the next executable task.

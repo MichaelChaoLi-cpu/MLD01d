@@ -1743,6 +1743,101 @@ Figure 7: Spatial Heterogeneity in Climate Change Knowledge Prediction Differenc
      - Before: ""
      - After: " Prediction Differences"
 
+### part-15
+
+- Location: Summary > Background
+- Reason: Use a more precise evidence-gap formulation and describe knowledge-related heterogeneity without causal shaping or moderation language.
+- Kila decisions: KILA-D-20260901-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-31T21:17:52Z
+- Author: anonymous
+- Markup SHA-256 before: `82a46327966c8232b69565ab0540e25298c485cd758665f8b3d161fc9805fad4`
+- Markup SHA-256 after: `5526ecc49b184f81d5ec9ab4f29cc72bf8a138adaeb0f679ce47635e14183a39`
+- Revision IDs: `1889, 1890, 1891, 1892, 1893, 1894, 1895, 1896, 1897, 1898, 1899`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260901T061752270376.reviewer-2-comment-2.part-15.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Background: Climate change is intensifying multi-hazard exposure across South and Southeast Asia, yet the cumulative health effects of experiencing diverse disaster types remain poorly understood. Nepal, situated in one of the world’s most hazard-prone regions, provides an important context for examining how multi-hazard environments shape household disease risk and whether climate change knowledge moderates this relationship.
+~~~~
+
+- After:
+
+~~~~text
+Background: Climate change is intensifying multi-hazard exposure across South and Southeast Asia, yet the cumulative health effects of experiencing diverse disaster types remain insufficiently understood. Nepal, situated in one of the world’s most hazard-prone regions, provides an important context for examining the association between multi-hazard exposure and household disease risk and whether this association varies by climate change knowledge status.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "poorly"
+     - After: "insufficiently"
+  2. `replace`
+     - Before: "how"
+     - After: "the association between"
+  3. `replace`
+     - Before: "environments"
+     - After: "exposure"
+  4. `replace`
+     - Before: "shape"
+     - After: "and"
+  5. `insert`
+     - Before: ""
+     - After: "this association varies by "
+  6. `replace`
+     - Before: "moderates this relationship"
+     - After: "status"
+
+### part-16
+
+- Location: Research in Context > Evidence before this study
+- Reason: Describe knowledge-related heterogeneity as variation in an association rather than modification of a relationship.
+- Kila decisions: KILA-D-20260901-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-31T21:18:14Z
+- Author: anonymous
+- Markup SHA-256 before: `5526ecc49b184f81d5ec9ab4f29cc72bf8a138adaeb0f679ce47635e14183a39`
+- Markup SHA-256 after: `0c33e41d7a657173aae06dfa463d1593aa65dba79a73e2934c974d64c94b204c`
+- Revision IDs: `1900, 1901, 1902, 1903`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260901T061814170446.reviewer-2-comment-2.part-16.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Evidence is also limited on whether climate change knowledge, as a cognitive component of adaptive capacity, modifies the relationship between cumulative disaster exposure and health outcomes.
+~~~~
+
+- After:
+
+~~~~text
+Evidence is also limited on whether the association between cumulative disaster exposure and health outcomes varies by climate change knowledge status.
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "climate change knowledge, as a cognitive component of adaptive capacity, modifies "
+     - After: ""
+  2. `replace`
+     - Before: "relationship"
+     - After: "association"
+  3. `insert`
+     - Before: ""
+     - After: " varies by climate change knowledge status"
+
 ## reviewer-3/comment-1
 
 ### part-01
@@ -1821,6 +1916,246 @@ The model incorporates a comprehensive set of socio-demographic controls at both
   1. `insert`
      - Before: ""
      - After: " Missing values were handled during data preprocessing. Binary indicators followed an affirmative-only (‘yes-is-yes’) rule: a value of 1 was assigned only when the respondent explicitly reported the defining condition, while all other responses were coded as 0. For continuous variables, structurally inapplicable entries were assigned their logical zero value, such as agricultural-experience years for households without agricultural land, whereas observations with genuine missing continuous values were subject to complete-case exclusion. No applicable continuous values remained missing, so this step removed no observations. The final analytical dataset comprised 11,568 households with no missing values across the 64 predictors and outcome (0%); consequently, XGBoost’s native missing-value routing was not invoked."
+
+### part-02a-reedit
+
+- Location: Methods > Variables, missing-data block (mechanical re-edit 1 of 5)
+- Reason: Remove the final legacy run before inserting the approved corrected missing-data statement.
+- Kila decisions: KILA-D-20260901-009, KILA-D-20260901-010
+- Mode: `reedit`
+- Revises prior parts: reviewer-3/comment-6#part-01
+- Timestamp: 2026-08-31T23:58:06Z
+- Author: anonymous
+- Markup SHA-256 before: `03ce7ee1893b59750bac2ccfa72a0b3897a7ff8e677078d49140378ea44512c7`
+- Markup SHA-256 after: `55d91eaf009547e06b181174c22dbcca7e03af89b8830b50797934cd4cb2ec2c`
+- Revision IDs: `124`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260901T085806323932.reviewer-3-comment-6.part-02a-reedit.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+ native missing-value routing was not invoked.
+~~~~
+
+- After:
+
+~~~~text
+
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: " native missing-value routing was not invoked."
+     - After: ""
+
+### part-02b-reedit
+
+- Location: Methods > Variables, missing-data block (mechanical re-edit 2 of 5)
+- Reason: Remove the legacy product-name run before inserting the approved corrected missing-data statement.
+- Kila decisions: KILA-D-20260901-009, KILA-D-20260901-010
+- Mode: `reedit`
+- Revises prior parts: reviewer-3/comment-6#part-01
+- Timestamp: 2026-08-31T23:58:16Z
+- Author: anonymous
+- Markup SHA-256 before: `55d91eaf009547e06b181174c22dbcca7e03af89b8830b50797934cd4cb2ec2c`
+- Markup SHA-256 after: `1281ab2f9af070c50885079aab862405fa014db910cd225b6f75b24594e53b74`
+- Revision IDs: `124`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260901T085816170154.reviewer-3-comment-6.part-02b-reedit.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+XGBoost’s
+~~~~
+
+- After:
+
+~~~~text
+
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "XGBoost’s"
+     - After: ""
+
+### part-02c-reedit
+
+- Location: Methods > Variables, missing-data block (mechanical re-edit 3 of 5)
+- Reason: Remove the main legacy run before inserting the approved corrected missing-data statement.
+- Kila decisions: KILA-D-20260901-009, KILA-D-20260901-010
+- Mode: `reedit`
+- Revises prior parts: reviewer-3/comment-6#part-01
+- Timestamp: 2026-08-31T23:58:26Z
+- Author: anonymous
+- Markup SHA-256 before: `1281ab2f9af070c50885079aab862405fa014db910cd225b6f75b24594e53b74`
+- Markup SHA-256 after: `5981a2ad22c681929d1a85de685d144b60f62acc29608f102004b9f2e5bfb37e`
+- Revision IDs: `124`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260901T085826819628.reviewer-3-comment-6.part-02c-reedit.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+) rule: a value of 1 was assigned only when the respondent explicitly reported the defining condition, while all other responses were coded as 0. For continuous variables, structurally inapplicable entries were assigned their logical zero value, such as agricultural-experience years for households without agricultural land, whereas observations with genuine missing continuous values were subject to complete-case exclusion. No applicable continuous values remained missing, so this step removed no observations. The final analytical dataset comprised 11,568 households with no missing values across the 64 predictors and outcome (0%); consequently, 
+~~~~
+
+- After:
+
+~~~~text
+
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: ") rule: a value of 1 was assigned only when the respondent explicitly reported the defining condition, while all other responses were coded as 0. For continuous variables, structurally inapplicable entries were assigned their logical zero value, such as agricultural-experience years for households without agricultural land, whereas observations with genuine missing continuous values were subject to complete-case exclusion. No applicable continuous values remained missing, so this step removed no observations. The final analytical dataset comprised 11,568 households with no missing values across the 64 predictors and outcome (0%); consequently, "
+     - After: ""
+
+### part-02d-reedit
+
+- Location: Methods > Variables, missing-data block (mechanical re-edit 4 of 5)
+- Reason: Remove the remaining legacy proofing run before inserting the approved corrected missing-data statement.
+- Kila decisions: KILA-D-20260901-009, KILA-D-20260901-010
+- Mode: `reedit`
+- Revises prior parts: reviewer-3/comment-6#part-01
+- Timestamp: 2026-08-31T23:58:51Z
+- Author: anonymous
+- Markup SHA-256 before: `5981a2ad22c681929d1a85de685d144b60f62acc29608f102004b9f2e5bfb37e`
+- Markup SHA-256 after: `17d42d7c135b8f72eb013902360228aab14086621915db77922b428073ff063e`
+- Revision IDs: `124`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260901T085851432998.reviewer-3-comment-6.part-02d-reedit.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+yes’
+~~~~
+
+- After:
+
+~~~~text
+
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "yes’"
+     - After: ""
+
+### part-02e-reedit
+
+- Location: Methods > Variables, missing-data block (mechanical re-edit 5 of 5)
+- Reason: Replace the remaining legacy run with the approved corrected missing-data statement.
+- Kila decisions: KILA-D-20260901-009, KILA-D-20260901-010
+- Mode: `reedit`
+- Revises prior parts: reviewer-3/comment-6#part-01
+- Timestamp: 2026-08-31T23:59:02Z
+- Author: anonymous
+- Markup SHA-256 before: `17d42d7c135b8f72eb013902360228aab14086621915db77922b428073ff063e`
+- Markup SHA-256 after: `a4e49967f8055d47298c15f63e0537b7576ed23a9235dbe8937ef58dbe220821`
+- Revision IDs: `124`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260901T085902113611.reviewer-3-comment-6.part-02e-reedit.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+ Missing values were handled during data preprocessing. Binary indicators followed an affirmative-only (‘yes-is-
+~~~~
+
+- After:
+
+~~~~text
+ Response status in the source survey was distinguished from completeness of the post-processing model matrix. In both survey waves, the primary climate change knowledge item and disease-change outcome contained only yes/no responses and had 0% item nonresponse. The household-by-hazard exposure fields likewise contained no unrecorded values; explicit no and structurally inapplicable responses were coded as 0. For binary predictors defined by an affirmative response, explicit affirmative responses were coded as 1, whereas negative, structurally skipped, or otherwise nonaffirmative responses were assigned to the reference category. Among the continuous predictors, agricultural-experience years were fully observed in 2016. In 2022, 1,894 blank entries (29.1% of that wave) corresponded exactly to households reporting no agricultural land and were therefore treated as structurally inapplicable and assigned a logical value of 0. The remaining applicable continuous predictors had no missing values, and the complete-case safeguard used during model preparation consequently removed no households. The final analytical matrix comprised 11,568 households with no missing values across the 64 predictors and outcome; therefore, XGBoost’s native missing-value routing was not invoked.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Missing"
+     - After: "Response status in the source survey was distinguished from completeness of the post-processing model matrix. In both survey waves, the primary climate change knowledge item and disease-change outcome contained only yes/no responses and had 0% item nonresponse. The household-by-hazard exposure fields likewise contained no unrecorded values; explicit no and structurally inapplicable responses were coded as 0. For binary predictors defined by an affirmative response, explicit affirmative responses were coded as 1, whereas negative, structurally skipped, or otherwise nonaffirmative responses were assigned to the reference category. Among the continuous predictors, agricultural-experience years were fully observed in 2016. In 2022, 1,894 blank entries (29.1% of that wave) corresponded exactly to households reporting no agricultural land and were therefore treated as structurally inapplicable and assigned a logical value of 0. The remaining applicable continuous predictors had no missing values, and the complete-case safeguard used during model preparation consequently removed no households. The final analytical matrix comprised 11,568 households with no missing"
+  2. `replace`
+     - Before: "were"
+     - After: "across"
+  3. `replace`
+     - Before: "handled"
+     - After: "the"
+  4. `replace`
+     - Before: "during"
+     - After: "64"
+  5. `replace`
+     - Before: "data"
+     - After: "predictors"
+  6. `replace`
+     - Before: "preprocessing"
+     - After: "and outcome; therefore, XGBoost’s native missing-value routing was not invoked"
+  7. `delete`
+     - Before: " Binary indicators followed an affirmative-only (‘yes-is-"
+     - After: ""
+
+### part-03-discussion-reedit
+
+- Location: Discussion > Limitations, after the climate-knowledge limitation (approved bundle part 2 of 2)
+- Reason: Acknowledge the potential misclassification introduced when uncertain or unrecorded responses are assigned to the reference category.
+- Kila decisions: KILA-D-20260901-009, KILA-D-20260901-010
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-02
+- Timestamp: 2026-08-31T23:59:47Z
+- Author: anonymous
+- Markup SHA-256 before: `a4e49967f8055d47298c15f63e0537b7576ed23a9235dbe8937ef58dbe220821`
+- Markup SHA-256 after: `66574a979088b34dd992fe79263803a9d6a294f93d8367c00e06fd9ee10a6b55`
+- Revision IDs: `437`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260901T085947406324.reviewer-3-comment-6.part-03-discussion-reedit.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+ adaptation or improved preparedness. Fourth, although the model includes distance to the nearest health center, residence characteristics, province, and ecological belt as proxies for access and structural or geographic context, it does not include direct measures of baseline health status, health-service affordability, quality or use, household water and sanitation conditions, or local disease epidemiology. Residual confounding by these factors may affect the magnitude or direction of the observed associations, which should therefore be interpreted as descriptive and predictive patterns rather than causally identified effects. Fifth, the 
+~~~~
+
+- After:
+
+~~~~text
+ adaptation or improved preparedness. Separately, assigning uncertain or unrecorded responses to the reference category during preprocessing may introduce misclassification; if such misclassification is nondifferential, it could attenuate affected associations, whereas differential response patterns across survey waves, regions, or socioeconomic groups may influence model performance and interpretation in either direction. Fourth, although the model includes distance to the nearest health center, residence characteristics, province, and ecological belt as proxies for access and structural or geographic context, it does not include direct measures of baseline health status, health-service affordability, quality or use, household water and sanitation conditions, or local disease epidemiology. Residual confounding by these factors may affect the magnitude or direction of the observed associations, which should therefore be interpreted as descriptive and predictive patterns rather than causally identified effects. Fifth, the 
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: ". Separately, assigning uncertain or unrecorded responses to the reference category during preprocessing may introduce misclassification; if such misclassification is nondifferential, it could attenuate affected associations, whereas differential response patterns across survey waves, regions, or socioeconomic groups may influence model performance and interpretation in either direction"
 
 ## reviewer-2/comment-8
 
@@ -2966,6 +3301,62 @@ Dhimal, M., Kramer, I. M., Phuyal, P., Budhathoki, S. S., Hartke, J., Ahrens, B.
 - Revision IDs unchanged: `true`
 - Unmodified package members byte-identical: `true`
 
+## reviewer-1/comment-7
+
+### part-09
+
+- Location: Introduction, climate-knowledge mechanism paragraph beginning "Knowledge of climate change is an important component of household adaptive capacity"
+- Reason: Integrate recent Nepal-specific evidence linking education, climate knowledge, and adaptive action without separately emphasizing the addition in the response letter.
+- Kila decisions: `KILA-D-20260831-015`
+- Mode: `human-manual-insert-with-endnote-fields`
+- Timestamp: 2026-08-31T21:53:00+09:00
+- Author: anonymous (normalized from the human Word revision metadata)
+- Markup SHA-256 before human implementation: unavailable because the change was saved directly in Word; last prior agent-verified markup SHA-256 was `e493074d965205ff975b70c35c547cdf7ed4efbd3b8b5499de72bee8f8e5d891`
+- Markup SHA-256 after human implementation and metadata normalization: `82a46327966c8232b69565ab0540e25298c485cd758665f8b3d161fc9805fad4`
+- Revision IDs: `58`, `59`, `60`, `61`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T220232370340.metadata-normalization.docx`
+- Paragraph properties preserved: verified in fresh clean and rendered output
+- Run style verification: verified in fresh clean and rendered output
+- Formula verification: not applicable
+- EndNote fields: final markup contains 71 `ADDIN EN.CITE` fields and one `ADDIN EN.REFLIST` field
+- Before:
+
+~~~~text
+Through these channels, climate knowledge may function as a cognitive resource that shapes risk perception and adaptive behavior in multi-hazard contexts. Therefore, knowledge of climate change may moderate the relationship between disaster exposure and health outcomes.
+~~~~
+
+- After:
+
+~~~~text
+Through these channels, climate knowledge may function as a cognitive resource that shapes risk perception and adaptive behavior in multi-hazard contexts. Recent evidence from Nepal similarly links education with adaptive action through climate knowledge and awareness, reinforcing the role of climate knowledge as a cognitive pathway between general human capital and adaptation (27). Therefore, knowledge of climate change may moderate the relationship between disaster exposure and health outcomes.
+~~~~
+
+- Minimal tracked fragments: `human-manual-insert-with-endnote-fields`
+
+### part-10
+
+- Location: References, Mi et al. (2026)
+- Reason: Add the Nepal education-to-adaptation study cited in the revised Introduction.
+- Kila decisions: `KILA-D-20260831-015`
+- Mode: `human-endnote-reference-insert`
+- Timestamp: 2026-08-31T21:54:00+09:00
+- Author: anonymous (normalized from the human Word revision metadata)
+- Markup SHA-256 after human implementation and metadata normalization: `82a46327966c8232b69565ab0540e25298c485cd758665f8b3d161fc9805fad4`
+- Revision IDs: bibliography output generated inside the `ADDIN EN.REFLIST` field; related human insertions use revision IDs `58`–`61`
+- Before:
+
+~~~~text
+[Reference not present.]
+~~~~
+
+- After:
+
+~~~~text
+Mi J, Li C, Rahut DB, Niraula B, Managi S. From knowledge to action: Educational pathways to climate adaptation in Nepal. International Journal of Disaster Risk Reduction. 2026;144:106369.
+~~~~
+
+- Minimal tracked fragments: `human-endnote-reference-insert`
+
 ## finalization/markup-metadata
 
 ### metadata-normalization-02
@@ -3061,6 +3452,674 @@ Dhimal, M., Kramer, I. M., Phuyal, P., Budhathoki, S. S., Hartke, J., Ahrens, B.
 - Western proofing languages before: `{"en-US": 1}`
 - Western proofing languages after: `{"en-US": 1}`
 - Author attributes changed: `62`
+- Language attributes changed: `0`
+- Core document identity properties changed: `1`
+- Metadata-only canonical XML verification: `true`
+- Manuscript text unchanged: `true`
+- Revision IDs unchanged: `true`
+- Unmodified package members byte-identical: `true`
+
+## finalization/american-english
+
+### part-01
+
+- Location: Summary > Interpretation
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `reedit`
+- Revises prior parts: reviewer-2/comment-2#part-04
+- Timestamp: 2026-08-31T07:12:49Z
+- Author: anonymous
+- Markup SHA-256 before: `a1480f4c49bf2797272cdf4666d8fe1d542e68b3a6f090981bfd045dea024e5a`
+- Markup SHA-256 after: `d22591826f4a1e946e80b7a56652219a2a3bd5ee298fb121fe0f0869a0684282`
+- Revision IDs: `30`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161249420655.finalization-american-english.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+programmes
+~~~~
+
+- After:
+
+~~~~text
+programs
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "programmes"
+     - After: "programs"
+
+### part-02
+
+- Location: Research in Context > Implications, future-research sentences
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-01
+- Timestamp: 2026-08-31T07:12:49Z
+- Author: anonymous
+- Markup SHA-256 before: `d22591826f4a1e946e80b7a56652219a2a3bd5ee298fb121fe0f0869a0684282`
+- Markup SHA-256 after: `87e92bed49b880bae42be9e7e50673b878eeae1fbd064e2a40257e0998d92472`
+- Revision IDs: `47`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161249614433.finalization-american-english.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Future research should match study design to the question. Longitudinal studies can establish temporal ordering, while natural or quasi-experimental designs, including interrupted time-series analyses, can evaluate policy or programme implementation. Where feasible and ethically appropriate, cluster-randomised controlled trials can test whether community-based climate-health education improves preparedness practices and health outcomes.
+~~~~
+
+- After:
+
+~~~~text
+Future research should match study design to the question. Longitudinal studies can establish temporal ordering, while natural or quasi-experimental designs, including interrupted time-series analyses, can evaluate policy or program implementation. Where feasible and ethically appropriate, cluster-randomized controlled trials can test whether community-based climate-health education improves preparedness practices and health outcomes.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "programme"
+     - After: "program"
+  2. `replace`
+     - Before: "cluster-randomised"
+     - After: "cluster-randomized"
+
+### part-03
+
+- Location: Discussion > Nepal-specific disease-evidence paragraph, diarrheal sentence
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-6#part-01
+- Timestamp: 2026-08-31T07:12:49Z
+- Author: anonymous
+- Markup SHA-256 before: `87e92bed49b880bae42be9e7e50673b878eeae1fbd064e2a40257e0998d92472`
+- Markup SHA-256 after: `2dd04e4e248f1607313079918ef467081a33c3895cd3cc1a517c1c2b408db0a7`
+- Revision IDs: `297`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161249807991.finalization-american-english.part-03.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+diarrhoeal
+~~~~
+
+- After:
+
+~~~~text
+diarrheal
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "diarrhoeal"
+     - After: "diarrheal"
+
+### part-04
+
+- Location: Discussion > Nepal-specific disease-evidence paragraph, vector-risk sentence
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-6#part-01
+- Timestamp: 2026-08-31T07:12:49Z
+- Author: anonymous
+- Markup SHA-256 before: `2dd04e4e248f1607313079918ef467081a33c3895cd3cc1a517c1c2b408db0a7`
+- Markup SHA-256 after: `4aecd1497975ef31b1d27344147ae1a6b64bd127507a970734aa07b0169bd79e`
+- Revision IDs: `300`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161250004228.finalization-american-english.part-04.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+. A systematic synthesis of the Hindu Kush Himalayan region and recent Nepal-wide modelling further indicate expansion of vector-borne disease risk into highland areas and longer periods of thermal suitability for dengue in the mid-hills and major urban centres 
+~~~~
+
+- After:
+
+~~~~text
+. A systematic synthesis of the Hindu Kush Himalayan region and recent Nepal-wide modeling further indicate expansion of vector-borne disease risk into highland areas and longer periods of thermal suitability for dengue in the mid-hills and major urban centers 
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "modelling"
+     - After: "modeling"
+  2. `replace`
+     - Before: "centres"
+     - After: "centers"
+
+### part-05
+
+- Location: Discussion > climate-change-knowledge interpretation paragraph
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-31T07:12:50Z
+- Author: anonymous
+- Markup SHA-256 before: `4aecd1497975ef31b1d27344147ae1a6b64bd127507a970734aa07b0169bd79e`
+- Markup SHA-256 after: `5d959b6548ef0f16caca3bd2088e63604e3c2812ae11d230b21fac11a2eafc4c`
+- Revision IDs: `1879, 1880`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161250202201.finalization-american-english.part-05.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+behaviour
+~~~~
+
+- After:
+
+~~~~text
+behavior
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "behaviour"
+     - After: "behavior"
+
+### part-06
+
+- Location: Discussion > Nepal policy-linkage paragraph
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-5#part-01
+- Timestamp: 2026-08-31T07:12:50Z
+- Author: anonymous
+- Markup SHA-256 before: `5d959b6548ef0f16caca3bd2088e63604e3c2812ae11d230b21fac11a2eafc4c`
+- Markup SHA-256 after: `66c05a132f57072a8b825a9e9d5ac737f6637f9023a96f5923496e76dc2b327b`
+- Revision IDs: `356`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161250396834.finalization-american-english.part-06.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+relevance for targeting and programme design
+~~~~
+
+- After:
+
+~~~~text
+relevance for targeting and program design
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "programme"
+     - After: "program"
+
+### part-07
+
+- Location: Discussion > recommendation paragraph, education sentence
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-31T07:12:50Z
+- Author: anonymous
+- Markup SHA-256 before: `66c05a132f57072a8b825a9e9d5ac737f6637f9023a96f5923496e76dc2b327b`
+- Markup SHA-256 after: `6c97d6dd41e1a1b05c213de27cc5ffc77263b6d53cc4e9d1f27b63f0fb930109`
+- Revision IDs: `1881, 1882`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161250597802.finalization-american-english.part-07.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+community health programmes
+~~~~
+
+- After:
+
+~~~~text
+community health programs
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "programmes"
+     - After: "programs"
+
+### part-08
+
+- Location: Discussion > recommendation paragraph, infrastructure sentence
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-31T07:12:50Z
+- Author: anonymous
+- Markup SHA-256 before: `6c97d6dd41e1a1b05c213de27cc5ffc77263b6d53cc4e9d1f27b63f0fb930109`
+- Markup SHA-256 after: `e7302da556ae9034af2b97b6e6b37f7f87b8117efcdff2579c643e724dde2b75`
+- Revision IDs: `1883, 1884`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161250795080.finalization-american-english.part-08.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+prioritised
+~~~~
+
+- After:
+
+~~~~text
+prioritized
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "prioritised"
+     - After: "prioritized"
+
+### part-09
+
+- Location: Discussion > recommendation paragraph, prospective-evaluation sentence
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-5#part-02
+- Timestamp: 2026-08-31T07:13:20Z
+- Author: anonymous
+- Markup SHA-256 before: `e7302da556ae9034af2b97b6e6b37f7f87b8117efcdff2579c643e724dde2b75`
+- Markup SHA-256 after: `7aecfa5054cf31bcf03a4edf69000776a7c239be29be3a47f2727c0df394009f`
+- Revision IDs: `421`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161320914068.finalization-american-english.part-09.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+programmes
+~~~~
+
+- After:
+
+~~~~text
+programs
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "programmes"
+     - After: "programs"
+
+### part-10
+
+- Location: Discussion > limitations, climate-knowledge limitation
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-02
+- Timestamp: 2026-08-31T07:13:21Z
+- Author: anonymous
+- Markup SHA-256 before: `7aecfa5054cf31bcf03a4edf69000776a7c239be29be3a47f2727c0df394009f`
+- Markup SHA-256 after: `0fe614dddd37e67b8975fa5abb08b43629ac19e75f8658ffde3f07c463692e3b`
+- Revision IDs: `428`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161321109718.finalization-american-english.part-10.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Third, the binary climate knowledge measure captures basic awareness and may reflect access to climate-related information, but it does not measure the depth or accuracy of understanding, risk perception, preparedness, adaptive actions, or the resources needed to implement them. It should therefore be interpreted as an awareness indicator rather than as a direct measure of behavioural change, preparedness, or adaptive capacity; accordingly, the observed moderation pattern is not evidence that awareness translated into behavioural adaptation or improved preparedness.
+~~~~
+
+- After:
+
+~~~~text
+Third, the binary climate knowledge measure captures basic awareness and may reflect access to climate-related information, but it does not measure the depth or accuracy of understanding, risk perception, preparedness, adaptive actions, or the resources needed to implement them. It should therefore be interpreted as an awareness indicator rather than as a direct measure of behavioral change, preparedness, or adaptive capacity; accordingly, the observed moderation pattern is not evidence that awareness translated into behavioral adaptation or improved preparedness.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "behavioural"
+     - After: "behavioral"
+  2. `replace`
+     - Before: "behavioural"
+     - After: "behavioral"
+
+### part-11
+
+- Location: Discussion > limitations, future-research sentence
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-02
+- Timestamp: 2026-08-31T07:13:21Z
+- Author: anonymous
+- Markup SHA-256 before: `0fe614dddd37e67b8975fa5abb08b43629ac19e75f8658ffde3f07c463692e3b`
+- Markup SHA-256 after: `3156449708abf8d1f54ac168dfdfe11cfc89582abce7f971200ca2c5cda38176`
+- Revision IDs: `429`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161321305807.finalization-american-english.part-11.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+programme
+~~~~
+
+- After:
+
+~~~~text
+program
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "programme"
+     - After: "program"
+
+### part-12
+
+- Location: Discussion > limitations, spatial-dependence sentence
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-02
+- Timestamp: 2026-08-31T07:13:21Z
+- Author: anonymous
+- Markup SHA-256 before: `3156449708abf8d1f54ac168dfdfe11cfc89582abce7f971200ca2c5cda38176`
+- Markup SHA-256 after: `3d82d810952c3902a119446a0f511c8903159fdde44b831c9033f468df257f21`
+- Revision IDs: `430`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161321503747.finalization-american-english.part-12.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Spatial dependence and spillover effects are also not explicitly modelled, and geographically weighted approaches could further illuminate regional drivers of climate-health vulnerability.
+~~~~
+
+- After:
+
+~~~~text
+Spatial dependence and spillover effects are also not explicitly modeled, and geographically weighted approaches could further illuminate regional drivers of climate-health vulnerability.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "modelled"
+     - After: "modeled"
+
+### part-13
+
+- Location: Discussion > limitations, future-research sentence
+- Reason: Use American English consistently in author text.
+- Kila decisions: KILA-D-20260831-012
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-02
+- Timestamp: 2026-08-31T07:13:21Z
+- Author: anonymous
+- Markup SHA-256 before: `3d82d810952c3902a119446a0f511c8903159fdde44b831c9033f468df257f21`
+- Markup SHA-256 after: `1808cae466c408dccaee06937c252c39b752951a82f6765b00b5d5fd7d9515b8`
+- Revision IDs: `429`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T161321700949.finalization-american-english.part-13.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+randomised
+~~~~
+
+- After:
+
+~~~~text
+randomized
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "randomised"
+     - After: "randomized"
+
+## editor/overall-comment
+
+### part-title-restore-01
+
+- Location: Title, opening phrase
+- Reason: Restore the human-selected association-framed title for final submission.
+- Kila decisions: KILA-D-20260831-013
+- Mode: `reedit`
+- Revises prior parts: reviewer-2/comment-2#part-01
+- Timestamp: 2026-08-31T08:17:42Z
+- Author: anonymous
+- Markup SHA-256 before: `1808cae466c408dccaee06937c252c39b752951a82f6765b00b5d5fd7d9515b8`
+- Markup SHA-256 after: `6dc880945954b9d66740ea44651322c85436126e9b3c3844ce3ef577f9a1948e`
+- Revision IDs: `1`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T171742474875.editor-overall-comment.part-title-restore-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `f0eb213d81be50b2c016f965ca140d56e8046aaf230b3de50339fd849b66046c`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Multi-Hazard Exposure,
+~~~~
+
+- After:
+
+~~~~text
+Climate Knowledge Is Associated with Lower Health Risks from
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Multi-Hazard"
+     - After: "Climate"
+  2. `replace`
+     - Before: "Exposure,"
+     - After: "Knowledge Is Associated with Lower Health Risks from"
+
+### part-title-restore-02
+
+- Location: Title, middle phrase
+- Reason: Restore the human-selected association-framed title for final submission.
+- Kila decisions: KILA-D-20260831-013
+- Mode: `reedit`
+- Revises prior parts: reviewer-2/comment-2#part-01, editor/overall-comment#part-title-restore-01
+- Timestamp: 2026-08-31T08:18:03Z
+- Author: anonymous
+- Markup SHA-256 before: `6dc880945954b9d66740ea44651322c85436126e9b3c3844ce3ef577f9a1948e`
+- Markup SHA-256 after: `c2090bea94aae0af1f44d7ccb41089919eeea032534e2c83d4bd0dfaefec11ea`
+- Revision IDs: `1`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T171803909408.editor-overall-comment.part-title-restore-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `f0eb213d81be50b2c016f965ca140d56e8046aaf230b3de50339fd849b66046c`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Climate Change Knowledge, and Self-Reported Household Health
+~~~~
+
+- After:
+
+~~~~text
+Multi-Hazard Exposure: Evidence
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Climate"
+     - After: "Multi-Hazard"
+  2. `replace`
+     - Before: "Change"
+     - After: "Exposure:"
+  3. `replace`
+     - Before: "Knowledge, and Self-Reported Household Health"
+     - After: "Evidence"
+
+### part-title-restore-03
+
+- Location: Title, closing phrase
+- Reason: Restore the human-selected association-framed title for final submission.
+- Kila decisions: KILA-D-20260831-013
+- Mode: `reedit`
+- Revises prior parts: reviewer-2/comment-2#part-01, editor/overall-comment#part-title-restore-01, editor/overall-comment#part-title-restore-02
+- Timestamp: 2026-08-31T08:18:23Z
+- Author: anonymous
+- Markup SHA-256 before: `c2090bea94aae0af1f44d7ccb41089919eeea032534e2c83d4bd0dfaefec11ea`
+- Markup SHA-256 after: `e493074d965205ff975b70c35c547cdf7ed4efbd3b8b5499de72bee8f8e5d891`
+- Revision IDs: `1`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T171823995784.editor-overall-comment.part-title-restore-03.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `f0eb213d81be50b2c016f965ca140d56e8046aaf230b3de50339fd849b66046c`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+in Nepal: A Pooled Cross-Sectional Analysis
+~~~~
+
+- After:
+
+~~~~text
+from Nepal
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "in"
+     - After: "from"
+  2. `delete`
+     - Before: ": A Pooled Cross-Sectional Analysis"
+     - After: ""
+
+
+## finalization/markup-metadata
+
+### metadata-normalization-05
+
+- Location: Whole markup document > tracked-change and proofing-language metadata
+- Reason: Human required American English proofing metadata and anonymous tracked-change authors.
+- Kila decisions: none (non-substantive metadata normalization)
+- Mode: `metadata-only`
+- Timestamp: 2026-08-31T13:02:32.370198+00:00
+- Author: anonymous
+- Markup SHA-256 before: `fbd2c3105b272fbcfd1ac862ce38d757bbb03b4854dbfc23e1f5efbd2bc4b50c`
+- Markup SHA-256 after: `82a46327966c8232b69565ab0540e25298c485cd758665f8b3d161fc9805fad4`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260831T220232370340.metadata-normalization.docx`
+- Tracked authors before: `{"Jie MI": 4, "anonymous": 1882}`
+- Tracked authors after: `{"anonymous": 1886}`
+- Western proofing languages before: `{"en-US": 1}`
+- Western proofing languages after: `{"en-US": 1}`
+- Author attributes changed: `4`
+- Language attributes changed: `0`
+- Core document identity properties changed: `1`
+- Metadata-only canonical XML verification: `true`
+- Manuscript text unchanged: `true`
+- Revision IDs unchanged: `true`
+- Unmodified package members byte-identical: `true`
+
+## finalization/markup-metadata
+
+### metadata-normalization-02
+
+- Location: Whole markup document > tracked-change and proofing-language metadata
+- Reason: Human required American English proofing metadata and anonymous tracked-change authors.
+- Kila decisions: none (non-substantive metadata normalization)
+- Mode: `metadata-only`
+- Timestamp: 2026-09-01T00:07:13.761501+00:00
+- Author: anonymous
+- Markup SHA-256 before: `66574a979088b34dd992fe79263803a9d6a294f93d8367c00e06fd9ee10a6b55`
+- Markup SHA-256 after: `a006d832c1b186bff3f38c409e988d1693d84fbed38911ff15f9eb6074620ad5`
+- Backup: `Rev/revision/.kila-backups/MLD01d.rev.markup.20260901T090713761632.metadata-normalization.docx`
+- Tracked authors before: `{"Jie MI": 3, "anonymous": 1881}`
+- Tracked authors after: `{"anonymous": 1884}`
+- Western proofing languages before: `{"en-US": 1}`
+- Western proofing languages after: `{"en-US": 1}`
+- Author attributes changed: `3`
 - Language attributes changed: `0`
 - Core document identity properties changed: `1`
 - Metadata-only canonical XML verification: `true`
